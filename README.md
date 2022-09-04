@@ -30,3 +30,6 @@ Website for DevFest Chennai 2022 by GDG Chennai
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## License
+This project uses [MIT](LICENSE.txt) license.
