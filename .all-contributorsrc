@@ -1,4 +1,8 @@
 {
+  "projectName": "devfest2022-web",
+  "projectOwner": "gdgchennai",
+  "repoType": "github",
+  "repoHost": "https://github.com",
   "files": [
     "README.md"
   ],
@@ -16,9 +20,5 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "devfest2022-web",
-  "projectOwner": "gdgchennai",
-  "repoType": "github",
-  "repoHost": "https://github.com",
   "skipCi": true
 }
