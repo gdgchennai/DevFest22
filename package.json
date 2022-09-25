@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.0"
+		"@fontsource/fira-mono": "^4.5.0",
+		"@sveltejs/adapter-cloudflare": "^1.0.0-next.38"
 	}
 }
