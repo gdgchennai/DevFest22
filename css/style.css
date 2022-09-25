@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap");
 
 .flex-center-start {
   display: -webkit-box;
@@ -30,7 +29,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -77,7 +76,7 @@ button {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   color: #131313;
 }
 
@@ -105,7 +104,7 @@ p {
   line-height: 26px;
   color: #808080;
   margin-bottom: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
 }
 
 label {
@@ -347,7 +346,7 @@ h3 {
   color: #131313;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -376,7 +375,7 @@ h3 {
   color: #FF0000;
   display: inline-block;
   padding: 16px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -405,7 +404,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -427,7 +426,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 16px 43px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -465,7 +464,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   margin-bottom: 22px;
 }
 
@@ -482,7 +481,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   margin-bottom: 22px;
 }
 
@@ -780,7 +779,7 @@ h3 {
   font-weight: 600;
   display: inline-block;
   padding: 35px 23px 35px 23px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -1326,7 +1325,7 @@ h3 {
 }
 
 .about_area .about_thumb .exprience span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
