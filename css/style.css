@@ -1545,7 +1545,8 @@ h3 {
 }
 
 .resister_bg_1 {
-  background-image: url(../img/banner/resister.png);
+  background-image: url(../img/banner/DF22_WebsiteHeader_Home_v03.gif);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
 .resister_book {
