@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    html {
+            @apply scroll-smooth;
+        }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Google Sans', sans-serif;
+    }
+
+    p {
+        font-family: 'Google Sans', sans-serif;
+    }
+
+    span {
+        font-family: 'Google Sans', sans-serif;
+    }
+
+    header {
+        font-family: 'Google Sans', sans-serif;
+    }
+
+    footer {
+        font-family: 'Google Sans', sans-serif;
+    }
+
+    input {
+        font-family: 'Google Sans', sans-serif;
+    }
+}
