@@ -2141,3 +2141,12 @@ h3 {
 .footer .socail_links ul li a:hover {
   color: #fff !important;
 }
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
