@@ -2,7 +2,6 @@
   import { onMount } from 'svelte';
   import { fly } from 'svelte/transition';
   let visible: boolean = false;
- 
 
   onMount(async () => {
     // set timer to show the blur
@@ -24,10 +23,27 @@
         gradient = 'linear-gradient(180deg, #929292 0%, rgba(0, 0, 0, 0) 100%)';
       }}
       on:introend={() => {
-        gradient =
-          'linear-gradient(180deg, #FBBC04 0%, rgba(251, 188, 4, 0) 100%)';
+        setTimeout(() => {
+          gradient =
+            'linear-gradient(180deg, #FBBC04 0%, rgba(251, 188, 4, 0) 100%)';
+        }, 1000);
+
+        setTimeout(() => {
+          gradient =
+            'linear-gradient(180deg, #EA4335 0%, rgba(234, 67, 53, 0) 100%)';
+        }, 3000);
+
+        setTimeout(() => {
+          gradient =
+            'linear-gradient(180deg, #3C83F6 0%, rgba(60, 131, 246, 0) 100%)';
+        }, 6000);
+
+        setTimeout(() => {
+          gradient =
+            'linear-gradient(180deg, #A1E633 0%, rgba(161, 230, 51, 0) 100%)';
+        }, 9000);
       }}
-      class="absolute top-12 sm:top-24 -left-10 z-3 w-96 h-96 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] rounded-full animate-pulse transition-all duration-3000 ease-in-out"
+      class="absolute top-12 sm:top-24 -left-10 z-3 w-96 h-96 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] rounded-full animate-pulse scale-50 transition-all duration-3000 ease-in-out"
     />
   </div>
 {/if}

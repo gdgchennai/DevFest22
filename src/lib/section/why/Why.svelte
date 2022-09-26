@@ -35,7 +35,7 @@
   id="why"
   class="flex w-full flex-col items-center justify-start space-y-6"
 >
-  <div class="bg-gray-50">
+  <div class="bg-white">
     <div class="pt-12 sm:pt-16 lg:pt-20">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center">
@@ -73,3 +73,4 @@
     </div>
   </div>
 </section>
+

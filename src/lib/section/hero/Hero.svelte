@@ -5,7 +5,7 @@
 
 <section
   id="hero"
-  class="flex flex-col max-w-7xl items-center justify-start space-y-8"
+  class="flex flex-col max-w-7xl items-center justify-start space-y-8 transition-all duration-500 ease-in-out"
 >
   <div
     id="hero-content-group"

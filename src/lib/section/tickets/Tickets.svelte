@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
 
   const includedFeatures = [
@@ -13,7 +14,7 @@
   id="tickets"
   class="flex flex-col items-center justify-start space-y-6"
 >
-  <div class="bg-gray-100">
+  <div class="bg-white">
     <div class="pt-12 sm:pt-16 lg:pt-20">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center">
@@ -31,14 +32,28 @@
     </div>
     <div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
       <div class="relative">
-        <div class="absolute inset-0 h-1/2 bg-gray-100" />
+        <div class="absolute inset-0 h-1/2 bg-white " />
         <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div
             class="mx-auto max-w-lg overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none"
           >
-            <div class="flex-1 bg-white px-6 py-8 lg:p-12">
+            <div
+              class="flex-1 bg-white px-6 py-8 lg:p-12 border border-gray-50"
+            >
+              <div
+                class="absolute -bottom-4 right-3 flex h-8 w-full overflow-hidden items-center justify-center animate-pulse"
+              >
+                <div class="flex -mb-px h-[2px] w-80 -scale-x-100">
+                  <div
+                    class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"
+                  />
+                  <div
+                    class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"
+                  />
+                </div>
+              </div>
               <h3
-                class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight"
+                class="text-2xl font-bold text-gray-900 sm:text-2xl sm:tracking-tight"
               >
                 Devfest 2022
               </h3>
@@ -50,14 +65,13 @@
               <div class="mt-8">
                 <div class="flex items-center">
                   <h4
-                    class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-indigo-600"
+                    class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-gray-900"
                   >
                     What's included
                   </h4>
-                  <div class="flex-1 border-t-2 border-gray-200" />
+                  <div class="flex-1 border-t border-gray-100" />
                 </div>
                 <ul
-                  role="list"
                   class="mt-8 space-y-5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 lg:space-y-0"
                 >
                   {#each includedFeatures as feature}
@@ -87,22 +101,20 @@
                 >
               </div>
               <p class="mt-4 text-sm">
-                <a href="#" class="font-medium text-gray-500 underline">
+                <a href="/" class="font-medium text-gray-500 underline">
                   Learn about our membership policy
                 </a>
               </p>
               <div class="mt-6">
-                <div class="rounded-md shadow">
-                  <a
-                    href="#"
-                    class="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
-                  >
-                    Get Access to event
-                  </a>
-                </div>
+                <Button
+                  id="button-get-ticket"
+                  title="Get access to event"
+                  isSecondaryButton={false}
+                  onClick={() => console.log('Get tickets')}
+                />
               </div>
               <div class="mt-4 text-sm">
-                <a href="#" class="font-medium text-gray-900">
+                <a href="/" class="font-medium text-gray-900">
                   Checkout agenda <span class="font-normal text-gray-500"
                     >(20MB)</span
                   >
