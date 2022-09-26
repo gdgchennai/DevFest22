@@ -17,6 +17,35 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "Spikeysanju",
+      "name": "Sanju S",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23400022?v=4",
+      "profile": "https://www.thisux.in",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "abhishekmishragithub",
+      "name": "Abhishek Mishra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38150419?v=4",
+      "profile": "http://abhishekmishra.dev",
+      "contributions": [
+        "review",
+        "ideas"
+      ]
+    },
+    {
+      "login": "StarkDroid",
+      "name": "Trishiraj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10130963?v=4",
+      "profile": "https://trishiraj.me/",
+      "contributions": [
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
