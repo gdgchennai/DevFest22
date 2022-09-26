@@ -1,9 +1,7 @@
 <script lang="ts">
-  import Icon from '$lib/icon/Icon.svelte';
   import { onMount } from 'svelte';
   import { fly } from 'svelte/transition';
   let visible: boolean = false;
-
   onMount(async () => {
     // set timer to show the blur
     setTimeout(() => {
