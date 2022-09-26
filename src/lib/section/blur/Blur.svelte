@@ -2,6 +2,8 @@
   import { onMount } from 'svelte';
   import { fly } from 'svelte/transition';
   let visible: boolean = false;
+ 
+
   onMount(async () => {
     // set timer to show the blur
     setTimeout(() => {

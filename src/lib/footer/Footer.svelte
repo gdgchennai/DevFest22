@@ -26,6 +26,12 @@
       icon: 'linkedin'
     },
     { name: 'Github', href: 'https://github.com/gdgchennai', icon: 'github' }
+    { name: 'Twitter', href: '#', icon: 'twitter' },
+    { name: 'Facebook', href: '#', icon: 'facebook' },
+    { name: 'Instagram', href: '#', icon: 'instagram' },
+    { name: 'Youtube', href: '#', icon: 'youtube' },
+    { name: 'Linkedin', href: '#', icon: 'linkedin' },
+    { name: 'Github', href: '#', icon: 'github' }
   ];
 </script>
 
