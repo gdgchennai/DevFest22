@@ -10,7 +10,7 @@
     data-sveltekit-prefetch
   >
     <div
-      class="flex w-full items-center justify-between border-b border-gray-200 py-6 lg:border-none"
+      class="flex w-full items-center border-b justify-around border-gray-200 py-6 lg:border-none"
     >
       <div class="flex items-center">
         <a href="/">
@@ -21,7 +21,8 @@
             alt="GDG Chennai - Devfest 2022"
           />
         </a>
-        <div class="ml-10 hidden space-x-8 lg:block">
+        </div>
+        <div class="hidden space-x-8 lg:block">
           <a
             href="#why"
             class="text-base font-medium text-gray-900 hover:text-gray-800"
@@ -45,7 +46,6 @@
             class="text-base font-medium text-gray-900 hover:text-gray-800"
             >Memories</a
           >
-        </div>
       </div>
       <div class="ml-10 space-x-4 md:block hidden">
         <Button
@@ -59,9 +59,8 @@
       </div>
     </div>
     <div
-      class="flex space-x-6 py-4 lg:hidden bg-gray-900  fixed bottom-0 left-0 items-center justify-between px-6 w-full  z-10"
+      class="flex space-x-6 py-4 lg:hidden bg-gray-900  fixed bottom-0 left-0 items-center justify-around px-6 w-full  z-10"
     >
-      <a href="/" class="text-base font-medium text-white hover:text-white/80">
       <a href="#" class="text-base font-medium text-white hover:text-white/80">
         <Icon width="24" height="24" name="arrowup" />
       </a>
