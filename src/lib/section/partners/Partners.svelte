@@ -3,9 +3,9 @@
   class="flex flex-col items-center justify-start space-y-6"
 >
   <h2
-    class="w-full flex text-3xl sm:text-4xl lg:text-5xl font-bold text-start md:text-center lg:text-center tracking-tight"
+    class="w-full text-3xl sm:text-4xl lg:text-5xl font-bold text-start md:text-center lg:text-center tracking-tight"
   >
-    Sponsored by top companies in the industry
+    This event was made possible by
   </h2>
   <div class="bg-white">
     <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
