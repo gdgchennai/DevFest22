@@ -5,12 +5,23 @@
 
 <section
   id="hero"
-  class="flex flex-col max-w-7xl items-center justify-start space-y-8  py-8 md:py-16"
+  class="flex flex-col max-w-7xl items-center justify-start space-y-8"
 >
   <div
     id="hero-content-group"
     class="flex flex-col items-center justify-start space-y-8"
   >
+    <div class="bg-text-container max-w-7xl">
+      <div class="animate-text">
+        <span>DevFest22</span>
+        <span>DevFest22</span>
+      </div>
+      <div class="animate-text left">
+        <span>DevFest22</span>
+        <span>DevFest22</span>
+      </div>
+    </div>
+
     <h1
       class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-start md:text-center lg:text-center"
     >
@@ -45,3 +56,47 @@
     </Button>
   </div>
 </section>
+
+<style>
+  #hero {
+    transform: skewY(-5deg);
+  }
+
+  .bg-text-container {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    z-index: -999;
+  }
+
+  span {
+    font-size: 280px;
+    color: transparent;
+    -webkit-text-stroke: 2px #30442a;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 0.75;
+    min-width: auto;
+    font-weight: 200;
+    opacity: 0.1;
+  }
+
+  @keyframes text-scrolling {
+    0% {
+      transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+      transform: translate3d(0%, 0, 0);
+    }
+  }
+  .animate-text {
+    animation: text-scrolling 20s linear infinite;
+    will-change: transform;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+  }
+  .animate-text.left {
+    animation-direction: reverse;
+  }
+</style>
