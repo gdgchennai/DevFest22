@@ -25,7 +25,7 @@
       href: 'https://linkedin.com/gdgchennai',
       icon: 'linkedin'
     },
-    { name: 'Github', href: 'https://github.com/gdgchennai', icon: 'github' }
+    { name: 'Github', href: 'https://github.com/gdgchennai', icon: 'github' },
     { name: 'Twitter', href: '#', icon: 'twitter' },
     { name: 'Facebook', href: '#', icon: 'facebook' },
     { name: 'Instagram', href: '#', icon: 'instagram' },
