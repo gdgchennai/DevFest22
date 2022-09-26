@@ -27,6 +27,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "abhishekmishragithub",
+      "name": "Abhishek Mishra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38150419?v=4",
+      "profile": "http://abhishekmishra.dev",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
