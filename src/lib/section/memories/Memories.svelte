@@ -38,7 +38,7 @@
 
 <section
   id="memories"
-  class="flex flex-col items-center justify-start space-y-6"
+  class="flex flex-col items-center justify-start space-y-6 max-w-7xl"
 >
   <h2
     class="w-full flex text-3xl sm:text-4xl lg:text-5xl font-bold text-start md:text-center lg:text-center tracking-tight"
@@ -51,7 +51,7 @@
   </p>
 
   <div class="bg-white">
-    <div class="mx-auto max-w-7xl py-12  lg:py-24">
+    <div class="mx-auto py-12  lg:py-24">
       <uli
         role="list"
         class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8"

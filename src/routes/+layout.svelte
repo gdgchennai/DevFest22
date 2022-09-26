@@ -5,7 +5,7 @@
 </script>
 
 <main>
-	<div id="container" class="mx-auto max-w-7xl sm:px-6 lg:px-8 bg-noise-pattern">
+	<div id="container" class="mx-auto sm:px-6 lg:px-8 bg-noise-pattern">
 		<Header />
 		<slot />
 		<Footer />

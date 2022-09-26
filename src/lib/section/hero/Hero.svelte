@@ -5,7 +5,7 @@
 
 <section
   id="hero"
-  class="flex flex-col items-center justify-start space-y-8  py-8 md:py-16"
+  class="flex flex-col max-w-7xl items-center justify-start space-y-8  py-8 md:py-16"
 >
   <div
     id="hero-content-group"
