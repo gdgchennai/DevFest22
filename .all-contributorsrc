@@ -17,6 +17,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "Spikeysanju",
+      "name": "Sanju S",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23400022?v=4",
+      "profile": "https://www.thisux.in",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
