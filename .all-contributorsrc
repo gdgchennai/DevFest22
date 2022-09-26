@@ -36,6 +36,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "StarkDroid",
+      "name": "Trishiraj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10130963?v=4",
+      "profile": "https://trishiraj.me/",
+      "contributions": [
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
