@@ -62,6 +62,7 @@
       class="flex space-x-6 py-4 lg:hidden bg-gray-900  fixed bottom-0 left-0 items-center justify-between px-6 w-full  z-10"
     >
       <a href="/" class="text-base font-medium text-white hover:text-white/80">
+      <a href="#" class="text-base font-medium text-white hover:text-white/80">
         <Icon width="24" height="24" name="arrowup" />
       </a>
 

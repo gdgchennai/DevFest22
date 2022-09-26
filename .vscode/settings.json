@@ -2,7 +2,9 @@
     "conventionalCommits.scopes": [
         "Refactor code",
         "Deployment",
+        "Add-hero-animation"
         "Components",
         "Animation"
+        "Components"
     ]
 }
