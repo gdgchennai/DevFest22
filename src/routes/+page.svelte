@@ -23,7 +23,7 @@
 <div
   class="flex flex-col items-center justify-start space-y-16 md:space-y-44 p-8  min-h-screen overflow-hidden"
 >
-  <Blur />
+  <Blur visible={true} />
   <Hero />
   <Why />
   <Tickets />
