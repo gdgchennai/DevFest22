@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'noise-pattern': "url('/noise-grain.png')"
+        
       }
     }
   },
