@@ -17,7 +17,7 @@ Website for DevFest Chennai 2022 by GDG Chennai
   <tbody>
     <tr>
       <td align="center"><a href="https://navs.page"><img src="https://avatars.githubusercontent.com/u/22239584?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Naveen S</b></sub></a><br /><a href="#maintenance-navhits" title="Maintenance">🚧</a></td>
-      <td align="center"><a href="https://www.thisux.in"><img src="https://avatars.githubusercontent.com/u/23400022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sanju S</b></sub></a><br /><a href="https://github.com/gdgchennai/devfest2022-web/commits?author=Spikeysanju" title="Code">💻</a></td>
+      <td align="center"><a href="https://www.thisux.in"><img src="https://avatars.githubusercontent.com/u/23400022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sanju S</b></sub></a><br /><a href="https://github.com/gdgchennai/devfest2022-web/commits?author=Spikeysanju" title="Code">💻</a> <a href="#design-Spikeysanju" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>
