@@ -1,5 +1,31 @@
 <script lang="ts">
   const footerMenus = [
+    {
+      name: 'Twitter',
+      href: 'https://twitter.com/GDGChennai',
+      icon: 'twitter'
+    },
+    {
+      name: 'Facebook',
+      href: 'https://facebook.com/gdgchennai',
+      icon: 'facebook'
+    },
+    {
+      name: 'Instagram',
+      href: 'https://instagram.com/gdgchennai',
+      icon: 'instagram'
+    },
+    {
+      name: 'Youtube',
+      href: 'https://youtube.com/gdgchennai',
+      icon: 'youtube'
+    },
+    {
+      name: 'Linkedin',
+      href: 'https://linkedin.com/gdgchennai',
+      icon: 'linkedin'
+    },
+    { name: 'Github', href: 'https://github.com/gdgchennai', icon: 'github' }
     { name: 'Twitter', href: '#', icon: 'twitter' },
     { name: 'Facebook', href: '#', icon: 'facebook' },
     { name: 'Instagram', href: '#', icon: 'instagram' },
