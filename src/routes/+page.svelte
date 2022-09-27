@@ -1,5 +1,6 @@
 <script lang="ts">
   import Blur from '$lib/section/blur/Blur.svelte';
+  import Faq from '$lib/section/faq/FAQ.svelte';
   import Hero from '$lib/section/hero/Hero.svelte';
   import Memories from '$lib/section/memories/Memories.svelte';
   import Newsletter from '$lib/section/newsletter/Newsletter.svelte';
@@ -27,4 +28,5 @@
   <Partners />
   <Memories />
   <Newsletter />
+  <Faq />
 </div>
