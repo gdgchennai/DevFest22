@@ -15,11 +15,11 @@
         <div class="relative">
           <div class="sm:text-center">
             <h2
-              class="text-3xl lg:text-5xl font-bold tracking-tight text-white sm:text-4xl"
+              class="text-3xl lg:text-5xl font-bold tracking-tight text-white sm:text-4xl text-center"
             >
               Get notified when we&rsquo;re launching.
             </h2>
-            <p class="mx-auto mt-6 max-w-2xl text-lg text-gray-200">
+            <p class="mx-auto mt-6 max-w-2xl text-lg text-gray-200 text-center">
               We&rsquo;re working hard to make this event even better. Sign up
               to get notified when we launch.
             </p>
@@ -56,7 +56,7 @@
                 <span>Notify Me</span>
               </button>
 
-              <p class="mt-3 text-sm text-start md:text-center text-indigo-100">
+              <p class="mt-3 text-sm text-center md:text-center text-indigo-100">
                 We care about the protection of your data. Read our{' '}
                 <a href="/privacy" class="font-medium text-white underline">
                   Privacy Policy.

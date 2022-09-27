@@ -4,8 +4,12 @@
 
   const headerMenus = [
     {
-      name: 'Why',
+      name: 'Home',
       href: '/'
+    },
+    {
+      name: 'Why',
+      href: '/#why'
     },
     {
       name: 'Tickets',
@@ -81,13 +85,6 @@
             />
           </div>
         </div>
-
-        <a
-          href="/"
-          class="text-base font-medium text-white hover:text-white/80"
-        >
-          <Icon width="24" height="24" name="arrowup" />
-        </a>
 
         {#each headerMenus as item}
           {#if item.name === 'Home'}

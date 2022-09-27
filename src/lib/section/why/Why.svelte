@@ -40,7 +40,7 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h2
-            class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 "
+            class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900"
           >
             Why attend?
           </h2>
@@ -59,13 +59,19 @@
         {#each perks as perk}
           <div class="sm:flex">
             <div class="sm:flex-shrink-0">
-              <div class="flow-root">
+              <div class="w-full flex items-center justify-center">
                 <img class="h-24 w-28" src={perk.imageSrc} alt="" />
               </div>
             </div>
             <div class="mt-3 sm:mt-0 sm:ml-3">
-              <h3 class="text-sm font-medium text-gray-900">{perk.name}</h3>
-              <p class="mt-2 text-sm text-gray-500">{perk.description}</p>
+              <h3
+                class="text-sm font-medium text-gray-900 text-center sm:text-start"
+              >
+                {perk.name}
+              </h3>
+              <p class="mt-2 text-sm text-gray-500 text-center sm:text-start">
+                {perk.description}
+              </p>
             </div>
           </div>
         {/each}
@@ -73,4 +79,3 @@
     </div>
   </div>
 </section>
-
