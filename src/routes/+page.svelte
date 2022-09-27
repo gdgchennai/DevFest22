@@ -11,6 +11,7 @@
 <svelte:head>
   <title>GDG Chennai - Devfest 2022</title>
   <meta name="description" content="GDG Chennai - Devfest 2022" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap');
   </style>
