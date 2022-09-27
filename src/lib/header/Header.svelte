@@ -30,7 +30,7 @@
   ];
 </script>
 
-<header class="bg-gray-100/10 shadow-lg lg:mx-8 rounded-lg">
+<header class="bg-gray-100/10 shadow-lg rounded-lg">
   <nav
     class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
     aria-label="Top"
