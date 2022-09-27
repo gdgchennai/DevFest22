@@ -11,15 +11,9 @@
 <svelte:head>
   <title>GDG Chennai - Devfest 2022</title>
   <meta name="description" content="GDG Chennai - Devfest 2022" />
-  <link
-    rel="stylesheet"
-    href="https://s.pageclip.co/v1/pageclip.css"
-    media="screen"
-  />
   <style>
-    @import url("https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap");
+    @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap');
   </style>
-  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </svelte:head>
 
 <div

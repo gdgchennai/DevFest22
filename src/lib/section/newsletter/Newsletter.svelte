@@ -15,7 +15,7 @@
         <div class="relative">
           <div class="sm:text-center">
             <h2
-              class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white sm:text-4xl"
+              class="text-3xl lg:text-5xl font-bold tracking-tight text-white sm:text-4xl"
             >
               Get notified when we&rsquo;re launching.
             </h2>
@@ -58,7 +58,7 @@
 
               <p class="mt-3 text-sm text-start md:text-center text-indigo-100">
                 We care about the protection of your data. Read our{' '}
-                <a href="#" class="font-medium text-white underline">
+                <a href="/privacy" class="font-medium text-white underline">
                   Privacy Policy.
                 </a>
               </p>
