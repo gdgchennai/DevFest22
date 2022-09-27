@@ -47,12 +47,13 @@
     </Button>
 
     <Button
-      id="button-hero-watch-trailer"
-      title="Watch trailer"
+      id="button-hero-add-to-calendar"
+      title="Add to calendar"
       isSecondaryButton={true}
-      onClick={() => console.log('Clicked get watch trailer button')}
+      onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=DevFest2022 Chennai&details=Every Tech enthusiast is invited&dates=20221112T103000/20221113T184500&location=Chennai, Tamil Nadu")}
     >
-      <Icon width="20" height="20" name="video" />
+    <i class="fa fa-calendar"></i>
+      <!-- <Icon width="24" height="24" name="video" /> -->
     </Button>
   </div>
 </section>
