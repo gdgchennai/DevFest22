@@ -12,7 +12,7 @@
     {
       name: 'Home',
       href: '/',
-      active: true
+      active: false
     },
     {
       name: 'Why',
@@ -40,6 +40,24 @@
       active: false
     }
   ];
+
+  let activeStyle: string = 'inline-flex items-center justify-center rounded-lg border border-transparent bg-black px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2'
+  let inActiveStyle: string = 'text-base font-medium text-black hover:text-gray-800'
+
+  let mobileActiveStyle: string = 'inline-flex justify-center items-center rounded-lg border bg-white border-gray-200 px-4 py-2 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2'
+  let mobileInActiveStyle: string = 'text-base font-medium text-white hover:text-white/80'
+
+  const activeTab = (nav: Nav) => {
+    headerMenus = headerMenus.map((s) => {
+      if (s.name === nav.name) {
+        s.active = false;
+        s.active = !s.active;
+      } else {
+        s.active = false;
+      }
+      return s;
+    });
+  };
 </script>
 
 <header class="bg-gray-100/10 shadow-lg rounded-lg">
@@ -50,7 +68,7 @@
   >
     <!-- // Desktop menu at the top of the page (hidden on mobile) -->
     <div
-      class="flex w-full items-center border-b justify-around border-gray-200 lg:border-none"
+      class="flex w-full items-center justify-around"
     >
       <div class="flex items-center">
         <a href="/">
@@ -62,8 +80,8 @@
           />
         </a>
       </div>
+      {#each headerMenus as item}
       <div class="hidden space-x-8 lg:block">
-        {#each headerMenus as item}
           {#if item.name === 'Home'}
             <a
               href={item.href}
@@ -73,12 +91,13 @@
           {:else}
             <a
               href={item.href}
-              class="text-base  font-medium text-black hover:text-gray-800"
+              class="{item.active === true ? activeStyle : inActiveStyle}"
+              on:click={() => activeTab(item)}
               >{item.name}</a
             >
           {/if}
-        {/each}
       </div>
+      {/each}
       <div class="ml-10 space-x-4 md:block hidden">
         <Button
           id="button-header-get-tickets"
@@ -125,7 +144,8 @@
           {:else}
             <a
               href={item.href}
-              class="text-base font-medium text-white hover:text-white/80"
+              class="{item.active === true ? mobileActiveStyle : mobileInActiveStyle}"
+              on:click={() => activeTab(item)}
             >
               {item.name}
             </a>
