@@ -1,49 +1,72 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { fly } from 'svelte/transition';
-  let visible: boolean = false;
+  
 
-  onMount(async () => {
-    // set timer to show the blur
-    setTimeout(() => {
-      visible = true;
-    }, 800);
-  });
-
-  let gradient: string =
-    'linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%)';
 </script>
 
-{#if visible}
   <div class="relative w-full max-w-lg max-h-lg -z-10">
     <div
-      style="background:{gradient}; filter: blur(24px); -webkit-filter: blur(24px); transform: scale(1.5); -webkit-transform: scale(1.1); animation: fadeIn 2s;"
-      transition:fly={{ y: 200, duration: 2000 }}
-      on:introstart={() => {
-        gradient = 'linear-gradient(180deg, #929292 0%, rgba(0, 0, 0, 0) 100%)';
-      }}
-      on:introend={() => {
-        setTimeout(() => {
-          gradient =
-            'linear-gradient(180deg, #FBBC04 0%, rgba(251, 188, 4, 0) 100%)';
-        }, 1000);
-
-        setTimeout(() => {
-          gradient =
-            'linear-gradient(180deg, #EA4335 0%, rgba(234, 67, 53, 0) 100%)';
-        }, 3000);
-
-        setTimeout(() => {
-          gradient =
-            'linear-gradient(180deg, #3C83F6 0%, rgba(60, 131, 246, 0) 100%)';
-        }, 6000);
-
-        setTimeout(() => {
-          gradient =
-            'linear-gradient(180deg, #A1E633 0%, rgba(161, 230, 51, 0) 100%)';
-        }, 9000);
-      }}
-      class="absolute top-12 sm:top-24 -left-10 z-3 w-96 h-96 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] rounded-full animate-pulse scale-50 transition-all duration-3000 ease-in-out"
-    />
+    class="absolute top-12 sm:top-24 z-3 w-96 h-96 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] background">
+    <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+    </div>
   </div>
-{/if}
+
+<style lang="scss">
+$particleSize: 20vmin;
+$animationDuration: 6s;
+$amount: 12;
+.background span {
+  width: $particleSize;
+  height: $particleSize;
+  border-radius: $particleSize;
+  backface-visibility: hidden;
+  position: absolute;
+  animation-name: move;
+  animation-duration: $animationDuration;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  $colors: (
+    #4285F4,
+    #DB4437,
+    #F4B400,
+    #0F9D58
+  );
+  @for $i from 1 through $amount {
+    &:nth-child(#{$i}) {
+      color: nth($colors, random(length($colors)));
+      top: random(100) * 1%;
+      left: random(100) * 1%;
+      animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
+      animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
+      transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
+      $blurRadius: (random() + 0.5) * $particleSize * 0.5;
+      $x: if(random() > 0.5, -1, 1);
+      box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
+    }
+  }
+}
+
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+</style>

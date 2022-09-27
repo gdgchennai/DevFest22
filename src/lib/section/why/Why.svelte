@@ -33,9 +33,9 @@
 
 <section
   id="why"
-  class="flex w-full flex-col items-center justify-start space-y-6"
+  class="flex w-full flex-col items-center justify-start space-y-6 drop-shadow-md"
 >
-  <div class="bg-white">
+  <div class="bg-white rounded-lg">
     <div class="pt-12 sm:pt-16 lg:pt-20">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center">
