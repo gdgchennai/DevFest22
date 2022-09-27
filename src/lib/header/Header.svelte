@@ -30,7 +30,7 @@
   ];
 </script>
 
-<header class="bg-white">
+<header class="bg-gray-100/10 shadow-lg lg:mx-8 rounded-lg">
   <nav
     class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
     aria-label="Top"
@@ -38,7 +38,7 @@
   >
     <!-- // Desktop menu at the top of the page (hidden on mobile) -->
     <div
-      class="flex w-full items-center border-b justify-around border-gray-200 py-6 lg:border-none"
+      class="flex w-full items-center border-b justify-around border-gray-200 lg:border-none"
     >
       <div class="flex items-center">
         <a href="/">
