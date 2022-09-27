@@ -19,7 +19,7 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl"
+            class="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl text-black"
           >
             You won't get a better conference than this!
           </h2>

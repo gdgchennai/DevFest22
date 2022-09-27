@@ -46,7 +46,7 @@
         {#each headerMenus as item}
           <a
             href={item.href}
-            class="text-base font-medium text-gray-900 hover:text-gray-800"
+            class="text-base font-medium text-black hover:text-gray-800"
             >{item.name}</a
           >
         {/each}
@@ -65,29 +65,48 @@
 
     <!-- // Mobile menu at the bottom of the screen when the viewport is less than 640px -->
     <div
-      class="flex space-x-6 py-4 lg:hidden bg-gray-900  fixed bottom-0 left-0 items-center justify-around px-6 w-full  z-10"
+      class="flex space-x-6 py-4 lg:hidden bg-black  fixed bottom-0 left-0 items-center justify-around px-6 w-full z-10 "
     >
-      <a href="/" class="text-base font-medium text-white hover:text-white/80">
-        <Icon width="24" height="24" name="arrowup" />
-      </a>
+      <div class="flex w-full items-center justify-around relative">
+        <!-- // Glowing gradient stroke effect -->
+        <div
+          class="absolute -bottom-[30px] right-3 flex h-8 w-full overflow-hidden items-center justify-center animate-pulse"
+        >
+          <div class="flex -mb-px h-[2px] w-80 -scale-x-100">
+            <div
+              class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"
+            />
+            <div
+              class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"
+            />
+          </div>
+        </div>
 
-      {#each headerMenus as item}
-        {#if item.name === 'Home'}
-          <a
-            href="/"
-            class="text-base font-medium text-white hover:text-white/80"
-          >
-            <Icon width="24" height="24" name="arrowup" />
-          </a>
-        {:else}
-          <a
-            href={item.href}
-            class="text-base font-medium text-white hover:text-white/80"
-          >
-            {item.name}
-          </a>
-        {/if}
-      {/each}
+        <a
+          href="/"
+          class="text-base font-medium text-white hover:text-white/80"
+        >
+          <Icon width="24" height="24" name="arrowup" />
+        </a>
+
+        {#each headerMenus as item}
+          {#if item.name === 'Home'}
+            <a
+              href="/"
+              class="text-base font-medium text-white hover:text-white/80"
+            >
+              <Icon width="24" height="24" name="arrowup" />
+            </a>
+          {:else}
+            <a
+              href={item.href}
+              class="text-base font-medium text-white hover:text-white/80"
+            >
+              {item.name}
+            </a>
+          {/if}
+        {/each}
+      </div>
     </div>
   </nav>
 </header>

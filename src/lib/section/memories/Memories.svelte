@@ -41,7 +41,7 @@
   class="flex flex-col items-center justify-start space-y-6 max-w-7xl"
 >
   <h2
-    class="w-full flex text-3xl sm:text-4xl lg:text-5xl font-bold text-start md:text-center lg:text-center tracking-tight"
+    class="w-full flex text-3xl sm:text-4xl lg:text-5xl font-bold text-start md:text-center lg:text-center tracking-tight text-black"
   >
     Devfest 2019 was a fun and memorable experience for many of us.
   </h2>

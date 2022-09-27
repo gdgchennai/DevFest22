@@ -23,7 +23,7 @@
     </div>
 
     <h1
-      class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-start md:text-center lg:text-center"
+      class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-start md:text-center lg:text-center text-black"
     >
       Chennai’s biggest tech conference happening now!
     </h1>

@@ -34,7 +34,7 @@
               <input
                 id="input-newsletter-name"
                 type="text"
-                class="w-full flex rounded-md border border-transparent px-5 py-2 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600"
+                class="w-full flex rounded-md border border-transparent px-5 py-2 text-base text-black placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600"
                 placeholder="Enter your name"
                 bind:value={name}
               />
@@ -43,7 +43,7 @@
               <input
                 id="input-newsletter-email"
                 type="email"
-                class="flex w-full rounded-md border border-transparent px-5 py-2 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600"
+                class="flex w-full rounded-md border border-transparent px-5 py-2 text-base text-black placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600"
                 placeholder="Enter your email"
                 bind:value={email}
               />
@@ -51,7 +51,7 @@
               <button
                 id="button-newsletter"
                 type="button"
-                class="pageclip-form__submit w-full inline-flex items-center justify-center rounded-lg border border-transparent bg-gray-900 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+                class="pageclip-form__submit w-full inline-flex items-center justify-center rounded-lg border border-transparent bg-black px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
               >
                 <span>Notify Me</span>
               </button>

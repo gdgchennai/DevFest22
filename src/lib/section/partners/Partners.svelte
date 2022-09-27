@@ -3,7 +3,7 @@
   class="flex flex-col items-center justify-start space-y-6"
 >
   <h2
-    class="w-full text-3xl sm:text-4xl lg:text-5xl font-bold text-start md:text-center lg:text-center tracking-tight"
+    class="w-full text-3xl sm:text-4xl lg:text-5xl font-bold text-start md:text-center lg:text-center tracking-tight text-black"
   >
     This event was made possible by
   </h2>
