@@ -112,9 +112,9 @@
 
     <!-- // Mobile menu at the bottom of the screen when the viewport is less than 640px -->
     <div
-      class="flex space-x-6 py-4 lg:hidden bg-black  fixed bottom-0 left-0 items-center justify-around px-2 w-full z-10 "
+      class="flex py-4 lg:hidden bg-black  fixed bottom-0 left-0 items-center justify-around px-2 w-full z-10 "
     >
-      <div class="flex w-full space-x-4 items-center justify-around relative">
+      <div class="flex w-full items-center justify-around relative">
         <!-- // Glowing gradient stroke effect -->
         <div
           class="absolute -bottom-[30px] right-3 flex h-8 w-full overflow-hidden items-center justify-center animate-pulse"
