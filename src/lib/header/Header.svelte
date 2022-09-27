@@ -2,30 +2,42 @@
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
 
-  const headerMenus = [
+  type Nav = {
+    name: string;
+    href: string;
+    active: boolean;
+  }
+
+  let headerMenus: Nav[] = [
     {
       name: 'Home',
-      href: '/'
+      href: '/',
+      active: true
     },
     {
       name: 'Why',
-      href: '/#why'
+      href: '/#why',
+      active: false
     },
     {
       name: 'Tickets',
-      href: '/#tickets'
+      href: '/#tickets',
+      active: false
     },
     {
       name: 'Partners',
-      href: '/#partners'
+      href: '/#partners',
+      active: false
     },
     {
       name: 'Memories',
-      href: '/#memories'
+      href: '/#memories',
+      active: false
     },
     {
       name: 'Newsletter',
-      href: '/#newsletter'
+      href: '/#newsletter',
+      active: false
     }
   ];
 </script>
