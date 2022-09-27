@@ -18,7 +18,7 @@
   <div class="relative w-full max-w-lg max-h-lg -z-10">
     <div
       style="background:{gradient}; filter: blur(24px); -webkit-filter: blur(24px); transform: scale(1.5); -webkit-transform: scale(1.1); animation: fadeIn 2s;"
-      transition:fly={{ y: 200, duration: 3000 }}
+      transition:fly={{ y: 200, duration: 2000 }}
       on:introstart={() => {
         gradient = 'linear-gradient(180deg, #929292 0%, rgba(0, 0, 0, 0) 100%)';
       }}
