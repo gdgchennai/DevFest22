@@ -32,8 +32,8 @@
     </div>
     <div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
       <div class="relative">
-        <div class="absolute inset-0 h-1/2 bg-white " />
-        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="absolute inset-0 h-1/2 bg-white" />
+        <div class="relative mx-auto max-w-7xl ">
           <div
             class="mx-auto max-w-lg overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none"
           >
