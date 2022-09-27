@@ -22,6 +22,10 @@
     {
       name: 'Memories',
       href: '/#memories'
+    },
+    {
+      name: 'Newsletter',
+      href: '/#newsletter'
     }
   ];
 </script>
@@ -48,11 +52,19 @@
       </div>
       <div class="hidden space-x-8 lg:block">
         {#each headerMenus as item}
-          <a
-            href={item.href}
-            class="text-base font-medium text-black hover:text-gray-800"
-            >{item.name}</a
-          >
+          {#if item.name === 'Home'}
+            <a
+              href={item.href}
+              class="text-base hidden font-medium text-black hover:text-gray-800"
+              >{item.name}</a
+            >
+          {:else}
+            <a
+              href={item.href}
+              class="text-base  font-medium text-black hover:text-gray-800"
+              >{item.name}</a
+            >
+          {/if}
         {/each}
       </div>
       <div class="ml-10 space-x-4 md:block hidden">
@@ -69,9 +81,9 @@
 
     <!-- // Mobile menu at the bottom of the screen when the viewport is less than 640px -->
     <div
-      class="flex space-x-6 py-4 lg:hidden bg-black  fixed bottom-0 left-0 items-center justify-around px-6 w-full z-10 "
+      class="flex space-x-6 py-4 lg:hidden bg-black  fixed bottom-0 left-0 items-center justify-around px-2 w-full z-10 "
     >
-      <div class="flex w-full items-center justify-around relative">
+      <div class="flex w-full space-x-4 items-center justify-around relative">
         <!-- // Glowing gradient stroke effect -->
         <div
           class="absolute -bottom-[30px] right-3 flex h-8 w-full overflow-hidden items-center justify-center animate-pulse"
@@ -87,12 +99,16 @@
         </div>
 
         {#each headerMenus as item}
-          {#if item.name === 'Home'}
+          {#if item.name === 'Home' || item.name === 'Newsletter'}
             <a
-              href="/"
+              href={item.href}
               class="text-base font-medium text-white hover:text-white/80"
             >
-              <Icon width="24" height="24" name="arrowup" />
+              <Icon
+                width="24"
+                height="24"
+                name={item.name === 'Home' ? 'arrowup' : 'mail'}
+              />
             </a>
           {:else}
             <a
