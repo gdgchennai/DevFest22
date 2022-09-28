@@ -25,14 +25,14 @@ function getTimeRemaining(endtime) {
    * @param {string} endtime
    */
 function initializeClock(id, endtime) {
-  let clock = document.getElementById(id);
-  let daysSpan = clock.querySelector('.days');
-  let hoursSpan = clock.querySelector('.hours');
-  let minutesSpan = clock.querySelector('.minutes');
-  let secondsSpan = clock.querySelector('.seconds');
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
 
   function updateClock() {
-    let t = getTimeRemaining(endtime);
+    var t = getTimeRemaining(endtime);
 
     daysSpan.innerHTML = ('0' + t.days).slice(-2);
     hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
@@ -53,49 +53,21 @@ initializeClock('clockdiv', deadline);
 });
 </script>
 
-<div id="clockdiv">
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
+<div id="clockdiv" class="flex space-x-6 text-center">
+  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+    <span class="days text-3xl"></span>
+    <div>Days</div>
   </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
+  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+    <span class="hours text-3xl"></span>
+    <div>Hours</div>
   </div>
-  <div><span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
+  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+    <span class="minutes text-3xl"></span>
+    <div>Minutes</div>
   </div>
-  <div><span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
+  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+    <span class="seconds text-3xl"></span>
+    <div>Seconds</div>
   </div>
 </div>
-
-<style>
-#clockdiv {
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 30px;
-}
-
-#clockdiv > div {
-	padding: 10px;
-	border-radius: 3px;
-	background: #00BF96;
-	display: inline-block;
-}
-
-#clockdiv div > span {
-	padding: 15px;
-	border-radius: 3px;
-	background: #00816A;
-	display: inline-block;
-}
-
-.smalltext {
-	padding-top: 5px;
-	font-size: 16px;
-}
-</style>
