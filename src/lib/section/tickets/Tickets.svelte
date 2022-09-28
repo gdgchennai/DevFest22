@@ -23,10 +23,6 @@
           >
             You won't get a better conference than this!
           </h2>
-          <p class="mt-4  sm:text-xl text-gray-600">
-            If you're not satisfied, contact us within the first 14 days and
-            we'll send you a full refund.
-          </p>
         </div>
       </div>
     </div>
@@ -38,7 +34,7 @@
             class="mx-auto max-w-lg overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none"
           >
             <div
-              class="flex-1 bg-white px-6 py-8 lg:p-12 border border-gray-50"
+              class="flex-1 px-6 py-8 lg:p-12 border border-gray-50"
             >
               <div
                 class="absolute -bottom-4 right-3 flex h-8 w-full overflow-hidden items-center justify-center animate-pulse"
@@ -53,9 +49,9 @@
                 </div>
               </div>
               <h3
-                class="text-2xl font-bold text-gray-900 sm:text-2xl sm:tracking-tight"
+                class="md:text-4xl font-bold text-gray-900 sm:text-2xl sm:tracking-tight"
               >
-                Devfest 2022
+                DevFest 2022
               </h3>
               <p class="mt-6 text-base text-gray-500">
                 Come. Learn, Network and Celebrate with Google Developer Groups
@@ -65,7 +61,7 @@
               <div class="mt-8">
                 <div class="flex items-center">
                   <h4
-                    class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-gray-900"
+                    class="flex-shrink-0 pr-4 text-base font-semibold text-gray-900"
                   >
                     What's included
                   </h4>
@@ -89,29 +85,25 @@
               class="bg-gray-50 py-8 px-6 text-center lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12"
             >
               <p class="text-lg font-medium leading-6 text-gray-900">
-                Pay once, own it forever
+                Slots filling fast, Book your spot now!
               </p>
               <div
                 class="mt-4 flex items-center justify-center text-5xl font-bold tracking-tight text-gray-900"
               >
-                <span>₹150</span>
                 <span
                   class="ml-3 text-xl font-medium tracking-normal text-gray-500"
-                  >INR</span
+                  >ITS</span
                 >
+                <span>FREE</span>
               </div>
-              <p class="mt-4 text-sm">
-                <a href="/" class="font-medium text-gray-500 underline">
-                  Learn about our membership policy
-                </a>
-              </p>
               <div class="mt-6">
                 <Button
                   id="button-get-ticket"
-                  title="Get access to event"
+                  title="Get your tickets"
                   isSecondaryButton={false}
-                  onClick={() => console.log('Get tickets')}
-                />
+                  onClick={() => console.log('Get tickets')} >
+                  <Icon width="20" height="20" name="ticket" />
+                </Button>
               </div>
               <div class="mt-4 text-sm">
                 <a href="/" class="font-medium text-gray-900">
@@ -127,3 +119,9 @@
     </div>
   </div>
 </section>
+
+<style>
+  .devfest-banner {
+    background-image: url("/src/static/devfest-banner.gif");
+  }
+</style>
