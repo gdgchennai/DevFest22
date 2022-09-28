@@ -1,6 +1,7 @@
 <script lang="ts">
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
+  import Countdown from '$lib/Countdown.svelte';
 </script>
 
 <section
@@ -55,6 +56,21 @@
     <i class="fa fa-calendar"></i>
       <!-- <Icon width="24" height="24" name="video" /> -->
     </Button>
+  </div>
+
+  <div class="w-full flex text-xl sm:flex-row md:flex-row lg:flex-row items-center justify-center columns-3 space-x-10">
+    <div class="flex items-center space-x-2">
+      <i class="fa fa-location-arrow"></i>
+      <p>Chennai, Tamil Nadu</p>
+    </div>
+    <div class="flex items-center space-x-2">
+      <i class="fa fa-calendar"></i>
+      <p>12th & 13th November</p>
+    </div>
+  </div>
+
+  <div class="items-center">
+    <Countdown/>
   </div>
 </section>
 
