@@ -53,7 +53,7 @@
             The Amazing list of people who are going to put a cherry on top of the event
           </p>
           <p class="mt-4 text-sm text-gray-600">
-            You think you've got what it takes? 😎 Click here 👉 <span class="bg-gray-400 shadow-lg text-white rounded-full px-2"><a href="">Learn more</a></span>
+            You think you've got what it takes? 😎 Click here 👉 <span class="bg-gray-400 shadow-lg text-white rounded-full px-2"><a href="https://sessionize.com/devfest-chennai-2022" target="_blank">Learn more</a></span>
           </p>
         </div>
       </div>
