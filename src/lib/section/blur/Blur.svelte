@@ -1,6 +1,6 @@
 <div class="relative w-full max-w-lg max-h-lg -z-10">
   <div
-    class="absolute top-12 sm:top-24 z-3 w-96 h-96 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] background"
+    class="absolute top-12 sm:top-24 z-3 w-96 h-20 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] background opacity-40"
   >
     <span />
     <span />
@@ -26,9 +26,9 @@
 </div>
 
 <style lang="scss">
-  $particleSize: 20vmin;
-  $animationDuration: 6s;
-  $amount: 12;
+  $particleSize: 40vmin;
+  $animationDuration: 15s;
+  $amount: 6;
   .background span {
     width: $particleSize;
     height: $particleSize;
@@ -48,7 +48,7 @@
         animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
         animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
         transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
-        $blurRadius: (random() + 0.5) * $particleSize * 0.5;
+        $blurRadius: (random() + 0.9) * $particleSize * 0.9;
         $x: if(random() > 0.5, -1, 1);
         box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
       }
