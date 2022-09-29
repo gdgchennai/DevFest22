@@ -20,13 +20,13 @@
       active: false
     },
     {
-      name: 'Tickets',
-      href: '/#tickets',
+      name: 'Speaker',
+      href: '/#speaker',
       active: false
     },
     {
-      name: 'Partners',
-      href: '/#partners',
+      name: 'Tickets',
+      href: '/#tickets',
       active: false
     },
     {

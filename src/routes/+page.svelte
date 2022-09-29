@@ -27,7 +27,6 @@
   <Why />
   <Speaker />
   <Tickets />
-  <Partners />
   <Memories />
   <Newsletter />
   <Faq />
