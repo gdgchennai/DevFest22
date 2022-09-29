@@ -62,21 +62,21 @@
 
     {#each faqs as faq}
       <div on:click={() => expand(faq)} class="mt-8">
-        <div class="w-full flex space-x-3">
-          <h3 class=" text-lg font-bold tracking-tight text-black">
+        <div class="w-full flex space-x-3 bg-gray-900 p-3 rounded-lg text-white">
+          <h3 class=" text-lg font-bold tracking-tight">
             {faq.question}
           </h3>
 
           {#if faq.active}
-            <Icon width="20" height="20" name="chevronup" />
+            <Icon width="24" height="24" name="chevronup" />
           {:else}
-            <Icon width="20" height="20" name="chevrondown" />
+            <Icon width="24" height="24" name="chevrondown" />
           {/if}
         </div>
 
         {#if faq.active}
           <div
-            class="mt-2 text-base text-gray-500 text-start leading-6"
+            class="text-base text-start leading-6 bg-gray-900 p-3 text-white -mt-2 rounded-bl-lg rounded-br-lg"
             in:slide={{ duration: 500 }}
             out:slide={{ duration: 500 }}
           >
