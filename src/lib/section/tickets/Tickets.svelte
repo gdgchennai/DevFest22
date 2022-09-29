@@ -119,9 +119,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  .devfest-banner {
-    background-image: url("/src/static/devfest-banner.gif");
-  }
-</style>

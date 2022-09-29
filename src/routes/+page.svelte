@@ -5,6 +5,7 @@
   import Memories from '$lib/section/memories/Memories.svelte';
   import Newsletter from '$lib/section/newsletter/Newsletter.svelte';
   import Partners from '$lib/section/partners/Partners.svelte';
+  import Speaker from '$lib/section/speaker/speaker.svelte';
   import Tickets from '$lib/section/tickets/Tickets.svelte';
   import Why from '$lib/section/why/Why.svelte';
 </script>
@@ -24,6 +25,7 @@
   <Blur />
   <Hero />
   <Why />
+  <Speaker />
   <Tickets />
   <Partners />
   <Memories />
