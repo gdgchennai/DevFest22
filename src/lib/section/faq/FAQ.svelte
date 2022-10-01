@@ -11,31 +11,54 @@
   let faqs: Faq[] = [
     {
       id: 1,
+      question: 'What is DevFest?',
+      answer:
+        "DevFests are community led developer events hosted by Google Developers Groups around the globe.",
+      active: false
+    },
+    {
+      id: 2,
       question: 'Why should I attend?',
       answer:
         "Because you'll learn a lot of new things, meet new people, and have a great time!",
       active: false
     },
     {
-      id: 2,
+      id: 3,
       question: 'How much does it cost?',
       answer:
         "It's completely free! We're a student-run organization, so we don't charge for our events. so feel free to bring your friends!",
       active: false
     },
-
     {
-      id: 3,
+      id: 4,
       question: 'What if I have a question?',
       answer:
         'You can email us at hello@gdgchennai.in or reach out to us on our social media channels.',
       active: false
     },
-
     {
-      id: 4,
+      id: 5,
       question: 'Will there be food?',
       answer: 'Yes, we will have food and drinks available for everyone.',
+      active: false
+    },
+    {
+      id: 6,
+      question: 'Is it mandatory to register to participate in the event?',
+      answer: 'Yes. Each individual may register for only one ticket. You may not register on behalf of anyone else.',
+      active: false
+    },
+    {
+      id: 7,
+      question: 'Who can register for DevFest',
+      answer: 'Beginners, experts, literally everyone. Anyone with the passion of learning, who’s fond of technology, passionate programmers , everybody can register and attend.',
+      active: false
+    },
+    {
+      id: 8,
+      question: 'What will attendees get by participating in the event?',
+      answer: 'We have a plethora of AMAZING perks awaiting for you!',
       active: false
     }
   ];
