@@ -1,37 +1,47 @@
 <script lang="ts">
   const gallery = [
     {
-      name: 'Leonard Krasner',
       imageUrl:
-        'https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+        '/memories_1.jpeg'
     },
 
     {
-      name: 'Leonard Krasner',
       imageUrl:
-        'https://images.unsplash.com/photo-1603478804503-dc909c7f5ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2021&q=80'
+        '/memories_9.jpeg'
     },
 
     {
-      name: 'Leonard Krasner',
       imageUrl:
-        'https://images.unsplash.com/photo-1593080358201-08e4ff5f93d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+        '/memories_3.jpeg'
     },
 
     {
-      name: 'Leonard Krasner',
       imageUrl:
-        'https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+        '/memories_4.jpeg'
     },
     {
-      name: 'Leonard Krasner',
       imageUrl:
-        'https://images.unsplash.com/photo-1570616969692-54d6ba3d0397?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80'
+        '/memories_5.jpeg'
     },
     {
-      name: 'Leonard Krasner',
       imageUrl:
-        'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'
+        '/memories_6.jpeg'
+    },
+    {
+      imageUrl:
+        '/memories_7.jpeg'
+    },
+    {
+      imageUrl:
+        '/memories_9.jpeg'
+    },
+    {
+      imageUrl:
+        '/memories_2.jpeg'
+    },
+    {
+      imageUrl:
+        '/memories_8.jpeg'
     }
   ];
 </script>
@@ -70,4 +80,5 @@
       </uli>
     </div>
   </div>
+  
 </section>
