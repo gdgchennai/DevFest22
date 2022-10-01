@@ -7,7 +7,7 @@ export let platform2: string;
 export let platform3: string;
 </script>
 
-<div class="max-w-sm rounded-3xl overflow-hidden shadow-lg text-center">
+<div class="max-w-sm rounded-3xl overflow-hidden shadow-lg text-center py-10">
   <img class="w-full" src="{imageUrl}" alt="Avatar">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">{name}</div>

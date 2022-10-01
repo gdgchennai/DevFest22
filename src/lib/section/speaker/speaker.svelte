@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full md:flex mx-auto max-w-7xl py-24 px-10 sm:px-10 space-x-10 justify-center">
+    <div class="w-full md:flex mx-auto max-w-7xl py-24 px-10 sm:px-10 md:space-x-10 lg:space-x-10 justify-center">
       {#each speakers as speaker}
         <SpeakerCard name={speaker.name} imageUrl={speaker.imageUrl} designation={speaker.designation} platform1={speaker.platform1} platform2={speaker.platform2} platform3={speaker.platform3} />
       {/each}
