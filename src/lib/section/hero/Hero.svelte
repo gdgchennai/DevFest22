@@ -2,6 +2,12 @@
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
   import Countdown from '$lib/Countdown.svelte';
+  import Modal from '$lib/modal/Modal.svelte';
+  import { openModal } from 'svelte-modals';
+
+  function handleClick() {
+    openModal(Modal, {title: "Get your ticket"})
+  }
 </script>
 
 <section
@@ -42,7 +48,7 @@
     <Button
       id="button-hero-get-tickets"
       title="Get your tickets"
-      onClick={() => console.log('Clicked get ticket button')}
+      onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
     </Button>
