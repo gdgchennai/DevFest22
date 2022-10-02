@@ -86,7 +86,7 @@
     {#each faqs as faq}
       <div on:click={() => expand(faq)} class="mt-8">
         <div class="w-full flex space-x-3 bg-gray-900 p-3 rounded-lg text-white">
-          <h3 class=" text-lg font-bold tracking-tight">
+          <h3 class=" text-lg font-medium tracking-tight">
             {faq.question}
           </h3>
 
