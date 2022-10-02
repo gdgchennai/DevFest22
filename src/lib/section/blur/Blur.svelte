@@ -48,7 +48,7 @@
         animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
         animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
         transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
-        $blurRadius: (random() + 0.9) * $particleSize * 0.9;
+        $blurRadius: (random() + 0.9) * $particleSize * 0.4;
         $x: if(random() > 0.5, -1, 1);
         box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
       }
