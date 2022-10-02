@@ -1,6 +1,9 @@
 <script lang="ts">
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
+  import Modal from '$lib/modal/Modal.svelte';
+  import { Modals, closeModal } from 'svelte-modals';
+  import { openModal } from 'svelte-modals';
 
   type Nav = {
     name: string;
@@ -58,9 +61,16 @@
       return s;
     });
   };
+
+  function handleClick() {
+    openModal(Modal, {title: "Get your ticket"})
+  }
 </script>
 
 <header class="bg-gray-100/10 shadow-lg rounded-lg">
+  <Modals on:click={closeModal}>
+    <slot id="svelte-modal" />
+  </Modals>
   <nav
     class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
     aria-label="Top"
@@ -103,7 +113,7 @@
           id="button-header-get-tickets"
           title="Get your tickets"
           isSecondaryButton={false}
-          onClick={() => console.log('Buy ticket clicked')}
+          onClick={() => handleClick()}
         >
           <Icon width="20" height="20" name="ticket" />
         </Button>
