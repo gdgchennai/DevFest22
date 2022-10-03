@@ -3,10 +3,12 @@
   import Icon from '$lib/icon/Icon.svelte';
 
   const includedFeatures = [
-    'Private forum access',
+    'Scrumptious food',
     'Exciting sessions',
     'Networking opportunities',
-    'Official member t-shirt'
+    'Take home cool swags',
+    'Chance to take part in fun activities',
+    'Acquire new knowledge'
   ];
 </script>
 
@@ -105,13 +107,13 @@
                   <Icon width="20" height="20" name="ticket" />
                 </Button>
               </div>
-              <div class="mt-4 text-sm">
+              <!-- <div class="mt-4 text-sm">
                 <a href="/" class="font-medium text-gray-900">
                   Checkout agenda <span class="font-normal text-gray-500"
                     >(20MB)</span
                   >
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

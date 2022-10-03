@@ -16,12 +16,12 @@
       class: 'btn instagram'
     },
     {
-      href: 'https://youtube.com/gdgchennai',
+      href: 'https://www.youtube.com/c/GDGCHENNAICOMMUNITY',
       icon: 'fa fa-youtube',
       class: 'btn youtube'
     },
     {
-      href: 'https://linkedin.com/gdgchennai',
+      href: 'https://www.linkedin.com/groups/12721141/',
       icon: 'fa fa-linkedin',
       class: 'btn linkedin'
     }
@@ -39,7 +39,7 @@
     <nav class="flex flex-wrap justify-center" aria-label="Footer">
       {#each footerMenus as item}
         <div class="social-btns">
-          <a href={item.href} class="{item.class}">
+          <a href={item.href} class="{item.class}" target="_blank">
             <i class="{item.icon}" />
           </a>
         </div>
