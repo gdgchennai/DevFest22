@@ -1,42 +1,46 @@
 <script lang="ts">
   const footerMenus = [
     {
-      name: 'Twitter',
       href: 'https://twitter.com/GDGChennai',
-      icon: 'twitter'
+      icon: 'fa fa-twitter',
+      class: 'btn twitter'
     },
     {
-      name: 'Facebook',
       href: 'https://facebook.com/gdgchennai',
-      icon: 'facebook'
+      icon: 'fa fa-facebook',
+      class: 'btn facebook'
     },
     {
-      name: 'Instagram',
       href: 'https://instagram.com/gdgchennai',
-      icon: 'instagram'
+      icon: 'fa fa-instagram',
+      class: 'btn instagram'
     },
     {
-      name: 'Youtube',
       href: 'https://youtube.com/gdgchennai',
-      icon: 'youtube'
+      icon: 'fa fa-youtube',
+      class: 'btn youtube'
     },
     {
-      name: 'Linkedin',
       href: 'https://linkedin.com/gdgchennai',
-      icon: 'linkedin'
+      icon: 'fa fa-linkedin',
+      class: 'btn linkedin'
     }
   ];
 </script>
 
-<footer class="bg-white">
+<footer>
   <div
     class="mx-auto max-w-7xl overflow-hidden py-12 px-4 sm:px-6 lg:px-8 mb-9"
   >
-    <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+    <p class="text-center text-gray-400 mb-4 text-lg font-medium">
+      Connect with us
+    </p>
+
+    <nav class="flex flex-wrap justify-center" aria-label="Footer">
       {#each footerMenus as item}
-        <div class="px-5 py-2">
-          <a href={item.href} class="text-base text-gray-500 hover:text-black">
-            {item.name}
+        <div class="social-btns">
+          <a href={item.href} class="{item.class}">
+            <i class="{item.icon}" />
           </a>
         </div>
       {/each}
@@ -47,3 +51,101 @@
     </p>
   </div>
 </footer>
+
+<style lang="css">
+  .social-btns .btn,
+  .social-btns .btn:before,
+  .social-btns .btn .fa {
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  }
+  .social-btns .btn:before {
+    top: 90%;
+    left: -110%;
+  }
+  .social-btns .btn .fa {
+    transform: scale(0.8);
+  }
+  .social-btns .btn.facebook:before {
+    background-color: #3b5998;
+  }
+  .social-btns .btn.facebook .fa {
+    color: #3b5998;
+  }
+  .social-btns .btn.twitter:before {
+    background-color: #3cf;
+  }
+  .social-btns .btn.twitter .fa {
+    color: #3cf;
+  }
+  .social-btns .btn.youtube:before {
+    background-color: #dc4a38;
+  }
+  .social-btns .btn.youtube .fa {
+    color: #dc4a38;
+  }
+  .social-btns .btn.instagram:before {
+    background-color: #8a3ab9;
+  }
+  .social-btns .btn.instagram .fa {
+    color: #8a3ab9;
+  }
+  .social-btns .btn.linkedin:before {
+    background-color: #0072b1;
+  }
+  .social-btns .btn.linkedin .fa {
+    color: #0072b1;
+  }
+  .social-btns .btn:focus:before,
+  .social-btns .btn:hover:before {
+    top: -10%;
+    left: -10%;
+  }
+  .social-btns .btn:focus .fa,
+  .social-btns .btn:hover .fa {
+    color: #fff;
+    transform: scale(1);
+  }
+  .social-btns {
+    height: 90px;
+    font-size: 0;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .social-btns .btn {
+    display: inline-block;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+    opacity: 0.99;
+  }
+  .social-btns .btn:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+  .social-btns .btn .fa {
+    font-size: 38px;
+    vertical-align: middle;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .social-btns .btn {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+</style>
