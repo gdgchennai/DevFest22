@@ -10,5 +10,10 @@
 
     body {
         font-family: 'Google Sans', sans-serif;
+        cursor: none;
+    }
+
+    *, *::after, *::before {
+        cursor: none !important;
     }
 }
