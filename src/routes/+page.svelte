@@ -28,13 +28,6 @@ onMount(() => {
         return { x : posx, y : posy }
     }
 
-    // Window sizes.
-    let winsize;
-    const calcWinsize = () => winsize = {width: window.innerWidth, height: window.innerHeight};
-    calcWinsize();
-    // Recalculate window sizes on resize.
-    window.addEventListener('resize', calcWinsize);
-
     // Custom mouse cursor.
     class CursorFx {
         constructor(el) {
@@ -138,5 +131,11 @@ onMount(() => {
 	width: 20px;
 	height: 20px;
 	border: 1px solid #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .cursor {
+    display: none;
+  }
 }
 </style>

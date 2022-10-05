@@ -5,10 +5,10 @@
 
 <section
   id="newsletter"
-  class="flex flex-col items-center justify-start space-y-6"
+  class="flex flex-col items-center justify-center"
 >
-  <div class="relative flex w-full">
-    <div class="flex w-full">
+  <div class="relative">
+    <div class="flex">
       <div
         class="relative w-full flex overflow-hidden rounded-2xl bg-gradient-to-br from-blue-400 to-blue-600 px-6 py-10 shadow-xl sm:px-12 sm:py-20"
       >
