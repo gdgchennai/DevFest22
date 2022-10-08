@@ -33,11 +33,6 @@
       name: 'Memories',
       href: '/#memories',
       active: false
-    },
-    {
-      name: 'Newsletter',
-      href: '/#newsletter',
-      active: false
     }
   ];
 
@@ -130,7 +125,7 @@
         </div>
 
         {#each headerMenus as item}
-          {#if item.name === 'Home' || item.name === 'Newsletter'}
+          {#if item.name === 'Home'}
             <a
               href={item.href}
               class="text-base font-medium text-white hover:text-white/80"
