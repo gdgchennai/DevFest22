@@ -13,7 +13,7 @@
       id: 1,
       question: 'What is DevFest? 👀',
       answer:
-        "DevFest is a community-led developer event hosted by various Google Developers Groups around the globe.",
+        "DevFest is a community-led developer event hosted by various Google Developer Groups around the globe.",
       active: false
     },
     {
@@ -27,7 +27,7 @@
       id: 3,
       question: 'How much does it cost? 💸',
       answer:
-        "It's completely free! We're a student-run organization, so we don't charge for our events. so feel free to bring your friends!",
+        "It's completely free! We're a community that decided not to charge for our events.",
       active: false
     },
     {
