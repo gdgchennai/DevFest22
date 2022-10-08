@@ -2,6 +2,12 @@
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
   import Countdown from '$lib/Countdown.svelte';
+  import Modal from '$lib/modal/Modal.svelte';
+  import { openModal } from 'svelte-modals';
+
+  function handleClick() {
+    openModal(Modal, {title: "Get your ticket"})
+  }
 </script>
 
 <section
@@ -30,8 +36,7 @@
     </h1>
     <p class="max-w-2xl text-start md:text-center lg:text-center text-gray-700">
       Come. Learn, Network and Celebrate with Google Developer Groups and Google
-      Developer Experts, learn to hack on Android, Chrome and Web while you are
-      at it.
+      Developer Experts while also learning to hack on Android, Chrome, and Web.
     </p>
   </div>
 
@@ -42,7 +47,7 @@
     <Button
       id="button-hero-get-tickets"
       title="Get your tickets"
-      onClick={() => console.log('Clicked get ticket button')}
+      onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
     </Button>
@@ -65,7 +70,7 @@
     </div>
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar"></i>
-      <p>12th & 13th November</p>
+      <p>12th & 13th November, 2022</p>
     </div>
   </div>
 
