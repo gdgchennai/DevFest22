@@ -1,6 +1,12 @@
 <script lang="ts">
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
+  import Modal from '$lib/modal/Modal.svelte';
+  import { openModal } from 'svelte-modals';
+
+  function handleClick() {
+    openModal(Modal, {title: "Get your ticket"})
+  }
 
   const includedFeatures = [
     'Scrumptious food 😋',
@@ -102,7 +108,7 @@
                   id="button-get-ticket"
                   title="Get your tickets"
                   isSecondaryButton={false}
-                  onClick={() => console.log('Get tickets')} >
+                  onClick={() => handleClick()} >
                   <Icon width="20" height="20" name="ticket" />
                 </Button>
               </div>
