@@ -48,16 +48,15 @@
 
 <section
   id="memories"
-  class="flex flex-col items-center justify-start space-y-6 max-w-7xl"
+  class="w-full flex flex-col items-center justify-start space-y-6 max-w-7xl"
 >
   <h2
-    class="w-full flex text-3xl sm:text-4xl lg:text-5xl font-bold text-center tracking-tight text-black"
+    class="flex text-3xl sm:text-4xl lg:text-5xl font-bold text-center tracking-tight text-black"
   >
-    Devfest 2019 was a fun and memorable for many of us.
+    Devfest 2019 was a benchmark event for many of us.
   </h2>
   <p class="max-w-2xl text-center text-gray-700">
-    Our team has worked hard to make this event a success. We are looking
-    forward to make this event even better in 2022.
+    It's time to repeat history filled with awesomeness yet again in 2022 and we hope to see you in our gallery.
   </p>
 
   <div class="bg-white">
