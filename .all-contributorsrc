@@ -46,8 +46,18 @@
       "contributions": [
         "projectManagement"
       ]
+    },
+    {
+      "login": "namruthahari",
+      "name": "Namrutha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67582793?v=4",
+      "profile": "https://github.com/namruthahari",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
