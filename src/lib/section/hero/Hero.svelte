@@ -36,8 +36,7 @@
     </h1>
     <p class="max-w-2xl text-start md:text-center lg:text-center text-gray-700">
       Come. Learn, Network and Celebrate with Google Developer Groups and Google
-      Developer Experts, learn to hack on Android, Chrome and Web while you are
-      at it.
+      Developer Experts while also learning to hack on Android, Chrome, and Web.
     </p>
   </div>
 
@@ -71,7 +70,7 @@
     </div>
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar"></i>
-      <p>12th & 13th November</p>
+      <p>12th & 13th November, 2022</p>
     </div>
   </div>
 

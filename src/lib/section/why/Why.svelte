@@ -5,7 +5,7 @@
       imageSrc:
         'https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg',
       description:
-        "We have a number of speakers lined up to talk about their experiences in the industry. We'll also have a few lightning talks from our members."
+        "Several speakers are coming together to talk about their experiences in the industry. We will also have a few lightning talks with our members."
     },
     {
       name: 'Expert Speakers',
@@ -26,7 +26,7 @@
       imageSrc:
         'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
       description:
-        "We'll be running a number of workshops to help you get started in the industry. We'll also have a few lightning talks from our members."
+        "We will be hosting a series of workshops to assist you in getting started with your tech career. Our members will also give a few lightning talks."
     }
   ];
 </script>
@@ -45,7 +45,7 @@
             Why attend?
           </h2>
           <p class="mt-4  sm:text-xl text-gray-600">
-            We have a great lineup of speakers and sessions for you to learn and
+            We have a fantastic lineup of speakers and sessions for you to learn and
             enhance your skills.
           </p>
         </div>

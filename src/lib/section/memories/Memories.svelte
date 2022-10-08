@@ -56,7 +56,7 @@
     Devfest 2019 was a benchmark event for many of us.
   </h2>
   <p class="max-w-2xl text-center text-gray-700">
-    It's time to repeat history filled with awesomeness yet again in 2022 and we hope to see you in our gallery.
+    It's time to create history once more in 2022, and we hope to see you in our gallery.
   </p>
 
   <div class="bg-white">

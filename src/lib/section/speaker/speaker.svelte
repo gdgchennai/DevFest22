@@ -3,7 +3,7 @@
 
   const speakers = [
     {
-      name: 'This could be you',
+      name: 'This could be you 👀',
       imageUrl: '/speaker-avatar.png',
       designation: 'What defines you best?',
       platform1: '#Android',
@@ -11,7 +11,7 @@
       platform3: '#ML/AI',
     },
     {
-      name: 'We got a spot for you',
+      name: 'We got a spot for you! 💫',
       imageUrl: '/speaker-avatar.png',
       designation: 'Join the biggest speaking platform now!',
       platform1: '#Firebase',
@@ -19,17 +19,17 @@
       platform3: '#Web',
     },
     {
-      name: 'Star of the show',
+      name: 'Star of the show 🌟',
       imageUrl: '/speaker-avatar.png',
-      designation: 'Get the stage to share your knowledge',
+      designation: 'Get the stage to share your knowledge!',
       platform1: '#Kotlin',
       platform2: '#Android',
       platform3: '#Firebase'
     },
     {
-      name: 'Amazing speaker loading',
+      name: 'Amazing speaker loading 🔃',
       imageUrl: '/speaker-avatar.png',
-      designation: 'Connect with community',
+      designation: 'Connect with the community!',
       platform1: '#Cloud',
       platform2: '#AR',
       platform3: '#ML/AI',
@@ -50,10 +50,10 @@
             Our Speakers
           </h2>
           <p class="mt-4  sm:text-xl text-gray-600">
-            The Amazing list of people who are going to put a cherry on top of the event
+            Here's our incredible list of people who will bring the event to life!
           </p>
           <p class="mt-4 text-sm text-gray-600">
-            You think you've got what it takes? 😎 Click here 👉 <span class="bg-gray-400 shadow-lg text-white rounded-full px-2"><a href="https://sessionize.com/devfest-chennai-2022" target="_blank">Learn more</a></span>
+            Do you think you have got what it takes? 😎 Click here 👉 <span class="bg-gray-400 shadow-lg text-white rounded-full px-2"><a href="https://sessionize.com/devfest-chennai-2022" target="_blank">Learn more</a></span>
           </p>
         </div>
       </div>

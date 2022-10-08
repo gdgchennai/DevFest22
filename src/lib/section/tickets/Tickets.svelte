@@ -9,12 +9,12 @@
   }
 
   const includedFeatures = [
-    'Scrumptious food',
-    'Exciting sessions',
-    'Networking opportunities',
-    'Take home cool swags',
-    'Chance to take part in fun activities',
-    'Acquire new knowledge'
+    'Scrumptious food 😋',
+    'Exciting sessions 🎤',
+    'Networking opportunities 🤝',
+    'Take home cool swags 🎁',
+    'Chance to take part in fun activities 🎉',
+    'Acquire new knowledge 📚',
   ];
 </script>
 
@@ -29,7 +29,7 @@
           <h2
             class="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl text-black"
           >
-            You won't get a better conference than this!
+          This is the best conference you will ever attend! 🎉
           </h2>
         </div>
       </div>
@@ -63,8 +63,7 @@
               </h3>
               <p class="mt-6 text-base text-gray-500">
                 Come. Learn, Network and Celebrate with Google Developer Groups
-                and Google Developer Experts, learn to hack on Android, Chrome
-                and Web while you are at it.
+                and Google Developer Experts while also learning to hack on Android, Chrome, and Web.
               </p>
               <div class="mt-8">
                 <div class="flex items-center">
@@ -93,16 +92,16 @@
               class="bg-gray-50 py-8 px-6 text-center lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12"
             >
               <p class="text-lg font-medium leading-6 text-gray-900">
-                Slots filling fast, Book your spot now!
+                Slots are filling up quickly, so reserve your spot now!
               </p>
               <div
                 class="mt-4 flex items-center justify-center text-5xl font-bold tracking-tight text-gray-900"
               >
                 <span
                   class="ml-3 text-xl font-medium tracking-normal text-gray-500"
-                  >ITS</span
+                  >IT'S </span
                 >
-                <span>FREE</span>
+                <span> FREE</span>
               </div>
               <div class="mt-6">
                 <Button
