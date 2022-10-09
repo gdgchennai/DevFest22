@@ -21,7 +21,7 @@
       class: 'btn youtube'
     },
     {
-      href: 'https://www.linkedin.com/groups/12721141/',
+      href: 'https://www.linkedin.com/company/gdgchennai',
       icon: 'fa fa-linkedin',
       class: 'btn linkedin'
     }
@@ -47,7 +47,7 @@
     </nav>
 
     <p class="mt-8 text-center text-base text-gray-400">
-      &copy; 2022 GDG Chennai, Inc. All rights reserved.
+      &copy; 2022 GDG Chennai. All rights reserved.
     </p>
   </div>
 </footer>
