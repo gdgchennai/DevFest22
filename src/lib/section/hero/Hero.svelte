@@ -35,7 +35,7 @@
       Chennai’s most awaited developer conference
     </h1>
     <p class="max-w-2xl text-start md:text-center lg:text-center text-gray-700">
-      Come learn, network and nelebrate with the Google Developer Ecosystem while also learning to hack on Android, Chrome, and Web.
+      Come learn, network and celebrate with the Google Developer Ecosystem while also learning to hack on Android, Chrome, and Web.
     </p>
   </div>
 
