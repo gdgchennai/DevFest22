@@ -32,11 +32,10 @@
     <h1
       class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-start md:text-center lg:text-center text-black"
     >
-      Chennai’s biggest tech conference happening now!
+      Chennai’s most awaited developer conference
     </h1>
     <p class="max-w-2xl text-start md:text-center lg:text-center text-gray-700">
-      Come. Learn, Network and Celebrate with Google Developer Groups and Google
-      Developer Experts while also learning to hack on Android, Chrome, and Web.
+      Come learn, network and nelebrate with the Google Developer Ecosystem while also learning to hack on Android, Chrome, and Web.
     </p>
   </div>
 

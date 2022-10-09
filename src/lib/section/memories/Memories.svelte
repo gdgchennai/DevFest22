@@ -53,7 +53,7 @@
   <h2
     class="flex text-3xl sm:text-4xl lg:text-5xl font-bold text-center tracking-tight text-black"
   >
-    Devfest 2019 was a benchmark event for many of us.
+    DevFest 2019 was a benchmark event for many of us.
   </h2>
   <p class="max-w-2xl text-center text-gray-700">
     It's time to create history once more in 2022, and we hope to see you in our gallery.
