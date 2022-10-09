@@ -24,6 +24,11 @@
       href: 'https://www.linkedin.com/company/gdgchennai',
       icon: 'fa fa-linkedin',
       class: 'btn linkedin'
+    },
+    {
+      href: 'https://gdg.community.dev/gdg-chennai',
+      icon: 'fa fa-users',
+      class: 'btn users'
     }
   ];
 </script>
@@ -95,6 +100,12 @@
   }
   .social-btns .btn.linkedin .fa {
     color: #0072b1;
+  }
+  .social-btns .btn.users:before {
+    background-color: #000000;
+  }
+  .social-btns .btn.users .fa {
+    color: #000000;
   }
   .social-btns .btn:focus:before,
   .social-btns .btn:hover:before {
