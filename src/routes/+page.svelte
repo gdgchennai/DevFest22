@@ -103,6 +103,7 @@ onMount(() => {
     <Why />
     <Speaker />
     <Tickets />
+    <Partners />
     <Memories />
     <Faq />
   </div>
