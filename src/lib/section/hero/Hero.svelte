@@ -58,7 +58,6 @@
       onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=DevFest2022 Chennai&details=Every Tech enthusiast is invited&dates=20221112T103000/20221113T184500&location=Chennai, Tamil Nadu")}
     >
     <i class="fa fa-calendar"></i>
-      <!-- <Icon width="24" height="24" name="video" /> -->
     </Button>
   </div>
 
