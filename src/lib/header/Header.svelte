@@ -76,7 +76,7 @@
           <span class="sr-only">GDG Chennai - Devfest 2022</span>
           <img
             class="h-24 w-auto"
-            src="/devfest-chennai.png"
+            src="/devfest-chennai.svg"
             alt="GDG Chennai - Devfest 2022"
           />
         </a>

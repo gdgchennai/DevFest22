@@ -11,4 +11,7 @@
   >
     Privacy policy
   </h2>
+  <p>
+    Our privacy terms do not much vary from <a href="https://gdg.community.dev/participation-terms/">GDG Event participation terms</a> and <a href="https://policies.google.com/privacy">Privacy policy</a>.
+  </p>
 </div>

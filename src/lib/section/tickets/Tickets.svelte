@@ -92,7 +92,7 @@
               class="bg-gray-50 py-8 px-6 text-center lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12"
             >
               <p class="text-lg font-medium leading-6 text-gray-900">
-                Slots are filling up quickly, so reserve your spot now!
+                Reserve your spot now!
               </p>
               <div
                 class="mt-4 flex items-center justify-center text-5xl font-bold tracking-tight text-gray-900"

@@ -2,6 +2,28 @@
 
 Website for DevFest Chennai 2022 by GDG Chennai
 
+## Technology
+
+This website is built using SvelteKit and TailwindCSS.
+
+## Deployment
+
+Auto Deployed with Cloudflare Pages.
+
+### Deployment steps
+
+* Build Command: `npm run build`
+* Build output directory: `/.svelte-kit/cloudflare`
+* Root directory: `/`
+
+## Development
+
+Follow these steps to locally setup this project.
+
+```bash
+npm install
+npm run dev
+```
 
 ## Contributors
 
@@ -38,4 +60,5 @@ Website for DevFest Chennai 2022 by GDG Chennai
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
+
 This project uses [MIT](LICENSE.txt) license.
