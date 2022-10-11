@@ -32,6 +32,11 @@
       active: false
     },
     {
+      name: 'Partners',
+      href: '/#partners',
+      active: false
+    },
+    {
       name: 'Memories',
       href: '/#memories',
       active: false
