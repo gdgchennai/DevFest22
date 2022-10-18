@@ -45,7 +45,7 @@
   >
     <Button
       id="button-hero-get-tickets"
-      title="Get your tickets"
+      title="Request invite"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
@@ -55,7 +55,7 @@
       id="button-hero-add-to-calendar"
       title="Add to calendar"
       isSecondaryButton={true}
-      onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=DevFest2022 Chennai&details=Every Tech enthusiast is invited&dates=20221112T103000/20221113T184500&location=Chennai, Tamil Nadu")}
+      onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=DevFest2022 Chennai&details=Every Tech enthusiast is invited&dates=20221112T100000/20221113T180000&location=Chennai, Tamil Nadu")}
     >
     <i class="fa fa-calendar"></i>
     </Button>

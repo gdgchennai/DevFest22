@@ -107,7 +107,7 @@
       <div class="ml-10 space-x-4 md:block hidden">
         <Button
           id="button-header-get-tickets"
-          title="Get your tickets"
+          title="Request invite"
           isSecondaryButton={false}
           onClick={() => handleClick()}
         >

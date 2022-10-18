@@ -106,19 +106,17 @@
               <div class="mt-6">
                 <Button
                   id="button-get-ticket"
-                  title="Get your tickets"
+                  title="Request invite"
                   isSecondaryButton={false}
                   onClick={() => handleClick()} >
                   <Icon width="20" height="20" name="ticket" />
                 </Button>
               </div>
-              <!-- <div class="mt-4 text-sm">
-                <a href="/" class="font-medium text-gray-900">
-                  Checkout agenda <span class="font-normal text-gray-500"
-                    >(20MB)</span
-                  >
-                </a>
-              </div> -->
+              <div class="mt-4 text-xs text-left">
+                <p class="font-light text-gray-900">
+                <b class="font-semibold">Note:</b> This event is invite only event.<br> Entry is allowed based on invites.<br>Registration won’t guarantee access to the event.
+                </p>
+              </div>
             </div>
           </div>
         </div>
