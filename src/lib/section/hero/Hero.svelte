@@ -64,7 +64,7 @@
   <div class="w-full flex text-xl sm:flex-row md:flex-row lg:flex-row items-center justify-center columns-3 space-x-10">
     <div class="flex items-center space-x-2">
       <i class="fa fa-location-arrow"></i>
-      <p>Chennai, Tamil Nadu</p>
+      <a href="https://maps.app.goo.gl/bsSnx8benaooqzDi7"><p>Le Royal Méridien, Chennai</p></a>
     </div>
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar"></i>
