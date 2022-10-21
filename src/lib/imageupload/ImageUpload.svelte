@@ -23,7 +23,7 @@
   <div
     id="avatar-frame"
     class="display inline-block relative overflow-hidden rounded-md"
-    style="width: 400px; height: 400px; border-radius: {imageShape
+    style="width: 500px; height: 500px; border-radius: {imageShape
       ? '500'
       : '0'}px;"
   >
@@ -41,25 +41,25 @@
           <img
             class="avatar absolute"
               src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'} alt="Attendee"
-              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
             />
         {:else if frameSelector === "speaker"}
           <img
             class="avatar absolute"
               src={imageShape ? '/frame-speaker-circle.png' : '/frame-speaker.png'} alt="Attendee"
-              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
             />
         {:else if frameSelector === "organizer"}
           <img
             class="avatar absolute"
               src={imageShape ? '/frame-organizer-circle.png' : '/frame-organizer.png'} alt="Attendee"
-              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
             />
         {:else}
           <img
             class="avatar absolute"
               src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'} alt="Attendee"
-              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
             />
         {/if}
         

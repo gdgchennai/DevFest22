@@ -82,7 +82,7 @@
       </div>
 
       <!-- // Image shape settings -->
-      <div class="space-y-3 mt-8">
+      <div class="space-y-3">
           <label>Choose frame</label>
           <span class="isolate inline-flex rounded-md">
             <button
