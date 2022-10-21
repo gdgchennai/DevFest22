@@ -40,6 +40,11 @@
       name: 'Memories',
       href: '/#memories',
       active: false
+    },
+    {
+      name: 'Badge',
+      href: 'https://devfest.gdgchennai.in/badges',
+      active: false
     }
   ];
 
