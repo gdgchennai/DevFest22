@@ -5,6 +5,7 @@
   export let imageYPosition: number = 0;
   export let imageZoomLevel: number = 0;
   export let imageShape: boolean = true;
+  export let frameSelector: string = "attendee";
 
   const onFileSelected = (
     e: Event & { currentTarget: EventTarget & HTMLInputElement }
@@ -35,12 +36,35 @@
       }); left: ${imageXPosition}px; top: ${imageYPosition}px;`}
     />
 
-    <img
-      class="avatar absolute"
-      src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'}
-      alt="Attendee"
-      style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
-    />
+    
+      {#if frameSelector === "attendee"}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'} alt="Attendee"
+              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+            />
+        {:else if frameSelector === "speaker"}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-speaker-circle.png' : '/frame-speaker.png'} alt="Attendee"
+              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+            />
+        {:else if frameSelector === "organizer"}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-organizer-circle.png' : '/frame-organizer.png'} alt="Attendee"
+              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+            />
+        {:else}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'} alt="Attendee"
+              style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
+            />
+        {/if}
+        
+        
+      
   </div>
 {:else}
   <div class="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:pt-5">

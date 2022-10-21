@@ -8,6 +8,7 @@
   let imageYPosition: number = 0;
   let imageZoomLevel: number = 1;
   let imageShape: boolean = false;
+  let frameSelector: string = "attendee";
   let reset: boolean = false;
   let fileinput: any = null;
 
@@ -28,6 +29,7 @@
     imageYPosition = 0;
     imageZoomLevel = 1;
     imageShape = false;
+    frameSelector = "attendee";
     reset = !reset;
   }
 </script>
@@ -43,6 +45,7 @@
       {imageYPosition}
       {imageZoomLevel}
       {imageShape}
+      {frameSelector}
     />
   </section>
 
@@ -76,6 +79,35 @@
             </button>
           </span>
         </div>
+      </div>
+
+      <!-- // Image shape settings -->
+      <div class="space-y-3 mt-8">
+          <label>Choose frame</label>
+          <span class="isolate inline-flex rounded-md">
+            <button
+              type="button"
+              on:click={() => (frameSelector = "attendee")}
+              class="relative inline-flex items-center rounded-l-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+            >
+              Attendee
+            </button>
+
+            <button
+              type="button"
+              on:click={() => (frameSelector = "speaker")}
+              class="relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+            >
+              Speaker
+            </button>
+            <button
+              type="button"
+              on:click={() => (frameSelector = "organizer")}
+              class="relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+            >
+              Organizer
+            </button>
+          </span>
       </div>
 
       <!-- // Image X position -->
