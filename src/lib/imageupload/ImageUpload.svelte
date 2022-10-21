@@ -21,7 +21,7 @@
 {#if avatar}
   <div
     id="avatar-frame"
-    class="display inline-block relative overflow-hidden border-4 border-black rounded-md"
+    class="display inline-block relative overflow-hidden rounded-md"
     style="width: 400px; height: 400px; border-radius: {imageShape
       ? '500'
       : '0'}px;"
@@ -37,7 +37,7 @@
 
     <img
       class="avatar absolute"
-      src={imageShape ? '/attendee-circle.png' : '/attendee.png'}
+      src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'}
       alt="Attendee"
       style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
     />
@@ -46,7 +46,7 @@
   <div class="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:pt-5">
     <div class="mt-1 sm:col-span-2 sm:mt-0">
       <div
-        class="flex max-w-lg justify-center rounded-md border-2 border-dashed border-gray-300 px-6 pt-5 pb-6"
+        class="flex max-w-lg justify-center rounded-md px-6 pt-5 pb-6"
       >
         <div class="space-y-1 text-center">
           <svg
