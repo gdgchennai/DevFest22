@@ -12,7 +12,7 @@
   let fileinput: any = null;
 
   async function downloadImage() {
-    //html-to-image
+    //it converts the div to image and downloads it
     const node = document.getElementById('avatar-frame') as HTMLElement;
     toPng(node)
       .then(function (dataUrl) {
