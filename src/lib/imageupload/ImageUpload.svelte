@@ -5,6 +5,7 @@
   export let imageYPosition: number = 0;
   export let imageZoomLevel: number = 0;
   export let imageShape: boolean = true;
+  export let frameSelector: string = "attendee";
 
   const onFileSelected = (
     e: Event & { currentTarget: EventTarget & HTMLInputElement }
@@ -21,8 +22,8 @@
 {#if avatar}
   <div
     id="avatar-frame"
-    class="display inline-block relative overflow-hidden border-4 border-black rounded-md"
-    style="width: 400px; height: 400px; border-radius: {imageShape
+    class="display inline-block relative overflow-hidden rounded-md"
+    style="width: 500px; height: 500px; border-radius: {imageShape
       ? '500'
       : '0'}px;"
   >
@@ -35,18 +36,41 @@
       }); left: ${imageXPosition}px; top: ${imageYPosition}px;`}
     />
 
-    <img
-      class="avatar absolute"
-      src={imageShape ? '/attendee-circle.png' : '/attendee.png'}
-      alt="Attendee"
-      style={`max-width: 400px; max-height: 400px; object-fit: cover;`}
-    />
+    
+      {#if frameSelector === "attendee"}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'} alt="Attendee"
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
+            />
+        {:else if frameSelector === "speaker"}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-speaker-circle.png' : '/frame-speaker.png'} alt="Attendee"
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
+            />
+        {:else if frameSelector === "organizer"}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-organizer-circle.png' : '/frame-organizer.png'} alt="Attendee"
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
+            />
+        {:else}
+          <img
+            class="avatar absolute"
+              src={imageShape ? '/frame-attendee-circle.png' : '/frame-attendee.png'} alt="Attendee"
+              style={`max-width: 500px; max-height: 500px; object-fit: cover;`}
+            />
+        {/if}
+        
+        
+      
   </div>
 {:else}
   <div class="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:pt-5">
     <div class="mt-1 sm:col-span-2 sm:mt-0">
       <div
-        class="flex max-w-lg justify-center rounded-md border-2 border-dashed border-gray-300 px-6 pt-5 pb-6"
+        class="flex max-w-lg justify-center rounded-md px-6 pt-5 pb-6"
       >
         <div class="space-y-1 text-center">
           <svg
