@@ -28,7 +28,7 @@ npm run dev
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -44,6 +44,7 @@ npm run dev
       <td align="center"><a href="https://trishiraj.me/"><img src="https://avatars.githubusercontent.com/u/10130963?v=4?s=100" width="100px;" alt="Trishiraj"/><br /><sub><b>Trishiraj</b></sub></a><br /><a href="#projectManagement-StarkDroid" title="Project Management">📆</a> <a href="https://github.com/gdgchennai/devfest2022-web/commits?author=StarkDroid" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/namruthahari"><img src="https://avatars.githubusercontent.com/u/67582793?v=4?s=100" width="100px;" alt="Namrutha"/><br /><sub><b>Namrutha</b></sub></a><br /><a href="#content-namruthahari" title="Content">🖋</a></td>
       <td align="center"><a href="https://iamimmanuelraj.github.io/"><img src="https://avatars.githubusercontent.com/u/26855364?v=4?s=100" width="100px;" alt="Immanuel Raj"/><br /><sub><b>Immanuel Raj</b></sub></a><br /><a href="#content-iamimmanuelraj" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/iamaravindsekar"><img src="https://avatars.githubusercontent.com/u/20441340?v=4?s=100" width="100px;" alt="Aravind Sekar"/><br /><sub><b>Aravind Sekar</b></sub></a><br /><a href="#design-iamaravindsekar" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>

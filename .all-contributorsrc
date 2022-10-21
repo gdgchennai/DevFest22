@@ -66,6 +66,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "iamaravindsekar",
+      "name": "Aravind Sekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20441340?v=4",
+      "profile": "https://github.com/iamaravindsekar",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
