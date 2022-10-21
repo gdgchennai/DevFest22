@@ -55,7 +55,7 @@
       id="button-hero-add-to-calendar"
       title="Add to calendar"
       isSecondaryButton={true}
-      onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=DevFest2022 Chennai&details=Every Tech enthusiast is invited&dates=20221112T100000/20221113T180000&location=Chennai, Tamil Nadu")}
+      onClick={() => window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=DevFest2022 Chennai&details=Every Tech enthusiast is invited&dates=20221112T100000/20221113T180000&location=Le Royal Méridien, Chennai")}
     >
     <i class="fa fa-calendar"></i>
     </Button>
