@@ -15,6 +15,8 @@
   async function downloadImage() {
     //it converts the div to image and downloads it
     const node = document.getElementById('avatar-frame') as HTMLElement;
+    if (node == null)
+    return
     toPng(node)
       .then(function (dataUrl) {
         download(dataUrl, 'Chennai-DevFest2022-Badge.png');
