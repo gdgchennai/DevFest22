@@ -60,7 +60,7 @@
     class="lg:order-first lg:block lg:flex-shrink-0 bg-red-50 h-screen sticky top-0"
   >
     <div
-      class="flex h-full w-96 flex-col overflow-y-auto border-r border-gray-200 bg-white px-8"
+      class="flex h-full mx-auto flex-col overflow-y-auto border-r border-gray-200 bg-white px-8"
     >
       <!-- // Image shape settings -->
       <div class="space-y-3 mt-8 flex flex-col">
@@ -89,7 +89,7 @@
       </div>
 
       <!-- // Image shape settings -->
-      <div class="space-y-3">
+      <div class="flex flex-col space-y-3">
           <label>Choose frame</label>
           <span class="isolate inline-flex rounded-md">
             <button
