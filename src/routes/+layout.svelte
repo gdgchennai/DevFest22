@@ -5,6 +5,13 @@
   import '../app.css';
 </script>
 
+<svelte:head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap');
+  </style>
+</svelte:head>
+
 <main>
   <div id="container" class="mx-auto">
     <Modals>

@@ -6,7 +6,7 @@
 
   let imageXPosition: number = 0;
   let imageYPosition: number = 0;
-  let imageZoomLevel: number = 1;
+  let imageZoomLevel: number = 5;
   let imageShape: boolean = false;
   let frameSelector: string = "attendee";
   let reset: boolean = false;
@@ -15,6 +15,8 @@
   async function downloadImage() {
     //it converts the div to image and downloads it
     const node = document.getElementById('avatar-frame') as HTMLElement;
+    if (node == null)
+    return
     toPng(node)
       .then(function (dataUrl) {
         download(dataUrl, 'Chennai-DevFest2022-Badge.png');
@@ -27,12 +29,17 @@
   function resetImage() {
     imageXPosition = 0;
     imageYPosition = 0;
-    imageZoomLevel = 1;
+    imageZoomLevel = 5;
     imageShape = false;
     frameSelector = "attendee";
     reset = !reset;
   }
 </script>
+
+<svelte:head>
+  <title>GDG Chennai - Badges</title>
+  <meta name="description" content="GDG Chennai - Badge generator" />
+</svelte:head>
 
 <main class="w-full flex flex-col sm:flex-row overflow-hidden min-h-screen">
   <section
@@ -53,7 +60,7 @@
     class="lg:order-first lg:block lg:flex-shrink-0 bg-red-50 h-screen sticky top-0"
   >
     <div
-      class="flex h-full w-96 flex-col overflow-y-auto border-r border-gray-200 bg-white px-8"
+      class="flex h-full mx-auto flex-col overflow-y-auto border-r border-gray-200 bg-white px-8"
     >
       <!-- // Image shape settings -->
       <div class="space-y-3 mt-8 flex flex-col">
@@ -82,7 +89,7 @@
       </div>
 
       <!-- // Image shape settings -->
-      <div class="space-y-3">
+      <div class="flex flex-col space-y-3">
           <label>Choose frame</label>
           <span class="isolate inline-flex rounded-md">
             <button
@@ -96,7 +103,7 @@
             <button
               type="button"
               on:click={() => (frameSelector = "speaker")}
-              class="relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+              class="relative -ml-px inline-flex items-center border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
             >
               Speaker
             </button>
@@ -144,7 +151,7 @@
           type="range"
           bind:value={imageZoomLevel}
           min="1"
-          max="200"
+          max="20"
           class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
         />
       </div>
