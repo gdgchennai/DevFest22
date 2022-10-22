@@ -6,7 +6,7 @@
 
   let imageXPosition: number = 0;
   let imageYPosition: number = 0;
-  let imageZoomLevel: number = 1;
+  let imageZoomLevel: number = 5;
   let imageShape: boolean = false;
   let frameSelector: string = "attendee";
   let reset: boolean = false;
@@ -29,7 +29,7 @@
   function resetImage() {
     imageXPosition = 0;
     imageYPosition = 0;
-    imageZoomLevel = 1;
+    imageZoomLevel = 5;
     imageShape = false;
     frameSelector = "attendee";
     reset = !reset;
@@ -146,7 +146,7 @@
           type="range"
           bind:value={imageZoomLevel}
           min="1"
-          max="200"
+          max="20"
           class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
         />
       </div>

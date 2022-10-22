@@ -32,7 +32,7 @@
       src={avatar}
       alt="d"
       style={`max-width: 500px; max-height: 500px; object-fit: cover; object-position: 100% 100%;  transform: scale(${
-        imageZoomLevel / 2
+        imageZoomLevel / 4
       }); left: ${imageXPosition}px; top: ${imageYPosition}px;`}
     />
 
