@@ -36,6 +36,11 @@
   }
 </script>
 
+<svelte:head>
+  <title>GDG Chennai - Badges</title>
+  <meta name="description" content="GDG Chennai - Badge generator" />
+</svelte:head>
+
 <main class="w-full flex flex-col sm:flex-row overflow-hidden min-h-screen">
   <section
     aria-labelledby="primary-heading"
