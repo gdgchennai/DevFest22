@@ -57,20 +57,12 @@
           </h2>
           <p class="mt-4  sm:text-xl text-gray-600">
             <!--Here's our incredible list of people who will bring the event to life!-->
-            Interested in presenting at DevFest Chennai?
-          </p>
-          <p class="mt-4 text-sm text-gray-600">
-            <Button
-              id="submit-your-cfp"
-              title="Submit your CFP"
-              isSecondaryButton={false}
-              onClick={() => handleClick()}>
-            </Button>
+            Thank you for all your submissions, The speakers for the event will be listed here shortly.
           </p>
         </div>
       </div>
     </div>
-    <div class="w-full md:flex mx-auto max-w-7xl py-24 px-10 sm:px-10 md:space-x-10 lg:space-x-10 justify-center">
+    <div class="w-full md:flex mx-auto max-w-7xl py-10 px-10 sm:px-10 md:space-x-10 lg:space-x-10 justify-center">
       {#each speakers as speaker}
         <SpeakerCard name={speaker.name} imageUrl={speaker.imageUrl} designation={speaker.designation} platform1={speaker.platform1} platform2={speaker.platform2} platform3={speaker.platform3} />
       {/each}
