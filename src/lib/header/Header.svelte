@@ -32,15 +32,15 @@
       active: false
     },
     {
-      name: 'Partners',
-      href: '/#partners',
-      active: false
-    },
-    {
       name: 'Memories',
       href: '/#memories',
       active: false
-    }
+    },
+    {
+      name: 'Badges',
+      href: '/badges',
+      active: false
+    },
   ];
 
   let activeStyle: string = 'inline-flex items-center justify-center rounded-lg border border-transparent bg-black px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2'
@@ -136,18 +136,6 @@
         </div>
 
         {#each headerMenus as item}
-          {#if item.name === 'Home'}
-            <a
-              href={item.href}
-              class="text-base font-medium text-white hover:text-white/80"
-            >
-              <Icon
-                width="24"
-                height="24"
-                name={item.name === 'Home' ? 'arrowup' : 'mail'}
-              />
-            </a>
-          {:else}
             <a
               href={item.href}
               class="{item.active === true ? mobileActiveStyle : mobileInActiveStyle}"
@@ -155,7 +143,6 @@
             >
               {item.name}
             </a>
-          {/if}
         {/each}
       </div>
     </div>
