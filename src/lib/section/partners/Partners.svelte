@@ -20,7 +20,7 @@
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
           <img
             
-            src="/google-devs.svg"
+            src="/gdg-cloud-chennai.svg"
             alt="Google Developers"
           />
         </div>

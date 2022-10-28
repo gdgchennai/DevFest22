@@ -3,6 +3,7 @@
   import Faq from '$lib/section/faq/FAQ.svelte';
   import Hero from '$lib/section/hero/Hero.svelte';
   import Memories from '$lib/section/memories/Memories.svelte';
+  import Sponsors from '$lib/section/sponsors/Sponsors.svelte';
   import Partners from '$lib/section/partners/Partners.svelte';
   import Speaker from '$lib/section/speaker/speaker.svelte';
   import Tickets from '$lib/section/tickets/Tickets.svelte';
@@ -99,6 +100,7 @@ onMount(() => {
     <Why />
     <Speaker />
     <Tickets />
+    <Sponsors />
     <Partners />
     <Memories />
     <Faq />
