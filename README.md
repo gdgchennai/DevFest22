@@ -1,4 +1,6 @@
-# Devfest 2022 Wesbite
+# DevFest Chennai 2022 Wesbite
+
+![A screenshot of the DevFest Chennai 2022 website](static/web.png "DevFest Chennai 2022 website")
 
 Website for DevFest Chennai 2022 by GDG Chennai
 
