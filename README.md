@@ -28,7 +28,7 @@ npm run dev
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -45,6 +45,9 @@ npm run dev
       <td align="center"><a href="https://github.com/namruthahari"><img src="https://avatars.githubusercontent.com/u/67582793?v=4?s=100" width="100px;" alt="Namrutha"/><br /><sub><b>Namrutha</b></sub></a><br /><a href="#content-namruthahari" title="Content">🖋</a></td>
       <td align="center"><a href="https://iamimmanuelraj.github.io/"><img src="https://avatars.githubusercontent.com/u/26855364?v=4?s=100" width="100px;" alt="Immanuel Raj"/><br /><sub><b>Immanuel Raj</b></sub></a><br /><a href="#content-iamimmanuelraj" title="Content">🖋</a></td>
       <td align="center"><a href="https://github.com/iamaravindsekar"><img src="https://avatars.githubusercontent.com/u/20441340?v=4?s=100" width="100px;" alt="Aravind Sekar"/><br /><sub><b>Aravind Sekar</b></sub></a><br /><a href="#design-iamaravindsekar" title="Design">🎨</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://ahamedbasha-n.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/69695103?v=4?s=100" width="100px;" alt="Ahamed Basha N "/><br /><sub><b>Ahamed Basha N </b></sub></a><br /><a href="#maintenance-ahamedbasha-n" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
