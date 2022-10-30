@@ -75,6 +75,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "ahamedbasha-n",
+      "name": "Ahamed Basha N ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69695103?v=4",
+      "profile": "https://ahamedbasha-n.github.io/portfolio/",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
