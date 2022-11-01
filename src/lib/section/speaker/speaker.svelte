@@ -56,7 +56,6 @@
             Call for Speakers
           </h2>
           <p class="mt-4  sm:text-xl text-gray-600">
-            <!--Here's our incredible list of people who will bring the event to life!-->
             Thank you for all your submissions, The speakers for the event will be listed here shortly.
           </p>
         </div>
