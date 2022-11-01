@@ -117,6 +117,14 @@
                 <b class="font-semibold">Note:</b> This event is invite only event.<br> Entry is allowed based on invites.<br>Registration won’t guarantee access to the event.
                 </p>
               </div>
+              <div class="mt-4 text-sm text-left">
+                <p class="font-light text-gray-900">
+                <b class="font-semibold">Event info:</b></p>
+                <ul class="font-light">
+                  <li>Day 1 - 11th November - will be focusing on tech talks, speakers and conference</li>
+                  <li>Day 2 - 12th November - will be a workshop day!</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
