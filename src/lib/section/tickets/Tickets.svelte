@@ -121,8 +121,8 @@
                 <p class="font-light text-gray-900">
                 <b class="font-semibold">Event info:</b></p>
                 <ul class="font-light">
-                  <li>Day 1 - 11th November - will be focusing on tech talks, speakers and conference</li>
-                  <li>Day 2 - 12th November - will be a workshop day!</li>
+                  <li>Day 1 - 12th November - will be focusing on tech talks, speakers and conference</li>
+                  <li>Day 2 - 13th November - will be a workshop day!</li>
                 </ul>
               </div>
             </div>
