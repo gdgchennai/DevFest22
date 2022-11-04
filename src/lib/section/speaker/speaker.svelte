@@ -9,9 +9,9 @@
       designation: 'Android Engineer at Hostar'
     },
     {
-      name: 'Abishek Mishra',
+      name: 'Juhi S',
       imageUrl:
-        'https://static-cdn.icons8.com/l/3d/images/1_with_coffee_man_1.webp',
+        'https://static-cdn.icons8.com/l/3d/images/1_with_coffee_girl_2_2.webp',
       designation: 'Developer Relations at Yugabyte'
     },
     {
