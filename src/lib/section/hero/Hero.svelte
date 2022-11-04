@@ -46,7 +46,7 @@
   >
     <Button
       id="button-hero-get-tickets"
-      title="Request invite"
+      title="Request for workshop tickets"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
