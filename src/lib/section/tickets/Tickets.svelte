@@ -102,7 +102,7 @@
               <div class="mt-6">
                 <Button
                   id="button-get-ticket"
-                  title="Request invite"
+                  title="Request for workshop tickets"
                   isSecondaryButton={false}
                   onClick={() => handleClick()}
                 >

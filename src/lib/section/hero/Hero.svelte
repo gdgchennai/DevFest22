@@ -46,7 +46,7 @@
   >
     <Button
       id="button-hero-get-tickets"
-      title="Request invite"
+      title="Request for workshop tickets"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
@@ -69,14 +69,19 @@
     class="flex w-full flex-col items-center justify-center space-y-3 text-xl sm:flex-row sm:space-y-0 sm:space-x-6"
   >
     <div class="flex items-center space-x-2">
+      <i class="fa fa-calendar" />
+      <p>November 12th</p>
       <i class="fa fa-location-arrow" />
       <a href="https://maps.app.goo.gl/bsSnx8benaooqzDi7"
-        ><p>Le Royal Méridien, Chennai</p></a
-      >
+        ><p>Le Royal Méridien, Chennai</p></a>
     </div>
+    <div><p>&</p></div>
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar" />
-      <p>12th & 13th November, 2022</p>
+      <p>November 13th</p>
+      <i class="fa fa-location-arrow" />
+      <a href="https://maps.app.goo.gl/ob8wN6gQo5uxeZUi9?g_st=iw"
+        ><p>Infosys limited, Sholinganallur</p></a>
     </div>
   </div>
 

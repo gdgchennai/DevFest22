@@ -3,22 +3,22 @@
 
   const speakers = [
     {
-      name: 'Somasundaram S',
+      name: 'Tony Stark',
       imageUrl:
-        'https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
-      designation: 'Android Engineer at Hostar'
+        'https://ouch-cdn2.icons8.com/MUj_9Ip1d28lyJ0lDJpMB6MnAQEJCXC13lmwnSHFzZo/rs:fit:256:318/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTQw/L2E1YzNhNTVlLTIz/YjktNDJiNS04MjQ1/LWY5MzY1ZjUxNjc0/Ni5wbmc.png',
+      designation: 'Stark Industries'
     },
     {
-      name: 'Abishek Mishra',
+      name: 'Steve Rogers',
       imageUrl:
-        'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
-      designation: 'Developer Relations at Yugabyte'
+        'https://static-cdn.icons8.com/l/3d/images/1_with_coffee_girl_2_2.webp',
+      designation: 'Living his life'
     },
     {
-      name: 'Vasundhara R',
+      name: 'James Bucky Barnes',
       imageUrl:
-        'https://images.unsplash.com/photo-1610276198568-eb6d0ff53e48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
-      designation: 'Lead Engineer at Yugabyte'
+        'https://static-cdn.icons8.com/l/3d/images/11_peace_girl_1.webp',
+      designation: 'Not sure what I'm doing'
     }
   ];
 </script>
@@ -39,7 +39,7 @@
         </h2>
         <p class="text-md mt-4 flex w-full max-w-3xl text-center text-gray-600">
           We have some of the best speakers in the industry who will be sharing
-          their knowledge and experience with you.
+          their knowledge and experience with you. [Original List to be updated soon.]
         </p>
       </div>
     </div>
