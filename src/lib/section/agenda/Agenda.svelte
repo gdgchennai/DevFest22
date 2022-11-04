@@ -77,7 +77,7 @@
         <p class="text-md mt-4 flex w-full max-w-3xl text-center text-gray-600">
           Come. Learn, Network and Celebrate with Google Developer Groups and
           Google Developer Experts, learn to hack on Android, Chrome and Web
-          while you are at it.
+          while you are at it. [Original List to be updated soon.]
         </p>
       </div>
     </div>

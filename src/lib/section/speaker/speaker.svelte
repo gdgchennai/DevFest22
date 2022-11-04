@@ -39,7 +39,7 @@
         </h2>
         <p class="text-md mt-4 flex w-full max-w-3xl text-center text-gray-600">
           We have some of the best speakers in the industry who will be sharing
-          their knowledge and experience with you.
+          their knowledge and experience with you. [Original List to be updated soon.]
         </p>
       </div>
     </div>
