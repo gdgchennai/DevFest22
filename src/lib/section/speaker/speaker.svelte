@@ -18,7 +18,7 @@
       name: 'James Bucky Barnes',
       imageUrl:
         'https://static-cdn.icons8.com/l/3d/images/11_peace_girl_1.webp',
-      designation: 'Not sure what I'm doing'
+      designation: 'Not sure what I\'m doing'
     }
   ];
 </script>
