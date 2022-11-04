@@ -4,27 +4,27 @@
 
   const dayOneAgenda = [
     {
-      session: 'Android Jetpack Compose',
-      speaker: 'Somasundaram S',
+      session: 'Session 1',
+      speaker: 'To be updated',
       startTime: '9:00 AM',
       endTime: '10:00 AM'
     },
     {
-      session: 'Firebase ML Kit',
-      speaker: 'Varun Raj',
+      session: 'Session 2',
+      speaker: 'To be updated',
       startTime: '10:00 AM',
       endTime: '11:00 AM'
     },
 
     {
-      session: 'Lunch Break',
-      speaker: 'Somasundaram S',
-      startTime: '12:00 PM',
-      endTime: '01:00 PM'
+      session: 'Session 3',
+      speaker: 'To be updated',
+      startTime: '11:00 AM',
+      endTime: '12:00 PM'
     },
     {
-      session: 'Flutter & Dart',
-      speaker: 'Vasundhara R',
+      session: 'Session 4',
+      speaker: 'To be updated',
       startTime: '01:00 PM',
       endTime: '02:00 PM'
     }
@@ -32,27 +32,27 @@
 
   const dayTwoAgenda = [
     {
-      session: 'Android Jetpack Compose',
-      speaker: 'Somasundaram S',
+      session: 'Session 1',
+      speaker: 'To be updated',
       startTime: '9:00 AM',
       endTime: '10:00 AM'
     },
     {
-      session: 'Firebase ML Kit',
-      speaker: 'Varun Raj',
+      session: 'Session 2',
+      speaker: 'To be updated',
       startTime: '10:00 AM',
       endTime: '11:00 AM'
     },
 
     {
-      session: 'Lunch Break',
-      speaker: 'Somasundaram S',
-      startTime: '12:00 PM',
-      endTime: '01:00 PM'
+      session: 'Session 3',
+      speaker: 'To be updated',
+      startTime: '11:00 AM',
+      endTime: '12:00 PM'
     },
     {
-      session: 'Flutter & Dart',
-      speaker: 'Vasundhara R',
+      session: 'Session 4',
+      speaker: 'To be updated',
       startTime: '01:00 PM',
       endTime: '02:00 PM'
     }
