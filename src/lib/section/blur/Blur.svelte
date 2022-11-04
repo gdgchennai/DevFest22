@@ -1,6 +1,6 @@
-<div class="relative w-full max-w-lg max-h-lg -z-10">
+<div class="max-h-lg relative -z-10 w-full max-w-lg">
   <div
-    class="absolute top-12 sm:top-24 z-3 w-96 h-20 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] background opacity-40"
+    class="z-3 background absolute top-12 h-20 w-96 opacity-40 sm:top-24 md:h-[400px] md:w-[400px] lg:h-[500px] lg:w-[500px]"
   >
     <span />
     <span />
