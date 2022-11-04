@@ -34,8 +34,6 @@
     property="og:image"
     content="https://devfest.gdgchennai.in/gdgch-banner.png"
   />
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
-  <link rel="apple-touch-icon" href="/assets/images/favicon.png" />
 </svelte:head>
 
 <div

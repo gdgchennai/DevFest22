@@ -11,55 +11,55 @@
   let faqs: Faq[] = [
     {
       id: 1,
-      question: 'What is DevFest? 👀',
+      question: 'What is DevFest?',
       answer:
         'DevFest is a community-led developer event hosted by various Google Developer Groups around the globe.',
       active: false
     },
     {
       id: 2,
-      question: 'Why should I attend? 🤔',
+      question: 'Why should I attend?',
       answer:
         'You will be able to learn new things, meet new people, and have a fabulous time! We might as well have some surprises!',
       active: false
     },
     {
       id: 3,
-      question: 'How much does it cost? 💸',
+      question: 'How much does it cost?',
       answer:
         "It's completely free! We're a community that decided not to charge for our events.",
       active: false
     },
     {
       id: 4,
-      question: 'What if I have a question? 🤷‍♂️',
+      question: 'What if I have a question?',
       answer:
         'You can email us at hello@gdgchennai.in or reach out to us on our social media channels.',
       active: false
     },
     {
       id: 5,
-      question: 'Will there be food? 🍕',
+      question: 'Will there be food?',
       answer: 'Yes, we will have food and drinks available for everyone.',
       active: false
     },
     {
       id: 6,
-      question: 'Is it mandatory to register to participate in the event? 📝',
+      question: 'Is it mandatory to register to participate in the event?',
       answer:
         'Yes. Each individual may register for only one ticket. You may not register on behalf of anyone else.',
       active: false
     },
     {
       id: 7,
-      question: 'Who can register for DevFest 2022? 🤔',
+      question: 'Who can register for DevFest 2022?',
       answer:
         'Anyone passionate about learning new things, fond of technology, beginners, programmers, experts, and everyone can register and join us.',
       active: false
     },
     {
       id: 8,
-      question: 'What are the perks for the participants? 🤩',
+      question: 'What are the perks for the participants?',
       answer: 'We have a plethora of AMAZING surprises awaiting for you!',
       active: false
     }

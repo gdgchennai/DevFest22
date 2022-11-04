@@ -8,10 +8,14 @@
   <img
     src={imageUrl}
     alt={name}
-    class="max-w-xs w-auto rounded-3xl object-cover shadow-lg"
+    class="w-auto max-w-xs rounded-3xl object-cover shadow-lg"
   />
   <div class="flex w-full flex-col items-center justify-center">
-    <h5 class="w-full text-lg font-bold tracking-tight text-center">{name}</h5>
-    <p class="w-full text-center">{designation}</p>
+    <h5
+      class="w-full text-center text-lg font-bold tracking-tight text-gray-900"
+    >
+      {name}
+    </h5>
+    <p class="w-full text-center text-gray-500">{designation}</p>
   </div>
 </div>
