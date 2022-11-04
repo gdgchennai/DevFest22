@@ -3,22 +3,22 @@
 
   const speakers = [
     {
-      name: 'Somasundaram S',
+      name: 'Tony Stark',
       imageUrl:
         'https://ouch-cdn2.icons8.com/MUj_9Ip1d28lyJ0lDJpMB6MnAQEJCXC13lmwnSHFzZo/rs:fit:256:318/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTQw/L2E1YzNhNTVlLTIz/YjktNDJiNS04MjQ1/LWY5MzY1ZjUxNjc0/Ni5wbmc.png',
-      designation: 'Android Engineer at Hostar'
+      designation: 'Stark Industries'
     },
     {
-      name: 'Juhi S',
+      name: 'Steve Rogers',
       imageUrl:
         'https://static-cdn.icons8.com/l/3d/images/1_with_coffee_girl_2_2.webp',
-      designation: 'Developer Relations at Yugabyte'
+      designation: 'Living his life'
     },
     {
-      name: 'Vasundhara R',
+      name: 'James Bucky Barnes',
       imageUrl:
         'https://static-cdn.icons8.com/l/3d/images/11_peace_girl_1.webp',
-      designation: 'Lead Engineer at Yugabyte'
+      designation: 'Not sure what I'm doing'
     }
   ];
 </script>
