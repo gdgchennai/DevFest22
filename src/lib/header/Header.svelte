@@ -8,7 +8,7 @@
     name: string;
     href: string;
     active: boolean;
-  }
+  };
 
   let headerMenus: Nav[] = [
     {
@@ -40,14 +40,18 @@
       name: 'Badges',
       href: '/badges',
       active: false
-    },
+    }
   ];
 
-  let activeStyle: string = 'inline-flex items-center justify-center rounded-lg border border-transparent bg-black px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2'
-  let inActiveStyle: string = 'text-base font-medium text-black hover:text-gray-800'
+  let activeStyle: string =
+    'inline-flex items-center justify-center rounded-lg border border-transparent bg-black px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2';
+  let inActiveStyle: string =
+    'text-base font-medium text-black hover:text-gray-800';
 
-  let mobileActiveStyle: string = 'inline-flex justify-center items-center rounded-lg border bg-white border-gray-200 px-4 py-2 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2'
-  let mobileInActiveStyle: string = 'text-base font-medium text-white hover:text-white/80'
+  let mobileActiveStyle: string =
+    'inline-flex justify-center items-center rounded-lg border bg-white border-gray-200 px-4 py-2 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2';
+  let mobileInActiveStyle: string =
+    'text-base font-medium text-white hover:text-white/80';
 
   const activeTab = (nav: Nav) => {
     headerMenus = headerMenus.map((s) => {
@@ -62,20 +66,18 @@
   };
 
   function handleClick() {
-    openModal(Modal, {title: "Get your ticket"})
+    openModal(Modal, { title: 'Get your ticket' });
   }
 </script>
 
-<header class="bg-gray-100/10 shadow-lg rounded-lg">
+<header>
   <nav
     class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
     aria-label="Top"
     data-sveltekit-prefetch
   >
     <!-- // Desktop menu at the top of the page (hidden on mobile) -->
-    <div
-      class="flex w-full items-center justify-around"
-    >
+    <div class="flex w-full items-center justify-around">
       <div class="flex items-center">
         <a href="/">
           <span class="sr-only">GDG Chennai - Devfest 2022</span>
@@ -87,7 +89,7 @@
         </a>
       </div>
       {#each headerMenus as item}
-      <div class="hidden space-x-8 lg:block">
+        <div class="hidden space-x-8 lg:block">
           {#if item.name === 'Home'}
             <a
               href={item.href}
@@ -97,12 +99,11 @@
           {:else}
             <a
               href={item.href}
-              class="{item.active === true ? activeStyle : inActiveStyle}"
-              on:click={() => activeTab(item)}
-              >{item.name}</a
+              class={item.active === true ? activeStyle : inActiveStyle}
+              on:click={() => activeTab(item)}>{item.name}</a
             >
           {/if}
-      </div>
+        </div>
       {/each}
       <div class="ml-10 space-x-4 md:block hidden">
         <Button
@@ -136,13 +137,15 @@
         </div>
 
         {#each headerMenus as item}
-            <a
-              href={item.href}
-              class="{item.active === true ? mobileActiveStyle : mobileInActiveStyle}"
-              on:click={() => activeTab(item)}
-            >
-              {item.name}
-            </a>
+          <a
+            href={item.href}
+            class={item.active === true
+              ? mobileActiveStyle
+              : mobileInActiveStyle}
+            on:click={() => activeTab(item)}
+          >
+            {item.name}
+          </a>
         {/each}
       </div>
     </div>

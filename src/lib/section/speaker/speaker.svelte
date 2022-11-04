@@ -1,69 +1,58 @@
 <script>
-  import SpeakerCard from "./speaker-card.svelte";
-  import Button from '$lib/button/Button.svelte';
-
-  function handleClick() {
-    window.open("https://sessionize.com/devfest-chennai-2022", '_blank').focus();
-  }
+  import ItemSpeakerCard from '../speaker/ItemSpeakerCard.svelte';
 
   const speakers = [
     {
-      name: 'This could be you 👀',
-      imageUrl: '/speaker-avatar.png',
-      designation: 'What defines you best?',
-      platform1: '#Android',
-      platform2: '#Cloud',
-      platform3: '#ML/AI',
+      name: 'Somasundaram S',
+      imageUrl:
+        'https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+      designation: 'Android Engineer at Hostar'
     },
     {
-      name: 'We got a spot for you! 💫',
-      imageUrl: '/speaker-avatar.png',
-      designation: 'Join the biggest speaking platform now!',
-      platform1: '#Firebase',
-      platform2: '#AR',
-      platform3: '#Web',
+      name: 'Abishek Mishra',
+      imageUrl:
+        'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+      designation: 'Developer Relations at Yugabyte'
     },
     {
-      name: 'Star of the show 🌟',
-      imageUrl: '/speaker-avatar.png',
-      designation: 'Get the stage to share your knowledge!',
-      platform1: '#Kotlin',
-      platform2: '#Android',
-      platform3: '#Firebase'
-    },
-    {
-      name: 'Amazing speaker loading 🔃',
-      imageUrl: '/speaker-avatar.png',
-      designation: 'Connect with the community!',
-      platform1: '#Cloud',
-      platform2: '#AR',
-      platform3: '#ML/AI',
-    },
+      name: 'Vasundhara R',
+      imageUrl:
+        'https://images.unsplash.com/photo-1610276198568-eb6d0ff53e48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+      designation: 'Lead Engineer at Yugabyte'
+    }
   ];
 </script>
+
 <section
   id="speaker"
-  class="flex w-full max-auto flex-col items-center space-y-6 drop-shadow-md"
+  class="max-auto flex w-full flex-col items-center space-y-6 px-8"
 >
-  <div class="bg-white rounded-lg">
-    <div class="pt-12 sm:pt-16 lg:pt-20 flex justify-center">
-      <div class="md:w-1/2 max-w-7xl px-4 sm:px-6">
-        <div class="text-center">
-          <h2
-            class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900"
-          >
-            <!--Our Speakers-->
-            Call for Speakers
-          </h2>
-          <p class="mt-4  sm:text-xl text-gray-600">
-            Thank you for all your submissions, The speakers for the event will be listed here shortly.
-          </p>
-        </div>
+  <div class="flex flex-col">
+    <div class="flex justify-center pt-12 sm:pt-16 lg:pt-20">
+      <div
+        class="flex max-w-xs flex-col items-center justify-center text-center sm:max-w-7xl"
+      >
+        <h2
+          class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl"
+        >
+          Our Speakers
+        </h2>
+        <p class="text-md mt-4 flex w-full max-w-3xl text-center text-gray-600">
+          We have some of the best speakers in the industry who will be sharing
+          their knowledge and experience with you.
+        </p>
       </div>
     </div>
-    <div class="w-full md:flex mx-auto max-w-7xl py-10 px-10 sm:px-10 md:space-x-10 lg:space-x-10 justify-center">
+
+    <div
+      class="mx-auto w-full max-w-7xl justify-center space-y-12 py-10 px-10 sm:space-y-0 sm:px-10 md:flex md:space-x-10 lg:space-x-10"
+    >
       {#each speakers as speaker}
-        <SpeakerCard name={speaker.name} imageUrl={speaker.imageUrl} designation={speaker.designation} platform1={speaker.platform1} platform2={speaker.platform2} platform3={speaker.platform3} />
+        <ItemSpeakerCard
+          name={speaker.name}
+          imageUrl={speaker.imageUrl}
+          designation={speaker.designation}
+        />
       {/each}
     </div>
   </div>
