@@ -5,19 +5,19 @@
     {
       name: 'Somasundaram S',
       imageUrl:
-        'https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+        'https://ouch-cdn2.icons8.com/MUj_9Ip1d28lyJ0lDJpMB6MnAQEJCXC13lmwnSHFzZo/rs:fit:256:318/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTQw/L2E1YzNhNTVlLTIz/YjktNDJiNS04MjQ1/LWY5MzY1ZjUxNjc0/Ni5wbmc.png',
       designation: 'Android Engineer at Hostar'
     },
     {
       name: 'Abishek Mishra',
       imageUrl:
-        'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+        'https://static-cdn.icons8.com/l/3d/images/1_with_coffee_man_1.webp',
       designation: 'Developer Relations at Yugabyte'
     },
     {
       name: 'Vasundhara R',
       imageUrl:
-        'https://images.unsplash.com/photo-1610276198568-eb6d0ff53e48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+        'https://static-cdn.icons8.com/l/3d/images/11_peace_girl_1.webp',
       designation: 'Lead Engineer at Yugabyte'
     }
   ];
