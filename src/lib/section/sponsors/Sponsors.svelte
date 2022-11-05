@@ -8,7 +8,7 @@
 </script>
 
 <section
-  id="partners"
+  id="sponsors"
   class="flex w-full flex-col items-center space-y-6 px-24"
 >
   <h2
