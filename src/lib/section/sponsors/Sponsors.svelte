@@ -32,7 +32,7 @@
   <div class="bg-white">
     <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
       <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-        <img src="/google-devs.svg" class="img-border" alt="Google Developers" />
+        <a href="https://developers.google.com/"><img src="/google-devs.svg" class="img-border" alt="Google Developers" /></a>
       </div>
     </div>
   </div>
