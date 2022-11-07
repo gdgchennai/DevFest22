@@ -8,49 +8,49 @@
     {
       name: 'Anam Saatvik',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Anam_Saatvik.jpeg',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Anam_Saatvik.jpeg',
       designation: 'A young theatrical writer turned ML Engineer'
     },
     {
       name: 'Ayush Shekhar',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Ayush_Shekhar.png',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Ayush_Shekhar.png',
       designation: 'A writer and Leader'
     },
     {
       name: 'Juhi Singh',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Juhi_Singh.jpeg',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Juhi_Singh.jpeg',
       designation: 'WTM Chennai Ambassador 22'
     },
     {
       name: 'Karthikeyan',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Karthikeyan.jpg',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Karthikeyan.jpg',
       designation: 'A passionate developer'
     },
     {
       name: 'Rajasegar',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Rajasegar.jpg',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Rajasegar.jpg',
       designation: 'A Frontend-architect in Freshworks'
     },
     {
       name: 'Shruthi P G',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Shruthi_PG.jpeg',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Shruthi_PG.jpeg',
       designation: 'UX Researcher'
     },
     {
       name: 'Vasudev',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Vasudev.png',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasudev.png',
       designation: 'Machine Learning Engineer'
     },
     {
       name: 'Vasundhara Shukla',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Vasundhara_Shukla.jpeg',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasundhara_Shukla.jpeg',
       designation: 'Staff at VMware'
     }
   ];
@@ -88,9 +88,10 @@
           designation={speaker.designation}
         />
       {/each}
-      <span slot="left-control">Left</span>
-      <span slot="right-control">Right</span>
+      <!-- <span slot="left-control">Left</span>
+      <span slot="right-control">Right</span> -->
     </Carousel>
+
     </div>
   </div>
 </section>

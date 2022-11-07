@@ -84,7 +84,7 @@
 	export let startIndex = 0
 	export let draggable = true
 	export let multipleDrag = true	
-	export let dots = true	
+	export let dots = false
 	export let controls = true
 	export let threshold = 20
 	export let rtl = false
