@@ -3,22 +3,25 @@
 
   const speakers = [
     {
-      name: 'Tony Stark',
+      name: 'Anam Saatvik',
       imageUrl:
-        'https://ouch-cdn2.icons8.com/MUj_9Ip1d28lyJ0lDJpMB6MnAQEJCXC13lmwnSHFzZo/rs:fit:256:318/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTQw/L2E1YzNhNTVlLTIz/YjktNDJiNS04MjQ1/LWY5MzY1ZjUxNjc0/Ni5wbmc.png',
-      designation: 'Stark Industries'
+        'https://raw.githubusercontent.com/iamimmanuelraj/devfest2022-web/main/static/profile_pics/Anam_Saatvik.jpeg',
+      designation: 'A young theatrical writer turned ML Engineer',
+      // bio: "A young theatrical writer turned ML Engineer through his love for human languages. His journey started from training a distilGPT2 model to write stories for his college's drama club, and now works on real-time pipelines that analyze user patterns for effective and efficient user engagement. He loves working on systems that can extract the hidden features and semantics of various languages, a system that can read between the lines"
     },
     {
-      name: 'Steve Rogers',
+      name: 'Ayush Shekhar',
       imageUrl:
-        'https://static-cdn.icons8.com/l/3d/images/1_with_coffee_girl_2_2.webp',
-      designation: 'Living his life'
+        'https://raw.githubusercontent.com/iamimmanuelraj/devfest2022-web/main/static/profile_pics/Ayush_Shekhar.png',
+      designation: 'A writer and Leader',
+      // bio: "Ayush is an early adopter of Flutter, a mobile team lead, a community contributor, and a writer. He can go on and on about startups, products, and the amazing impact stories and good storytellers have on people."
     },
     {
-      name: 'James Bucky Barnes',
+      name: 'Juhi Singh',
       imageUrl:
-        'https://static-cdn.icons8.com/l/3d/images/11_peace_girl_1.webp',
-      designation: 'Not sure what I\'m doing'
+        'https://raw.githubusercontent.com/iamimmanuelraj/devfest2022-web/main/static/profile_pics/Juhi_Singh.jpeg',
+      designation: 'WTM Chennai Ambassador 22',
+      // bio: "Juhi is an extrovert, go-getter, confident public speaker who enjoys working and collaborating with engineers, developers, and product teams. Engaging with the tech community excites her, something which she has been doing from her graduation days and currently leading WTM Chennai as Ambassador. This interest of hers fortunately helped her with first job as Developer Community Manager at Freshworks."
     }
   ];
 </script>
@@ -39,7 +42,7 @@
         </h2>
         <p class="text-md mt-4 flex w-full max-w-3xl text-center text-gray-600">
           We have some of the best speakers in the industry who will be sharing
-          their knowledge and experience with you. [Original List to be updated soon.]
+          their knowledge and experience with you. [More speakers to be updated soon.]
         </p>
       </div>
     </div>
