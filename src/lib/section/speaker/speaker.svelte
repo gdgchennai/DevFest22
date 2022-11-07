@@ -1,27 +1,57 @@
 <script>
   import ItemSpeakerCard from '../speaker/ItemSpeakerCard.svelte';
+  import Carousel from '../speaker/carousel.svelte';
+	
+	let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 
   const speakers = [
     {
       name: 'Anam Saatvik',
       imageUrl:
-        'https://raw.githubusercontent.com/iamimmanuelraj/devfest2022-web/main/static/profile_pics/Anam_Saatvik.jpeg',
-      designation: 'A young theatrical writer turned ML Engineer',
-      // bio: "A young theatrical writer turned ML Engineer through his love for human languages. His journey started from training a distilGPT2 model to write stories for his college's drama club, and now works on real-time pipelines that analyze user patterns for effective and efficient user engagement. He loves working on systems that can extract the hidden features and semantics of various languages, a system that can read between the lines"
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Anam_Saatvik.jpeg',
+      designation: 'A young theatrical writer turned ML Engineer'
     },
     {
       name: 'Ayush Shekhar',
       imageUrl:
-        'https://raw.githubusercontent.com/iamimmanuelraj/devfest2022-web/main/static/profile_pics/Ayush_Shekhar.png',
-      designation: 'A writer and Leader',
-      // bio: "Ayush is an early adopter of Flutter, a mobile team lead, a community contributor, and a writer. He can go on and on about startups, products, and the amazing impact stories and good storytellers have on people."
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Ayush_Shekhar.png',
+      designation: 'A writer and Leader'
     },
     {
       name: 'Juhi Singh',
       imageUrl:
-        'https://raw.githubusercontent.com/iamimmanuelraj/devfest2022-web/main/static/profile_pics/Juhi_Singh.jpeg',
-      designation: 'WTM Chennai Ambassador 22',
-      // bio: "Juhi is an extrovert, go-getter, confident public speaker who enjoys working and collaborating with engineers, developers, and product teams. Engaging with the tech community excites her, something which she has been doing from her graduation days and currently leading WTM Chennai as Ambassador. This interest of hers fortunately helped her with first job as Developer Community Manager at Freshworks."
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Juhi_Singh.jpeg',
+      designation: 'WTM Chennai Ambassador 22'
+    },
+    {
+      name: 'Karthikeyan',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Karthikeyan.jpg',
+      designation: 'A passionate developer'
+    },
+    {
+      name: 'Rajasegar',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Rajasegar.jpg',
+      designation: 'A Frontend-architect in Freshworks'
+    },
+    {
+      name: 'Shruthi P G',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Shruthi_PG.jpeg',
+      designation: 'UX Researcher'
+    },
+    {
+      name: 'Vasudev',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Vasudev.png',
+      designation: 'Machine Learning Engineer'
+    },
+    {
+      name: 'Vasundhara Shukla',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Vasundhara_Shukla.jpeg',
+      designation: 'Staff at VMware'
     }
   ];
 </script>
@@ -50,6 +80,7 @@
     <div
       class="mx-auto w-full max-w-7xl justify-center space-y-12 py-10 px-10 sm:space-y-0 sm:px-10 md:flex md:space-x-10 lg:space-x-10"
     >
+    <Carousel autoplay="2000">
       {#each speakers as speaker}
         <ItemSpeakerCard
           name={speaker.name}
@@ -57,6 +88,20 @@
           designation={speaker.designation}
         />
       {/each}
+      <span slot="left-control">Left</span>
+      <span slot="right-control">Right</span>
+    </Carousel>
     </div>
   </div>
 </section>
+
+<style>
+	div {
+		height: 100%;
+		width: 100%;
+	}
+
+	span {
+		display: inline-block;
+	}
+</style>

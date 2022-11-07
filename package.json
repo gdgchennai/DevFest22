@@ -43,6 +43,7 @@
 		"downloadjs": "^1.4.7",
 		"html-to-image": "^1.10.8",
 		"i": "^0.3.7",
+		"siema": "^1.5.1",
 		"svelte-modals": "^1.2.0"
 	}
 }

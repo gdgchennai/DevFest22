@@ -2,7 +2,6 @@
   export let imageUrl: string = '';
   export let name: string = '';
   export let designation: string = '';
-  // export let bio: string = '';
 </script>
 
 <div class="flex w-full flex-col items-center justify-center space-y-6">
@@ -19,6 +18,5 @@
     </h5>
     <p class="w-full text-center text-gray-500">{designation}</p>
     <br>
-    <!-- <p class="w-full text-center text-gray-500">{bio}</p> -->
   </div>
 </div>
