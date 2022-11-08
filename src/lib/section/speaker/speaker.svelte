@@ -27,13 +27,13 @@
       name: 'Arun Ganesh',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Arun_Ganesh.png',
-      designation: 'To be added'
+      designation: 'Senior XR lead, Stellantis'
     },
     {
       name: 'Bhavani Ravi',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Bhavani_Ravi.png',
-      designation: 'To be added'
+      designation: 'Independent Software Consultant'
     },
     {
       name: 'Ishan Sharma',
@@ -45,49 +45,49 @@
       name: 'Jayesh Sharma',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Jayesh_Sharma.png',
-      designation: 'To be added'
+      designation: 'Platform Engineer, ZenML'
     },
     {
       name: 'Joinal Ahmed',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Joinal_Ahmed.png',
-      designation: 'To be added'
+      designation: 'AI Consultant, Google Cloud'
     },
     {
       name: 'Juhi Singh',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Juhi_Singh.png',
-      designation: 'To be added'
+      designation: 'Developer Community Manager, Freshworks Inc.'
     },
     {
       name: 'Kamal Shree',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Kamal_Shree.png',
-      designation: 'To be added'
+      designation: 'GDE Flutter,Developer Advocate, Microsoft'
     },
     {
       name: 'Karthikeyan S',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Karthikeyan_S.png',
-      designation: 'To be added'
+      designation: 'Developer Advocate @100ms'
     },
     {
       name: 'Manikandan Krishnamurthy',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Manikandan_Krishnamurthy.png',
-      designation: 'To be added'
+      designation: 'Organiser, GDGC Chennai'
     },
     {
       name: 'Praveen Thirumurugan',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Praveen_Thirumurugan.png',
-      designation: 'To be added'
+      designation: 'Senior Software Engineer, Plum'
     },
     {
       name: 'Rajasegar Chandriran',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Rajasegar_Chandriran.png',
-      designation: 'To be added'
+      designation: 'Front-end Developer, Freshworks Inc.'
     },
     {
       name: 'Ritikesh G',
@@ -105,37 +105,37 @@
       name: 'Somusundaram Mahesh',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Somusundaram_Mahesh.png',
-      designation: 'To be added'
+      designation: 'Software Developer Engineer, Disney+Hotstar'
     },
     {
       name: 'Vasudev Maduri',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasudev_Maduri.png',
-      designation: 'To be added'
+      designation: 'Lead Machine Learning Engineer, Accenture AI'
     },
     {
       name: 'Vasundhara Shukla',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasundhara_Shukla.png',
-      designation: 'To be added'
+      designation: 'Member of Technical Staff, VMWare'
     },
     {
       name: 'Vivek Yadav',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vivek_Yadav.png',
-      designation: 'To be added'
+      designation: 'Google Developer Expert, Flutter & Dart'
     },
     {
       name: 'Bhavna_Thacker',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Bhavna_Thacker.png',
-      designation: 'To be added'
+      designation: 'GDE Android,Senior Software Engineer, MEGA'
     },
     {
       name: 'Karthikeyan VK',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Karthikeyan_VK.png',
-      designation: 'To be added'
+      designation: 'Cloud Native Architect, Microsoft Azure MVP'
     }
   ];
 </script>
