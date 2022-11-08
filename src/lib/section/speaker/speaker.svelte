@@ -6,52 +6,136 @@
 
   const speakers = [
     {
-      name: 'Anam Saatvik',
+      name: 'Anam Saatvik Reddy',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Anam_Saatvik_Reddy.jpeg',
-      designation: 'A young theatrical writer turned ML Engineer'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Anam_Saatvik_Reddy.png',
+      designation: 'ML Engineer, Hexon Global'
     },
     {
-      name: 'Ayush Shekhar',
+      name: 'Anush Aravind',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Ayush_Shekhar.png',
-      designation: 'A writer and Leader'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Anush_Aravind.png',
+      designation: 'Architect,SRE Freshworks Inc.'
+    },
+    {
+      name: 'Arumgaraja Thirumani',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Arumgaraja_Thirumani.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Arun Ganesh',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Arun_Ganesh.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Bhavani Ravi',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Bhavani_Ravi.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Ishan Sharma',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Ishan_Sharma.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Jayesh Sharma',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Jayesh_Sharma.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Joinal Ahmed',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Joinal_Ahmed.png',
+      designation: 'To be added'
     },
     {
       name: 'Juhi Singh',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Juhi_Singh.jpeg',
-      designation: 'WTM Chennai Ambassador 22'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Juhi_Singh.png',
+      designation: 'To be added'
     },
     {
-      name: 'Karthikeyan',
+      name: 'Kamal Shree',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Karthikeyan.jpg',
-      designation: 'A passionate developer'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Kamal_Shree.png',
+      designation: 'To be added'
     },
     {
-      name: 'Rajasegar',
+      name: 'Karthikeyan S',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Rajasegar.jpg',
-      designation: 'A Frontend-architect in Freshworks'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Karthikeyan_S.png',
+      designation: 'To be added'
     },
     {
-      name: 'Shruthi P G',
+      name: 'Manikandan Krishnamurthy',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Shruthi_PG.jpeg',
-      designation: 'UX Researcher'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Manikandan_Krishnamurthy.png',
+      designation: 'To be added'
     },
     {
-      name: 'Vasudev',
+      name: 'Praveen Thirumurugan',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasudev.png',
-      designation: 'Machine Learning Engineer'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Praveen_Thirumurugan.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Rajasegar Chandriran',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Rajasegar_Chandriran.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Ritikesh G',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Ritikesh_G.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Shruthi PG',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Shruthi_PG.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Somusundaram Mahesh',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Somusundaram_Mahesh.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Vasudev Maduri',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasudev_Maduri.png',
+      designation: 'To be added'
     },
     {
       name: 'Vasundhara Shukla',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasundhara_Shukla.jpeg',
-      designation: 'Staff at VMware'
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vasundhara_Shukla.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Vivek Yadav',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Vivek_Yadav.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Bhavna_Thacker',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Bhavna_Thacker.png',
+      designation: 'To be added'
+    },
+    {
+      name: 'Karthikeyan VK',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Karthikeyan_VK.png',
+      designation: 'To be added'
     }
   ];
 </script>
