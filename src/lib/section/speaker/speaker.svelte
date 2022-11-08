@@ -72,12 +72,6 @@
       designation: 'Developer Advocate @100ms'
     },
     {
-      name: 'Manikandan Krishnamurthy',
-      imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Manikandan_Krishnamurthy.png',
-      designation: 'Organiser, GDGC Chennai'
-    },
-    {
       name: 'Praveen Thirumurugan',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Praveen_Thirumurugan.png',
@@ -136,6 +130,12 @@
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Karthikeyan_VK.png',
       designation: 'Cloud Native Architect, Microsoft Azure MVP'
+    },
+    {
+      name: 'Manikandan Krishnamurthy',
+      imageUrl:
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Manikandan_Krishnamurthy.png',
+      designation: 'Organiser, GDGC Chennai'
     }
   ];
 </script>
