@@ -8,7 +8,7 @@
     {
       name: 'Anam Saatvik',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Anam_Saatvik.jpeg',
+        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Anam_Saatvik_Reddy.jpeg',
       designation: 'A young theatrical writer turned ML Engineer'
     },
     {
