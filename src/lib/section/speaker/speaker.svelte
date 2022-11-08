@@ -8,133 +8,133 @@
     {
       name: 'Anam Saatvik Reddy',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Anam_Saatvik_Reddy.png',
+        '/profile_pics/Anam_Saatvik_Reddy.png',
       designation: 'ML Engineer, Hexon Global'
     },
     {
       name: 'Anush Aravind',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Anush_Aravind.png',
+        '/profile_pics/Anush_Aravind.png',
       designation: 'Architect SRE, Freshworks Inc.'
     },
     {
       name: 'Arumgaraja Thirumani',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Arumgaraja_Thirumani.png',
+        '/profile_pics/Arumgaraja_Thirumani.png',
       designation: 'Lead SRE, Freshworks Inc.'
     },
     {
       name: 'Arun Ganesh',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Arun_Ganesh.png',
+        '/profile_pics/Arun_Ganesh.png',
       designation: 'Senior XR lead, Stellantis'
     },
     {
       name: 'Bhavani Ravi',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Bhavani_Ravi.png',
+        '/profile_pics/Bhavani_Ravi.png',
       designation: 'Independent Software Consultant'
     },
     {
       name: 'Ishan Sharma',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Ishan_Sharma.png',
+        '/profile_pics/Ishan_Sharma.png',
       designation: 'Software Engineer @HackerRank'
     },
     {
       name: 'Jayesh Sharma',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Jayesh_Sharma.png',
+        '/profile_pics/Jayesh_Sharma.png',
       designation: 'Platform Engineer, ZenML'
     },
     {
       name: 'Joinal Ahmed',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Joinal_Ahmed.png',
+        '/profile_pics/Joinal_Ahmed.png',
       designation: 'AI Consultant, Google Cloud'
     },
     {
       name: 'Juhi Singh',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Juhi_Singh.png',
+        '/profile_pics/Juhi_Singh.png',
       designation: 'Developer Community Manager, Freshworks Inc.'
     },
     {
       name: 'Kamal Shree',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Kamal_Shree.png',
+        '/profile_pics/Kamal_Shree.png',
       designation: 'GDE Flutter,Developer Advocate, Microsoft'
     },
     {
       name: 'Karthikeyan S',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Karthikeyan_S.png',
+        '/profile_pics/Karthikeyan_S.png',
       designation: 'Developer Advocate @100ms'
     },
     {
       name: 'Praveen Thirumurugan',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Praveen_Thirumurugan.png',
+        '/profile_pics/Praveen_Thirumurugan.png',
       designation: 'Senior Software Engineer, Plum'
     },
     {
       name: 'Rajasegar Chandriran',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Rajasegar_Chandriran.png',
+        '/profile_pics/Rajasegar_Chandriran.png',
       designation: 'Front-end Developer, Freshworks Inc.'
     },
     {
       name: 'Ritikesh G',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Ritikesh_G.png',
+        '/profile_pics/Ritikesh_G.png',
       designation: 'Architect, Freshworks Inc.'
     },
     {
       name: 'Shruthi PG',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Shruthi_PG.png',
+        '/profile_pics/Shruthi_PG.png',
       designation: 'UI/UX Designer, Lets Dunch'
     },
     {
       name: 'Somusundaram Mahesh',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Somusundaram_Mahesh.png',
+        '/profile_pics/Somusundaram_Mahesh.png',
       designation: 'Software Developer Engineer, Disney+Hotstar'
     },
     {
       name: 'Vasudev Maduri',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Vasudev_Maduri.png',
+        '/profile_pics/Vasudev_Maduri.png',
       designation: 'Lead Machine Learning Engineer, Accenture AI'
     },
     {
       name: 'Vasundhara Shukla',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Vasundhara_Shukla.png',
+        '/profile_pics/Vasundhara_Shukla.png',
       designation: 'Member of Technical Staff, VMWare'
     },
     {
       name: 'Vivek Yadav',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Vivek_Yadav.png',
+        '/profile_pics/Vivek_Yadav.png',
       designation: 'Google Developer Expert, Flutter & Dart'
     },
     {
       name: 'Bhavna_Thacker',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Bhavna_Thacker.png',
+        '/profile_pics/Bhavna_Thacker.png',
       designation: 'GDE Android,Senior Software Engineer, MEGA'
     },
     {
       name: 'Karthikeyan VK',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Karthikeyan_VK.png',
+        '/profile_pics/Karthikeyan_VK.png',
       designation: 'Cloud Native Architect, Microsoft Azure MVP'
     },
     {
       name: 'Manikandan Krishnamurthy',
       imageUrl:
-        'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/main/static/profile_pics/Manikandan_Krishnamurthy.png',
+        '/profile_pics/Manikandan_Krishnamurthy.png',
       designation: 'Organiser, GDGC Chennai'
     }
   ];
