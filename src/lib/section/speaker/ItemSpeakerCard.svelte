@@ -17,5 +17,6 @@
       {name}
     </h5>
     <p class="w-full text-center text-gray-500">{designation}</p>
+    <br>
   </div>
 </div>
