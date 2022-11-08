@@ -15,13 +15,13 @@
       name: 'Anush Aravind',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Anush_Aravind.png',
-      designation: 'Architect,SRE Freshworks Inc.'
+      designation: 'Architect SRE, Freshworks Inc.'
     },
     {
       name: 'Arumgaraja Thirumani',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Arumgaraja_Thirumani.png',
-      designation: 'To be added'
+      designation: 'Lead SRE, Freshworks Inc.'
     },
     {
       name: 'Arun Ganesh',
@@ -39,7 +39,7 @@
       name: 'Ishan Sharma',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Ishan_Sharma.png',
-      designation: 'To be added'
+      designation: 'Software Engineer @HackerRank'
     },
     {
       name: 'Jayesh Sharma',
@@ -93,13 +93,13 @@
       name: 'Ritikesh G',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Ritikesh_G.png',
-      designation: 'To be added'
+      designation: 'Architect, Freshworks Inc.'
     },
     {
       name: 'Shruthi PG',
       imageUrl:
         'https://raw.githubusercontent.com/gdgchennai/devfest2022-web/immanuel/static/profile_pics/Shruthi_PG.png',
-      designation: 'To be added'
+      designation: 'UI/UX Designer, Lets Dunch'
     },
     {
       name: 'Somusundaram Mahesh',
