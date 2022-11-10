@@ -172,21 +172,8 @@
           designation={speaker.designation}
         />
       {/each}
-      <!-- <span slot="left-control">Left</span>
-      <span slot="right-control">Right</span> -->
     </Carousel>
 
     </div>
   </div>
 </section>
-
-<style>
-	div {
-		height: 100%;
-		width: 100%;
-	}
-
-	span {
-		display: inline-block;
-	}
-</style>
