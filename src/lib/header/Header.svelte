@@ -22,12 +22,7 @@
       active: false
     },
     {
-      name: 'Speaker',
-      href: '/#speaker',
-      active: false
-    },
-    {
-      name: 'Tickets',
+      name: 'Schedule',
       href: '/#tickets',
       active: false
     },
@@ -66,7 +61,7 @@
   };
 
   function handleClick() {
-    openModal(Modal, { title: 'Get your ticket' });
+    openModal(Modal, { title: 'Thanks for registering!' });
   }
 </script>
 
@@ -108,7 +103,7 @@
       <div class="ml-10 hidden space-x-4 md:block">
         <Button
           id="button-header-get-tickets"
-          title="Request for workshop tickets"
+          title="Registration closed"
           isSecondaryButton={false}
           onClick={() => handleClick()}
         >

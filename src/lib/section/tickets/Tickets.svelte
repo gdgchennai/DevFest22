@@ -1,11 +1,9 @@
 <script lang="ts">
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
-  import Modal from '$lib/modal/Modal.svelte';
-  import { openModal } from 'svelte-modals';
 
   function handleClick() {
-    openModal(Modal, { title: 'Get your ticket' });
+    location.href='/agenda'
   }
 
   const includedFeatures = [
@@ -14,7 +12,7 @@
     'Networking opportunities',
     'Take home cool swags',
     'Chance to take part in fun activities',
-    'Acquire new knowledge'
+    'Meet expert speakers'
   ];
 </script>
 
@@ -66,7 +64,7 @@
                   <h4
                     class="flex-shrink-0 pr-4 text-base font-semibold text-gray-900"
                   >
-                    What's included
+                    What's can you expect?
                   </h4>
                   <div class="flex-1 border-t border-gray-100" />
                 </div>
@@ -87,26 +85,17 @@
             <div
               class="bg-gray-50 py-8 px-6 text-center lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12"
             >
-              <p class="text-lg font-medium leading-6 text-gray-900">
-                Reserve your spot now!
+              <p class="text-4xl font-medium text-gray-900">
+                Know your Speakers & Schedule
               </p>
-              <div
-                class="mt-4 flex items-center justify-center text-5xl font-bold tracking-tight text-gray-900"
-              >
-                <span
-                  class="ml-3 text-xl font-medium tracking-normal text-gray-500"
-                  >IT'S
-                </span>
-                <span> FREE</span>
-              </div>
-              <div class="mt-6">
+              <div class="mt-6 mx-10">
                 <Button
-                  id="button-get-ticket"
-                  title="Request for workshop tickets"
+                  id="button-agenda"
+                  title="Check agenda"
                   isSecondaryButton={false}
                   onClick={() => handleClick()}
                 >
-                  <Icon width="20" height="20" name="ticket" />
+                  <Icon width="20" height="20" name="arrowup" />
                 </Button>
               </div>
               <div class="mt-4 text-left text-xs">
