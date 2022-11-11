@@ -177,7 +177,7 @@
       endTime: '3:05 PM'
     },
     {
-      session: 'Sponsor Talk',
+      session: 'About sister communities',
       speaker: '',
       startTime: '3:05 PM',
       endTime: '4:20 PM'
