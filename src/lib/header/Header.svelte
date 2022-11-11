@@ -22,12 +22,7 @@
       active: false
     },
     {
-      name: 'Speakers',
-      href: '/agenda',
-      active: false
-    },
-    {
-      name: 'Tickets',
+      name: 'Schedule',
       href: '/#tickets',
       active: false
     },
