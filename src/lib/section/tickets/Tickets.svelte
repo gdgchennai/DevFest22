@@ -6,6 +6,10 @@
     location.href='/agenda'
   }
 
+  function download() {
+    window.open('schedule.pdf')
+  }
+
   const includedFeatures = [
     'Scrumptious food',
     'Exciting sessions',
@@ -97,6 +101,16 @@
                 >
                   <Icon width="20" height="20" name="arrowup" />
                 </Button>
+                <div class="pt-4">
+                <Button
+                  id="button-agenda-download"
+                  title="Download agenda"
+                  isSecondaryButton={true}
+                  onClick={() => download()}
+                >
+                  <Icon width="20" height="20" name="download" />
+                </Button>
+              </div>
               </div>
               <div class="mt-4 text-left text-xs">
                 <p class="font-light text-gray-900">
