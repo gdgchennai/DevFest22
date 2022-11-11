@@ -11,25 +11,25 @@
 
 <div class="single_speaker">
   <div class="flex lg:pl-8">
-  {#if showImage}
-  <img
-    class="h-24 w-24 rounded-3xl"
-    src={imageUrl}
-    alt={name}
-  />
-  {#if showMultipleImage}
-  <img
-    class="h-24 w-24 rounded-3xl"
-    src={imageUrl2}
-    alt={name}
-  />
-  <img
-    class="h-24 w-24 rounded-3xl"
-    src={imageUrl3}
-    alt={name}
-  />
-  {/if}
-  {/if}
+    {#if showImage}
+      <img
+        class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
+        src={imageUrl}
+        alt={name}
+      />
+      {#if showMultipleImage}
+        <img
+          class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
+          src={imageUrl2}
+          alt={name}
+        />
+        <img
+          class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
+          src={imageUrl3}
+          alt={name}
+        />
+      {/if}
+    {/if}
   </div>
   <div class="speaker-name">
     <div class="heading flex items-center justify-between">
@@ -84,6 +84,14 @@
     font-weight: 500;
   }
 
+  @media (max-width: 767px) {
+    .single_speaker .speaker-name .heading span {
+      font-size: 18px;
+      color: #1f1f1f;
+      font-weight: 500;
+    }
+  }
+
   .single_speaker .speaker-name .heading .time {
     font-size: 16px;
     font-weight: 500;
@@ -95,5 +103,4 @@
     font-size: 16px;
     line-height: 28px;
   }
-
 </style>

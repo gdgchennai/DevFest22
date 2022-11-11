@@ -1,5 +1,7 @@
-<script>
+<script lang="ts">
   import ItemAgendaCard from '$lib/section/agenda/ItemAgendaCard.svelte';
+
+  let toggle: boolean = false;
 
   const dayOneAgenda = [
     {
@@ -31,7 +33,7 @@
     },
     {
       name: 'Praveen Thirumurugan',
-      session: 'Microservice orchestration with GCP\'s serverless offerings',
+      session: "Microservice orchestration with GCP's serverless offerings",
       imageUrl: '/profile_pics/Praveen_Thirumurugan.png',
       showImage: true,
       time: '10:40 AM - 11:15 AM'
@@ -59,7 +61,7 @@
     },
     {
       name: 'Lunch',
-      session: 'Time to feast yourself and prepare for what\'s coming next',
+      session: 'Good time to go around, Eat and connect with people!',
       time: '1:15 PM - 2:15 PM'
     },
     {
@@ -71,7 +73,8 @@
     },
     {
       name: 'Anam Saatvik Reddy',
-      session: 'Lightning talk - TensorFlow Recommenders - a simple library for building powerful recommendation systems',
+      session:
+        'Lightning talk - TensorFlow Recommenders - a simple library for building powerful recommendation systems',
       imageUrl: '/profile_pics/Anam_Saatvik_Reddy.png',
       showImage: true,
       time: '2:45 PM - 2:55 PM'
@@ -97,13 +100,177 @@
     },
     {
       name: 'Fun activities/Quiz',
-      session: 'Enough lectures, It\'s play time!',
+      session: "Enough lectures, It's play time!",
       time: '4:05 PM - 4:40 PM'
     },
     {
       name: 'Closing Note',
       session: 'Thank you for sticking with us this far!',
       time: '4:40 PM - 4:50 PM'
+    }
+  ];
+
+  const dayOneAgendaTrack = [
+    {
+      name: 'Registration',
+      session: 'First come first serve basis',
+      time: '8:00 AM - 8:55 AM'
+    },
+    {
+      name: 'Opening note',
+      session: 'Vanakkam to DevFest Chennai 2022!!',
+      time: '9:05 AM - 9:15 AM'
+    },
+    {
+      name: 'Juhi Singh, Vasundhara Shukla',
+      session: 'Joy of contributing to community and open source - Juhi Singh, Vasundhara Shukla',
+      imageUrl: '/profile_pics/Juhi_Singh.png',
+      imageUrl2: '/profile_pics/Vasundhara_Shukla.png',
+      imageUrl3: '/profile_pics/Ritikesh_G.png',
+      showImage: true,
+      showMultipleImage: true,
+      time: '9:20 AM - 09:55 AM'
+    },
+    {
+      name: 'Karthikeyan VK',
+      session: "Build Faster Websites with Astro",
+      imageUrl: '/profile_pics/Karthikeyan_VK.png',
+      showImage: true,
+      time: '10:00 AM - 10:35 AM'
+    },
+    {
+      name: 'Rajasegar Chandiran',
+      session: 'Svelte and the Paradox of choice',
+      imageUrl: '/profile_pics/Rajasegar_Chandriran.png',
+      showImage: true,
+      time: '10:40 AM - 11:15 AM'
+    },
+    {
+      name: 'Somasundaram Mahesh',
+      session: 'Reimagining devs <> designer\'s handoff for Jetpack Compose : Relay',
+      imageUrl: '/profile_pics/Somusundaram_Mahesh.png',
+      showImage: true,
+      time: '11:20 AM - 11:55 AM'
+    },
+    {
+      name: 'Bhavna Thacker',
+      session: 'Architecting your Compose UI',
+      imageUrl: '/profile_pics/Bhavna_Thacker.png',
+      showImage: true,
+      time: '12:00 PM - 12:35 PM'
+    },
+    {
+      name: 'Ayush Shekhar',
+      session: 'Server driven UI in Flutter: A Remote Widgets Experiment',
+      imageUrl: '/profile_pics/Ayush_Shekar.png',
+      showImage: true,
+      time: '12:40 PM - 1:15 PM	'
+    },
+    {
+      name: 'Lunch',
+      session: 'Good time to go around, Eat and connect with people!',
+      time: '1:15 PM - 2:15 PM'
+    },
+    {
+      name: 'Kamal Shree',
+      session: 'My Adventure in Flutter Gaming',
+      imageUrl: '/profile_pics/Kamal_Shree.png',
+      showImage: true,
+      time: '2:15 PM - 2:40 PM'
+    },
+    {
+      name: 'Shruthi PG',
+      session: 'Lightning talk - Becoming Family\'s First Woman in STEM',
+      imageUrl: '/profile_pics/Shruthi_PG.png',
+      showImage: true,
+      time: '2:45 PM - 2:55 PM'
+    },
+    {
+      name: 'Ishan Sharma',
+      session: 'Lightning talk - Web Animations : Past, Present & Future',
+      imageUrl: '/profile_pics/Ishan_Sharma.png',
+      showImage: true,
+      time: '2:55 PM - 3:05 PM'
+    },
+    {
+      name: 'GDG Chennai',
+      session: 'Lightning talk - About sister communities',
+      imageUrl: '/profile_pics/GDG_Chennai.png',
+      showImage: true,
+      time: '2:55 PM - 3:05 PM'
+    },
+    {
+      name: 'Networking and Tea break',
+      session: 'Connect - Interact and expand your clan!',
+      time: '3:25 PM - 4:00 PM'
+    },
+    {
+      name: 'Fun activities/Quiz',
+      session: "Enough lectures, It's play time!",
+      time: '4:05 PM - 4:40 PM'
+    },
+    {
+      name: 'Closing Note',
+      session: 'Thank you for sticking with us this far!',
+      time: '4:40 PM - 4:50 PM'
+    }
+  ];
+
+  const dayTwoAgenda = [
+    {
+      name: 'Morning registration',
+      time: '8:30 AM - 9:45 AM'
+    },
+    {
+      name: 'Sanjay S',
+      session: 'A different way to think about animations with Jetpack Compose',
+      imageUrl: '/profile_pics/sanjay.png',
+      showImage: true,
+      time: '10:00 AM - 12:30 AM'
+    },
+    {
+      name: 'Afternoon Registration',
+      time: '12:00 PM - 1:15 PM'
+    },
+    {
+      name: 'Lunch',
+      session: 'Good time to go around, Eat and connect with people!',
+    },
+    {
+      name: 'Jayesh Sharma',
+      session: 'Build your first MLOps Pipeline using ZenML on GCP',
+      imageUrl: '/profile_pics/Jayesh_Sharma.png',
+      showImage: true,
+      time: '2:15 PM - 5:15 PM'
+    },
+  ];
+
+  const dayTwoAgendaTrack2 = [
+    {
+      name: 'Morning registration',
+      time: '8:30 AM - 9:45 AM'
+    },
+    {
+      name: 'Vivek Yadav',
+      session: 'How to build the best packages and plugins in Flutter',
+      imageUrl: '/profile_pics/Vivek_Yadav.png',
+      showImage: true,
+      time: '10:00 AM - 12:30 AM'
+    },
+    {
+      name: 'Afternoon Registration',
+      time: '12:00 PM - 1:15 PM'
+    },
+    {
+      name: 'Lunch',
+      session: 'Good time to go around, Eat and connect with people!',
+    },
+    {
+      name: 'Manikandan Krishnamurthy',
+      session: 'Cloud Hero - RGDC - Intro to Infrastructure',
+      imageUrl: '/profile_pics/Manikandan_Krishnamurthy.png',
+      showImage: true,
+      time: '2:15 PM - 5:15 PM'
     },
   ];
 </script>
@@ -117,16 +284,26 @@
   <h2
     class="w-full py-8 text-center text-3xl font-bold tracking-tight sm:text-4xl lg:text-center lg:text-5xl"
   >
-    Agenda
+    Speakers & Agenda
   </h2>
   <div class="event_area">
     <div class="container mx-auto">
       <div class="double_line">
         <div class="row">
-          <div class="date mb-8">
-            <h3>12 Nov 2022</h3>
-            <h2>Track 1</h2>
+          <div class="date mb-2">
+            <h3>12 Nov 2022 - Conference - Le Royal Méridien</h3>
+            <span class="isolate inline-flex rounded-md sm:p-8">
+              <button
+                on:click={() => toggle = !toggle}
+                type="button"
+                class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+              >
+                Switch track
+              </button>
+            </span>
           </div>
+          {#if toggle}
+          <h2 class="text-xl text-blue-500 py-5 font-medium">Track 1</h2>
           {#each dayOneAgenda as speaker}
             <ItemAgendaCard
               session={speaker.session}
@@ -139,72 +316,50 @@
               showMultipleImage={speaker.showMultipleImage}
             />
           {/each}
-          <!-- <div class="single_speaker">
-            <img
-              class="h-24 w-24 rounded-3xl"
-              src="/profile_pics/Vasudev_Maduri.png"
-              alt=""
+          {:else}
+          <h2 class="text-xl text-green-500 py-5 font-medium">Track 2</h2>
+          {#each dayOneAgendaTrack as speaker}
+            <ItemAgendaCard
+              session={speaker.session}
+              name={speaker.name}
+              imageUrl={speaker.imageUrl}
+              imageUrl2={speaker.imageUrl2}
+              imageUrl3={speaker.imageUrl3}
+              time={speaker.time}
+              showImage={speaker.showImage}
+              showMultipleImage={speaker.showMultipleImage}
             />
-            <div class="speaker-name">
-              <div class="heading flex items-center justify-between">
-                <span>Abhishek</span>
-                <div class="time">10-11 am</div>
-              </div>
-              <p>Lorem ipsum cuz why not</p>
-            </div>
-          </div> -->
+          {/each}
+          {/if}
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-3 col-lg-3">
-          <div class="date">
-            <h3>13 Nov 2022</h3>
+          <div class="date mb-2">
+            <h3>13 Nov 2022 - Workshop - InfoSys Chennai</h3>
           </div>
-        </div>
-        <div class="col-xl-9 col-lg-9">
-          <div class="single_speaker">
-            <img
-              class="h-24 w-24 rounded-3xl"
-              src="/profile_pics/Vasudev_Maduri.png"
-              alt=""
-            />
-            <div class="speaker-name">
-              <div class="heading flex items-center justify-between">
-                <span>John snow</span>
-                <div class="time">10-11 am</div>
-              </div>
-              <p>Another set of Lorem Ipsum</p>
-            </div>
-          </div>
-          <div class="single_speaker">
-            <img
-              class="h-24 w-24 rounded-3xl"
-              src="/profile_pics/Vasudev_Maduri.png"
-              alt=""
-            />
-            <div class="speaker-name">
-              <div class="heading flex items-center justify-between">
-                <span>Arya Stark</span>
-                <div class="time">12-1.00 pm</div>
-              </div>
-              <p>Another set of Lorem Ipsum</p>
-            </div>
-          </div>
-          <div class="single_speaker">
-            <img
-              class="h-24 w-24 rounded-3xl"
-              src="/profile_pics/Vasudev_Maduri.png"
-              alt=""
-            />
-            <div class="speaker-name">
-              <div class="heading flex items-center justify-between">
-                <span>Gandalf</span>
-                <div class="time">2.30-4.00 pm</div>
-              </div>
-              <p>Another set of Lorem Ipsum</p>
-            </div>
-          </div>
-        </div>
+          {#if toggle}
+          <h2 class="text-xl text-blue-500 py-5 font-medium">Track 1</h2>
+          {#each dayTwoAgenda as speaker}
+          <ItemAgendaCard
+            session={speaker.session}
+            name={speaker.name}
+            imageUrl={speaker.imageUrl}
+            time={speaker.time}
+            showImage={speaker.showImage}
+          />
+        {/each}
+        {:else}
+        <h2 class="text-xl text-green-500 py-5 font-medium">Track 2</h2>
+        {#each dayTwoAgendaTrack2 as speaker}
+          <ItemAgendaCard
+            session={speaker.session}
+            name={speaker.name}
+            imageUrl={speaker.imageUrl}
+            time={speaker.time}
+            showImage={speaker.showImage}
+          />
+        {/each}
+        {/if}
       </div>
     </div>
   </div>
@@ -303,59 +458,5 @@
     .event_area .date h3 {
       margin-bottom: 30px;
     }
-  }
-
-  .event_area .single_speaker {
-    margin-bottom: 63px;
-  }
-
-  @media (max-width: 767px) {
-    .event_area .single_speaker {
-      margin-bottom: 30px;
-    }
-  }
-
-  .event_area .single_speaker img {
-    float: left;
-  }
-
-  @media (max-width: 767px) {
-    .event_area .single_speaker img {
-      float: none;
-    }
-  }
-
-  .event_area .single_speaker .speaker-name {
-    padding-left: 30px;
-    overflow: hidden;
-  }
-
-  @media (max-width: 767px) {
-    .event_area .single_speaker .speaker-name {
-      padding-left: 0;
-      margin-top: 20px;
-    }
-  }
-
-  .event_area .single_speaker .speaker-name .heading {
-    margin-bottom: 5px;
-  }
-
-  .event_area .single_speaker .speaker-name .heading span {
-    font-size: 26px;
-    color: #1f1f1f;
-    font-weight: 500;
-  }
-
-  .event_area .single_speaker .speaker-name .heading .time {
-    font-size: 16px;
-    font-weight: 500;
-    color: #1f1f1f;
-  }
-
-  .event_area .single_speaker p {
-    color: #707070;
-    font-size: 16px;
-    line-height: 28px;
   }
 </style>
