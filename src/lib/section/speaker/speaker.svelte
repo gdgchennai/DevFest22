@@ -30,12 +30,6 @@
       designation: 'Senior XR lead, Stellantis'
     },
     {
-      name: 'Bhavani Ravi',
-      imageUrl:
-        '/profile_pics/Bhavani_Ravi.png',
-      designation: 'Independent Software Consultant'
-    },
-    {
       name: 'Ishan Sharma',
       imageUrl:
         '/profile_pics/Ishan_Sharma.png',
