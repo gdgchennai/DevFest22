@@ -136,6 +136,18 @@
       imageUrl:
         '/profile_pics/Manikandan_Krishnamurthy.png',
       designation: 'Organiser, GDGC Chennai'
+    },
+    {
+      name: 'Ramachandran A',
+      imageUrl:
+        '/profile_pics/Ramachandran_ A.jpeg',
+      designation: 'Organiser, GDGC Chennai'
+    },
+    {
+      name: 'Abishek Mishra',
+      imageUrl:
+        '/profile_pics/Abishek_Mishra.jpeg',
+      designation: 'Organiser, GDGC Chennai'
     }
   ];
 </script>
