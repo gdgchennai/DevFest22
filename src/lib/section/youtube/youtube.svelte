@@ -17,7 +17,7 @@
         </div>
 
         <div class="max-w-sm rounded overflow-hidden shadow-lg m-5">
-          <iframe width="300" height="300" src="https://www.youtube.com/embed/coFbkjbuMdA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="300" height="300" src="https://www.youtube.com/embed/B0SC-IzK0PQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
