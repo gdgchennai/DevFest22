@@ -22,8 +22,8 @@
       active: false
     },
     {
-      name: 'Speaker',
-      href: '/#speaker',
+      name: 'Speakers',
+      href: '/agenda',
       active: false
     },
     {

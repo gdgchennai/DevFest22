@@ -1,7 +1,7 @@
 <script lang="ts">
-  import ItemAgendaCard from '$lib/section/agenda/ItemAgendaCard.svelte';
+  import ItemAgendaCard from "./ItemAgendaCard.svelte";
 
-  let toggle: boolean = false;
+  let toggle: boolean = true;
 
   const dayOneAgenda = [
     {

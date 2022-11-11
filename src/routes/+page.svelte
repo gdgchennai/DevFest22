@@ -5,10 +5,8 @@
   import Memories from '$lib/section/memories/Memories.svelte';
   import Sponsors from '$lib/section/sponsors/Sponsors.svelte';
   import Partners from '$lib/section/partners/Partners.svelte';
-  import Speaker from '$lib/section/speaker/speaker.svelte';
   import Tickets from '$lib/section/tickets/Tickets.svelte';
   import Why from '$lib/section/why/Why.svelte';
-  import Agenda from '$lib/section/agenda/Agenda.svelte';
 </script>
 
 <svelte:head>
@@ -43,8 +41,6 @@
     <Blur />
     <Hero />
     <Why />
-    <Speaker />
-    <Agenda />
     <Tickets />
     <Sponsors />
     <Partners />
