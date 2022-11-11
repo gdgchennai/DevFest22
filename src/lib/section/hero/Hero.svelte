@@ -6,7 +6,7 @@
   import { openModal } from 'svelte-modals';
 
   function handleClick() {
-    openModal(Modal, { title: 'Get your ticket' });
+    openModal(Modal, { title: 'Thanks for registering!' });
   }
 </script>
 
@@ -46,7 +46,7 @@
   >
     <Button
       id="button-hero-get-tickets"
-      title="Request for workshop tickets"
+      title="Registration closed"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
