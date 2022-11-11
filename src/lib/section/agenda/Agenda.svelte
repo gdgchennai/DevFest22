@@ -17,8 +17,8 @@
     },
 
     {
-      session: 'Deep-Dive into Kubernetes Networking Model',
-      speaker: 'Bhavani Ravi',
+      session: 'Multi-team platform on GKE',
+      speaker: 'Manikandan Krishnamurthy',
       startTime: '9:20 AM',
       endTime: '9:55 AM'
     },
@@ -59,8 +59,8 @@
       endTime: '2:15 PM'
     },
     {
-      session: 'Sponsor Talk',
-      speaker: '',
+      session: 'An artless introduction to distributed SQL database',
+      speaker: 'Abhishek Mishra',
       startTime: '2:15 PM',
       endTime: '2:40 PM'
     },
@@ -77,8 +77,8 @@
       endTime: '3:05 PM'
     },
     {
-      session: 'Sponsor Talk',
-      speaker: '',
+      session: 'Scaling Web3 development with GCP',
+      speaker: 'Ramachandran',
       startTime: '3:05 PM',
       endTime: '4:20 PM'
     },
@@ -165,13 +165,13 @@
       endTime: '2:40 PM'
     },
     {
-      session: 'Lightning talk - Becoming Family\'s First Woman in STEM',
+      session: 'Becoming Family\'s First Woman in STEM',
       speaker: 'Shruthi PG',
       startTime: '2:45 PM',
       endTime: '2:55 PM'
     },
     {
-      session: 'Lightning talk - Web Animations : Past, Present & Future',
+      session: 'Web Animations : Past, Present & Future',
       speaker: 'Ishan Sharma',
       startTime: '2:55 PM',
       endTime: '3:05 PM'
@@ -211,8 +211,8 @@
     },
 
     {
-      session: 'Android Jetpack Compose Camp',
-      speaker: 'Somasundaram Mahesh',
+      session: 'A different way to think about animations with Jetpack Compose',
+      speaker: 'Sanjay S',
       startTime: '10:00 AM',
       endTime: '12:30 PM'
     },
