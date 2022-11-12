@@ -73,9 +73,6 @@
     </div>
   </div>
 
-  <div class="items-center">
-    <Countdown />
-  </div>
 </section>
 
 <style>
