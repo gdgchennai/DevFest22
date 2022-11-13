@@ -67,7 +67,7 @@
 
 <header class="transition-all ease-in-out">
   <nav
-    class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+    class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8"
     aria-label="Top"
     data-sveltekit-prefetch
   >
@@ -100,7 +100,7 @@
           {/if}
         </div>
       {/each}
-      <div class="ml-10 hidden space-x-4 md:block">
+      <!-- <div class="ml-10 hidden space-x-4 md:block">
         <Button
           id="button-header-get-tickets"
           title="Registration closed"
@@ -109,7 +109,7 @@
         >
           <Icon width="20" height="20" name="ticket" />
         </Button>
-      </div>
+      </div> -->
     </div>
 
     <!-- // Mobile menu at the bottom of the screen when the viewport is less than 640px -->

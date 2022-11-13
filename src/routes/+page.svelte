@@ -41,7 +41,6 @@
   <div class="space-y-16 md:space-y-44">
     <Blur />
     <Hero />
-    <Youtube />
     <Why />
     <Tickets />
     <Sponsors />
