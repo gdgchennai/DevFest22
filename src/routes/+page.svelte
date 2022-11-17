@@ -1,6 +1,5 @@
 <script lang="ts">
   import Blur from '$lib/section/blur/Blur.svelte';
-  import Faq from '$lib/section/faq/FAQ.svelte';
   import Hero from '$lib/section/hero/Hero.svelte';
   import Memories from '$lib/section/memories/Memories.svelte';
   import Sponsors from '$lib/section/sponsors/Sponsors.svelte';
@@ -46,6 +45,5 @@
     <Sponsors />
     <Partners />
     <Memories />
-    <Faq />
   </div>
 </div>

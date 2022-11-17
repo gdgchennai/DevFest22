@@ -25,15 +25,6 @@
         <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
           <a href="https://gdsc.community.dev/hindustan-institute-of-technology-science-chennai/"><img src="/gdsc-hits.svg" class="img-border" alt="GDSC HITS" /></a>
         </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <a href="https://gdsc.community.dev/hindustan-institute-of-technology-science-chennai/"><img src="/evoltech.svg" class="img-border" alt="GDSC HITS" /></a>
-        </div>
-        <!-- <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <a href="https://gdsc.community.dev/hindustan-institute-of-technology-science-chennai/"><img src="/moreficient.png" class="img-border" alt="GDSC HITS" /></a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <a href="https://gdsc.community.dev/hindustan-institute-of-technology-science-chennai/"><img src="/yugabyte.jpeg" class="img-border" alt="GDSC HITS" /></a>
-        </div> -->
       </div>
     </div>
   </div>

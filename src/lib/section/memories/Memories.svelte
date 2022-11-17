@@ -1,38 +1,35 @@
 <script lang="ts">
   const gallery = [
     {
-      imageUrl: '/memories_1.jpeg'
+      imageUrl: '/1.jpeg'
     },
 
     {
-      imageUrl: '/memories_9.jpeg'
+      imageUrl: '/2.jpeg'
     },
 
     {
-      imageUrl: '/memories_3.jpeg'
+      imageUrl: '/3.jpeg'
     },
 
     {
-      imageUrl: '/memories_4.jpeg'
+      imageUrl: '/4.jpeg'
     },
     {
-      imageUrl: '/memories_5.jpeg'
+      imageUrl: '/5.jpeg'
     },
     {
-      imageUrl: '/memories_6.jpeg'
+      imageUrl: '/6.jpeg'
     },
     {
-      imageUrl: '/memories_7.jpeg'
+      imageUrl: '/7.jpeg'
     },
     {
-      imageUrl: '/memories_9.jpeg'
+      imageUrl: '/8.jpeg'
     },
     {
-      imageUrl: '/memories_2.jpeg'
+      imageUrl: '/9.jpeg'
     },
-    {
-      imageUrl: '/memories_8.jpeg'
-    }
   ];
 </script>
 
@@ -43,12 +40,8 @@
   <h2
     class="flex text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl"
   >
-    DevFest 2019 was a benchmark event for many of us.
+    DevFest 2022 was so much fun.
   </h2>
-  <p class="max-w-2xl text-center text-gray-700">
-    It's time to create history once more in 2022, and we hope to see you in our
-    gallery.
-  </p>
 
   <div class="bg-white">
     <div class="mx-auto py-12 lg:py-24">
