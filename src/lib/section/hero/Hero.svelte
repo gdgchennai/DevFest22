@@ -20,12 +20,12 @@
   >
     <div class="bg-text-container max-w-7xl">
       <div class="animate-text">
-        <span>DevFest22</span>
-        <span>DevFest22</span>
+        <span>DevFest23</span>
+        <span>DevFest23</span>
       </div>
       <div class="animate-text left">
-        <span>DevFest22</span>
-        <span>DevFest22</span>
+        <span>DevFest23</span>
+        <span>DevFest23</span>
       </div>
     </div>
 
@@ -58,18 +58,18 @@
   >
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar" />
-      <p>November 12th</p>
+      <p>November 25th</p>
       <i class="fa fa-location-arrow" />
-      <a href="https://maps.app.goo.gl/bsSnx8benaooqzDi7"
-        ><p>Le Royal Méridien, Chennai</p></a>
+      <a href=#
+        ><p>TBD</p></a>
     </div>
     <div><p>&</p></div>
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar" />
-      <p>November 13th</p>
+      <p>November 26th</p>
       <i class="fa fa-location-arrow" />
-      <a href="https://maps.app.goo.gl/ob8wN6gQo5uxeZUi9?g_st=iw"
-        ><p>Infosys limited, Sholinganallur</p></a>
+      <a href=#
+        ><p>TBD</p></a>
     </div>
   </div>
 
