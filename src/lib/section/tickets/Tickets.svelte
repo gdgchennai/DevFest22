@@ -125,10 +125,9 @@
                 </p>
                 <ul class="font-light">
                   <li>
-                    Day 1 - 12th November - will be focusing on tech talks,
-                    speakers and conference
+                    Day 1 - 25th November - TBA
                   </li>
-                  <li>Day 2 - 13th November - will be a workshop day!</li>
+                  <li>Day 2 - 26th November - TBA</li>
                 </ul>
               </div>
             </div>
