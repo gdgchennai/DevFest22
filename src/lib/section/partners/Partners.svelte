@@ -5,7 +5,7 @@
   <h2
     class="w-full text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl"
   >
-    Our Proud Partners
+    Our Proud Partners [2022]
   </h2>
   <div class="bg-white">
     <div class="w-full max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
