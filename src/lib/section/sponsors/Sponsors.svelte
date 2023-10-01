@@ -17,7 +17,7 @@
     Sponsors
   </h2>
   <p class="text-md  mt-4 text-center text-gray-600">
-    Thanks to our sponsors for supporting us in making DevFest 2022 spectacular.
+    Thanks to our sponsors for supporting us in making DevFest 2022 spectacular. Want to join us in 2023? Check out our sponsorship prospectus.
   </p>
   <div class="max-w-7xl px-4 sm:px-6 md:w-1/2">
     <div class="mt-6 text-center">
