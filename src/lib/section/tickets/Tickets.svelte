@@ -95,7 +95,7 @@
               <div class="mt-6 mx-10">
                 <p class="mt-6 text-base text-gray-500">
                   Will be Anounced Soon
-              </div>
+                </p>
               </div>
               <div class="mt-4 text-left text-xs">
                 <p class="font-light text-gray-900">
