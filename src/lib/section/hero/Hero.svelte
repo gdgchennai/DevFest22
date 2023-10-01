@@ -42,7 +42,7 @@
 
   <div
     id="hero-cta-group"
-    class="flex w-full max-w-md flex-col items-center justify-start md:flex-row lg:flex-row"
+    class="flex w-full max-w-2xl flex-col items-center justify-start space-y-4 md:flex-row md:space-x-4 md:space-y-0 lg:flex-row"
   >
     <Button
       id="button-hero-get-tickets"
@@ -50,6 +50,18 @@
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
+    </Button>
+
+    <Button
+      id="button-hero-add-to-calendar"
+      title="Add to calendar"
+      isSecondaryButton={true}
+      onClick={() =>
+        window.open(
+          'https://www.google.com/calendar/render?action=TEMPLATE&text=DevFest2022+Chennai&details=Welcome+to+DevFest+2022+Chennai.+This+is+Chennai%27s+most+awaited+developer+conference.%0A%0ANote:+This+event+is+invite+only.+Please+visit+https://devfest.gdgchennai.in+for+more+info.&dates=20221112T100000/20221113T180000&location=Le+Royal+M%C3%A9ridien+Chennai,+1,+Grand+Southern+Trunk+Rd,+Parangi+Malai,+Alandur,+Chennai,+Tamil+Nadu+600016,+India'
+        )}
+    >
+      <i class="fa fa-calendar" />
     </Button>
   </div>
 
