@@ -36,7 +36,7 @@
         </div>
         <div class="modal-body relative p-4">
           <p>
-            Thank you for showing your interest in DevFest2022, Chennai. We are
+            Thank you for showing your interest in DevFest2023, Chennai. We are
             very happy, eager and equally excited to see you all during the event.<br />
             We are also equally sad if you did not receive a confirmed invite
             from us. This could only mean that we've reached our maximum occupancy
