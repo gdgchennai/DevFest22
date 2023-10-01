@@ -46,7 +46,7 @@
   >
     <Button
       id="button-hero-get-tickets"
-      title="Watch sessions"
+      title="Watch sessions (2022)"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
