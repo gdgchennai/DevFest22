@@ -75,11 +75,11 @@
     <div class="flex w-full items-center justify-around">
       <div class="flex items-center">
         <a href="/">
-          <span class="sr-only">GDG Chennai - Devfest 2022</span>
+          <span class="sr-only">GDG Chennai - Devfest 2023</span>
           <img
             class="h-24 w-auto"
             src="/devfest-chennai.svg"
-            alt="GDG Chennai - Devfest 2022"
+            alt="GDG Chennai - Devfest 2023"
           />
         </a>
       </div>
@@ -114,7 +114,7 @@
 
     <!-- // Mobile menu at the bottom of the screen when the viewport is less than 640px -->
     <div
-      class="fixed bottom-0 left-0 z-10  flex w-full items-center justify-around bg-black py-4 px-2 lg:hidden "
+      class="fixed bottom-0 left-0 z-10 flex w-full items-center justify-around bg-black py-4 px-2 lg:hidden"
     >
       <div class="relative flex w-full items-center justify-around">
         <!-- // Glowing gradient stroke effect -->
