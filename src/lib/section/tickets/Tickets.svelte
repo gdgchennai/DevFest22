@@ -93,23 +93,8 @@
                 Know your Speakers & Schedule
               </p>
               <div class="mt-6 mx-10">
-                <Button
-                  id="button-agenda"
-                  title="Check agenda"
-                  isSecondaryButton={false}
-                  onClick={() => handleClick()}
-                >
-                  <Icon width="20" height="20" name="arrowup" />
-                </Button>
-                <div class="pt-4">
-                <Button
-                  id="button-agenda-download"
-                  title="Download agenda"
-                  isSecondaryButton={true}
-                  onClick={() => download()}
-                >
-                  <Icon width="20" height="20" name="download" />
-                </Button>
+                <p class="mt-6 text-base text-gray-500">
+                  Will be Anounced Soon
               </div>
               </div>
               <div class="mt-4 text-left text-xs">
