@@ -31,11 +31,11 @@
       href: '/#memories',
       active: false
     },
-    {
-      name: 'Badges',
-      href: '/badges',
-      active: false
-    }
+    // {
+    //   name: 'Badges',
+    //   href: '/badges',
+    //   active: false
+    // }
   ];
 
   let activeStyle: string =
