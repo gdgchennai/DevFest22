@@ -56,7 +56,7 @@
               <h3
                 class="font-bold text-gray-900 sm:text-2xl sm:tracking-tight md:text-4xl"
               >
-                DevFest 2022
+                DevFest 2023
               </h3>
               <p class="mt-6 text-base text-gray-500">
                 Come. Learn, Network and Celebrate with Google Developer Groups
@@ -93,24 +93,9 @@
                 Know your Speakers & Schedule
               </p>
               <div class="mt-6 mx-10">
-                <Button
-                  id="button-agenda"
-                  title="Check agenda"
-                  isSecondaryButton={false}
-                  onClick={() => handleClick()}
-                >
-                  <Icon width="20" height="20" name="arrowup" />
-                </Button>
-                <div class="pt-4">
-                <Button
-                  id="button-agenda-download"
-                  title="Download agenda"
-                  isSecondaryButton={true}
-                  onClick={() => download()}
-                >
-                  <Icon width="20" height="20" name="download" />
-                </Button>
-              </div>
+                <p class="mt-6 text-base text-gray-500">
+                  Will be Anounced Soon
+                </p>
               </div>
               <div class="mt-4 text-left text-xs">
                 <p class="font-light text-gray-900">
@@ -125,10 +110,9 @@
                 </p>
                 <ul class="font-light">
                   <li>
-                    Day 1 - 12th November - will be focusing on tech talks,
-                    speakers and conference
+                    Day 1 - 25th November - TBA
                   </li>
-                  <li>Day 2 - 13th November - will be a workshop day!</li>
+                  <li>Day 2 - 26th November - TBA</li>
                 </ul>
               </div>
             </div>
