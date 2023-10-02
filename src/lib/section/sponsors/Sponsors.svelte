@@ -17,7 +17,7 @@
     Sponsors
   </h2>
   <p class="text-md  mt-4 text-center text-gray-600">
-    Thanks to our sponsors for supporting us in making DevFest 2022 spectacular.
+    Thanks to our sponsors for supporting us in making DevFest 2023 spectacular.
   </p>
   <div class="max-w-7xl px-4 sm:px-6 md:w-1/2">
     <div class="mt-6 text-center">
@@ -35,7 +35,7 @@
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
           <a href="https://developers.google.com/"><img src="/google-devs.svg" class="img-border" alt="GDG Cloud Chennai" /></a>
         </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+        <!-- <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
           <a href="https://www.evoltechgroup.com/"><img src="/evoltech.svg" class="img-border" alt="Evoltech Group" /></a>
         </div>
         <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
@@ -46,7 +46,7 @@
         </div>
         <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
           <a href="https://www.yugabyte.com/"><img src="/yugabyte.svg" class="img-border" alt="Yugabyte DB" /></a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
