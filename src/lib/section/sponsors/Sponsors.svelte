@@ -36,7 +36,7 @@
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
           <a href="https://developers.google.com/"><img src="/google-devs.svg" class="img-border" alt="GDG Cloud Chennai" /></a>
         </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+        <!-- <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
           <a href="https://www.evoltechgroup.com/"><img src="/evoltech.svg" class="img-border" alt="Evoltech Group" /></a>
         </div>
         <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
@@ -47,7 +47,7 @@
         </div>
         <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
           <a href="https://www.yugabyte.com/"><img src="/yugabyte.svg" class="img-border" alt="Yugabyte DB" /></a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
