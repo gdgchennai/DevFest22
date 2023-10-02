@@ -52,7 +52,7 @@
     },
     {
       id: 7,
-      question: 'Who can register for DevFest 2022?',
+      question: 'Who can register for DevFest 2023?',
       answer:
         'Anyone passionate about learning new things, fond of technology, beginners, programmers, experts, and everyone can register and join us.',
       active: false

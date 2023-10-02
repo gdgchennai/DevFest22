@@ -42,14 +42,26 @@
 
   <div
     id="hero-cta-group"
-    class="flex w-full max-w-md flex-col items-center justify-start md:flex-row lg:flex-row"
+    class="flex w-full max-w-2xl flex-col items-center justify-start space-y-4 md:flex-row md:space-x-4 md:space-y-0 lg:flex-row"
   >
     <Button
       id="button-hero-get-tickets"
-      title="Watch sessions"
+      title="Watch sessions (2022)"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
+    </Button>
+
+    <Button
+      id="button-hero-add-to-calendar"
+      title="Add to calendar"
+      isSecondaryButton={true}
+      onClick={() =>
+        window.open(
+          'https://www.google.com/calendar/render?action=TEMPLATE&text=DevFest2023+Chennai&details=Welcome+to+DevFest+2023+Chennai.+This+is+Chennai%27s+most+awaited+developer+conference.%0A%0ANote:+This+event+is+invite+only.+Please+visit+https://devfest.gdgchennai.in+for+more+info.&dates=20221125T100000/20231126T180000'
+        )}
+    >
+      <i class="fa fa-calendar" />
     </Button>
   </div>
 
@@ -73,6 +85,9 @@
     </div>
   </div>
 
+  <div class="items-center">
+    <Countdown />
+  </div>
 </section>
 
 <style>
