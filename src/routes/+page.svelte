@@ -6,6 +6,7 @@
   import Partners from '$lib/section/partners/Partners.svelte';
   import Tickets from '$lib/section/tickets/Tickets.svelte';
   import Why from '$lib/section/why/Why.svelte';
+  import Cfp from '$lib/section/CFP/cfp.svelte'
   import Youtube from '$lib/section/youtube/youtube.svelte';
 </script>
 
@@ -40,6 +41,7 @@
   <div class="space-y-16 md:space-y-44">
     <Blur />
     <Hero />
+    <Cfp />
     <Why />
     <Tickets />
     <Sponsors />
