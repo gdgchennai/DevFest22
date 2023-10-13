@@ -32,7 +32,7 @@
     <h1
       class="text-start text-4xl font-bold tracking-tight text-black md:text-center md:text-6xl lg:text-center lg:text-7xl"
     >
-      Chennai’s most awaited developer conference
+      Chennai’s most awaited tech conference
     </h1>
     <p class="max-w-2xl text-start text-gray-700 md:text-center lg:text-center">
       Come learn, network and celebrate with the Google Developer Ecosystem
