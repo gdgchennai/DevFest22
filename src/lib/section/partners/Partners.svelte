@@ -13,7 +13,7 @@
   <h2
     class="w-full text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl"
   >
-    Our Proud Partners [2023]
+  Community Partners
   </h2>
   <p class="text-md  mt-4 text-center text-gray-600">
     Let's Make a Difference Together! Become Our Community Partner.
@@ -39,12 +39,6 @@
         </div>
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
           <a href="https://www.meetup.com/TFUGChennai/"><img src="/tfug-chennai.svg" class="img-border" alt="TFUG Chennai" /></a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://www.jetbrains.com/"><img src="/jetbrains.svg" class="img-border" alt="Jet Brains" /></a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://konfhub.com/"><img src="/konfhub.svg" class="img-border" alt="Konfhub" /></a>
         </div>
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
           <a href="https://gdsc.community.dev/srm-institute-of-science-and-technology-ramapuram-chennai/"><img src="/gdsc-srm-rpm.svg" class="img-border" alt="GDSC SRM Ramapuram" /></a>
