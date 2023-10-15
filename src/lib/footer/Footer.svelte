@@ -6,9 +6,9 @@
       class: 'btn twitter'
     },
     {
-      href: 'https://facebook.com/gdgchennai',
-      icon: 'fa fa-facebook',
-      class: 'btn facebook'
+      href: 'https://discord.com/invite/UQmbKjjgeb',
+      icon: 'fa fa-discord',
+      class: 'btn discord'
     },
     {
       href: 'https://instagram.com/gdgchennai',
@@ -71,11 +71,11 @@
   .social-btns .btn .fa {
     transform: scale(0.8);
   }
-  .social-btns .btn.facebook:before {
-    background-color: #3b5998;
+  .social-btns .btn.discord:before {
+    background-color: #5865F2;
   }
-  .social-btns .btn.facebook .fa {
-    color: #3b5998;
+  .social-btns .btn.discord .fa {
+    color: #5865F2;
   }
   .social-btns .btn.twitter:before {
     background-color: #3cf;
