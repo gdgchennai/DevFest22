@@ -8,6 +8,7 @@
   import Why from '$lib/section/why/Why.svelte';
   import Cfp from '$lib/section/CFP/cfp.svelte'
   import Youtube from '$lib/section/youtube/youtube.svelte';
+  import Corporate from '$lib/section/coporate Partners/corporate.svelte';
 </script>
 
 <svelte:head>
@@ -46,6 +47,7 @@
     <Tickets />
     <Sponsors />
     <Partners />
+    <Corporate />
     <Memories />
   </div>
 </div>

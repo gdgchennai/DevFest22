@@ -2,7 +2,7 @@
   const footerMenus = [
     {
       href: 'https://twitter.com/GDGChennai',
-      icon: 'fa fa-twitter',
+      icon: 'fa fa-x-twitter',
       class: 'btn twitter'
     },
     {
@@ -78,10 +78,10 @@
     color: #5865F2;
   }
   .social-btns .btn.twitter:before {
-    background-color: #3cf;
+    background-color: black;
   }
   .social-btns .btn.twitter .fa {
-    color: #3cf;
+    color:black;
   }
   .social-btns .btn.youtube:before {
     background-color: #dc4a38;
