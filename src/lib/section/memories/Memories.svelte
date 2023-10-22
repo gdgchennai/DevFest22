@@ -29,7 +29,7 @@
     },
     {
       imageUrl: '/9.jpeg'
-    },
+    }
   ];
 </script>
 
@@ -49,11 +49,16 @@
         role="list"
         class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8"
       >
+        <!-- Update the Image Class from : 
+        class="rounded-lg object-cover shadow-lg"
+        to :
+       class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
+       -->
         {#each gallery as photo}
           <div class="space-y-4">
-            <div class="aspect-w-3 aspect-h-2">
+            <div class="aspect-w-3 aspect-h-2 px-2 md:px-0">
               <img
-                class="rounded-lg object-cover shadow-lg"
+                class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
                 src={photo.imageUrl}
                 alt=""
               />
