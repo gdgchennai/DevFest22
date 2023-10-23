@@ -49,19 +49,29 @@
       class="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 px-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-16"
     >
       {#each perks as perk}
-        <div class="sm:flex">
+        <div class="items-center sm:flex ">
           <div class="sm:flex-shrink-0">
             <div class="flex w-full items-center justify-center">
               <img class="h-24 w-28" src={perk.imageSrc} alt="" />
             </div>
           </div>
-          <div class="mt-3 sm:mt-0 sm:ml-3">
+          <div class="mt-3 sm:mt-0 sm:ml-3 ">
+            <!-- Update the h3 code from 
+                1. text-base to text-2xl for Mobile 
+                2. text-3xl for Laptop View for better UI
+             -->
             <h3
-              class="text-center text-sm font-medium text-gray-900 sm:text-start"
+              class="text-center text-2xl font-medium text-gray-900 sm:text-start  xl:text-3xl"
             >
               {perk.name}
             </h3>
-            <p class="mt-2 text-center text-sm text-gray-500 sm:text-start">
+            <!-- Update the h3 code from 
+                1. text-base for Laptop View for better UI
+                
+             -->
+            <p
+              class="mt-2 text-center text-sm text-gray-500 sm:text-start lg:text-base"
+            >
               {perk.description}
             </p>
           </div>
