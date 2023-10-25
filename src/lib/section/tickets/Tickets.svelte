@@ -110,9 +110,9 @@
                 </p>
                 <ul class="font-light">
                   <li>
-                    Day 1 - 25th November - TBA
+                    Day 1 - 1st Devember - IIT-M Research Park,Chennai
                   </li>
-                  <li>Day 2 - 26th November - TBA</li>
+                  <li>Day 2 - 2nd December - IIT-M Research Park,Chennai</li>
                 </ul>
               </div>
             </div>

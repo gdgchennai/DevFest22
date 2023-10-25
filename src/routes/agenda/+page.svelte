@@ -291,7 +291,7 @@
       <div class="double_line">
         <div class="row">
           <div class="date mb-2">
-            <h3>12 Nov 2022 - Conference - Le Royal Méridien</h3>
+            <h3>01 Dec 2023 - Conference - IIT-M Research Park</h3>
             <span class="isolate inline-flex rounded-md sm:p-8">
               <button
                 on:click={() => toggle = !toggle}
@@ -335,7 +335,7 @@
       </div>
       <div class="row">
           <div class="date mb-2">
-            <h3>13 Nov 2022 - Workshop - InfoSys Chennai</h3>
+            <h3>02 Dec 2023 - Workshop - IIT-M Research Park</h3>
           </div>
           {#if toggle}
           <h2 class="text-xl text-blue-500 py-5 font-medium">Track 1</h2>
