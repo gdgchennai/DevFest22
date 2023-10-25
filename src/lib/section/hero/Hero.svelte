@@ -70,18 +70,18 @@
   >
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar" />
-      <p>November 25th</p>
+      <p>December 1st</p>
       <i class="fa fa-location-arrow" />
-      <a href=#
-        ><p>TBD</p></a>
+      <a href='https://maps.app.goo.gl/KnoovD6vyYEHWnDr8'
+        ><p>IIT-M Research Park, Chennai</p></a>
     </div>
     <div><p>&</p></div>
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar" />
-      <p>November 26th</p>
+      <p>December 2nd</p>
       <i class="fa fa-location-arrow" />
-      <a href=#
-        ><p>TBD</p></a>
+      <a href='https://maps.app.goo.gl/KnoovD6vyYEHWnDr8'
+        ><p>IIT-M Research Park,Chennai</p></a>
     </div>
   </div>
 
