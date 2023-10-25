@@ -58,7 +58,7 @@
       isSecondaryButton={true}
       onClick={() =>
         window.open(
-          'https://www.google.com/calendar/render?action=TEMPLATE&text=DevFest2023+Chennai&details=Welcome+to+DevFest+2023+Chennai.+This+is+Chennai%27s+most+awaited+developer+conference.%0A%0ANote:+This+event+is+invite+only.+Please+visit+https://devfest.gdgchennai.in+for+more+info.&dates=20221125T100000/20231126T180000'
+          'https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHI4ZzgzcXA3N3VvYWd0cm45ZDFoaHRzZ2kgaWFtaW1tYW51ZWxyYWpAbQ&tmsrc=iamimmanuelraj%40gmail.com'
         )}
     >
       <i class="fa fa-calendar" />
