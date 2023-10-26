@@ -99,9 +99,8 @@
               </div>
               <div class="mt-4 text-left text-xs">
                 <p class="font-light text-gray-900">
-                  <b class="font-semibold">Note:</b> This event is invite only
-                  event.<br /> Entry is allowed based on invites.<br
-                  />Registration won’t guarantee access to the event.
+                  <b class="font-semibold">Note:</b> Prior registration is required to attend the event.<br /> 
+                  Entry is allowed only with a valid ticket.
                 </p>
               </div>
               <div class="mt-4 text-left text-sm">
@@ -110,9 +109,8 @@
                 </p>
                 <ul class="font-light">
                   <li>
-                    Day 1 - 1st Devember - IIT-M Research Park,Chennai
+                    December 1 & 2, 2023 @ IIT-M Research Park,Chennai
                   </li>
-                  <li>Day 2 - 2nd December - IIT-M Research Park,Chennai</li>
                 </ul>
               </div>
             </div>

@@ -6,7 +6,7 @@
   import { openModal } from 'svelte-modals';
 
   function handleClick() {
-    window.open('https://onlivestudios.in/e/devfest-2022-google-developers-group/')
+    window.open('https://konfhub.com/devfest-2023-chennai')
   }
 </script>
 
@@ -46,7 +46,7 @@
   >
     <Button
       id="button-hero-get-tickets"
-      title="Watch sessions (2022)"
+      title="Book tickets"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
@@ -54,11 +54,11 @@
 
     <Button
       id="button-hero-add-to-calendar"
-      title="Add to calendar"
       isSecondaryButton={true}
+      title="Add to calendar"
       onClick={() =>
         window.open(
-          'https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHI4ZzgzcXA3N3VvYWd0cm45ZDFoaHRzZ2kgaWFtaW1tYW51ZWxyYWpAbQ&tmsrc=iamimmanuelraj%40gmail.com'
+          'https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDA1OTY0MWFhNXNmaGZuYW5udnJ2bTRyZTJfMjAyMzEyMDFUMDIzMDAwWiA4MmNmMWQxMWM3MzI1ZjlhZTk1Y2ExNmFkOWEyNmE5MThiMTUyNTk5ODQwMzIyNWM5MGEwM2JkYTQ3NzdjZTcyQGc&tmsrc=82cf1d11c7325f9ae95ca16ad9a26a918b1525998403225c90a03bda4777ce72%40group.calendar.google.com&scp=ALL'
         )}
     >
       <i class="fa fa-calendar" />
@@ -70,18 +70,10 @@
   >
     <div class="flex items-center space-x-2">
       <i class="fa fa-calendar" />
-      <p>December 1st</p>
+      <p>December 1 & 2, 2023</p>
       <i class="fa fa-location-arrow" />
       <a href='https://maps.app.goo.gl/KnoovD6vyYEHWnDr8'
         ><p>IIT-M Research Park, Chennai</p></a>
-    </div>
-    <div><p>&</p></div>
-    <div class="flex items-center space-x-2">
-      <i class="fa fa-calendar" />
-      <p>December 2nd</p>
-      <i class="fa fa-location-arrow" />
-      <a href='https://maps.app.goo.gl/KnoovD6vyYEHWnDr8'
-        ><p>IIT-M Research Park,Chennai</p></a>
     </div>
   </div>
 
