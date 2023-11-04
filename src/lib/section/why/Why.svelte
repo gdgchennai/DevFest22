@@ -2,25 +2,25 @@
   const perks = [
     {
       name: 'Tech Talks',
-      imageSrc: '/icons/techtalk.png',
+      imageSrc: '/icons/techtalk.webp',
       description:
         'Several speakers are coming together to talk about their experiences in the industry. We will also have a few lightning talks with our members.'
     },
     {
       name: 'Expert Speakers',
-      imageSrc: '/icons/experts.png',
+      imageSrc: '/icons/experts.webp',
       description:
         'Experts from the industry will be on hand to answer your questions and give you advice on how to get into the industry.'
     },
     {
       name: 'Networking',
-      imageSrc: '/icons/networking.png',
+      imageSrc: '/icons/networking.webp',
       description:
         'You will have the opportunity to network with other students and professionals in the industry.'
     },
     {
       name: 'Workshops',
-      imageSrc: '/icons/workshops.png',
+      imageSrc: '/icons/workshops.webp',
       description:
         'We will be hosting a series of workshops to assist you in getting started with your tech career. Our members will also give a few lightning talks.'
     }
@@ -49,10 +49,16 @@
       class="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 px-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-16"
     >
       {#each perks as perk}
-        <div class="items-center sm:flex ">
+        <div class="items-center sm:flex">
           <div class="sm:flex-shrink-0">
             <div class="flex w-full items-center justify-center">
-              <img class="h-24 w-28" src={perk.imageSrc} alt="" />
+              <img
+                class="h-24 w-28"
+                width={120}
+                height={100}
+                src={perk.imageSrc}
+                alt=""
+              />
             </div>
           </div>
           <div class="mt-3 sm:mt-0 sm:ml-3 ">
