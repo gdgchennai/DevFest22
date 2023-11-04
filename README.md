@@ -30,7 +30,7 @@ npm run dev
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -52,6 +52,7 @@ npm run dev
       <td align="center" valign="top" width="14.28%"><a href="https://ahamedbasha-n.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/69695103?v=4?s=100" width="100px;" alt="Ahamed Basha N "/><br /><sub><b>Ahamed Basha N </b></sub></a><br /><a href="#maintenance-ahamedbasha-n" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SikandarJODD"><img src="https://avatars.githubusercontent.com/u/93428946?v=4?s=100" width="100px;" alt="Sikandar Bhide"/><br /><sub><b>Sikandar Bhide</b></sub></a><br /><a href="https://github.com/gdgchennai/devfest2022-web/commits?author=SikandarJODD" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nammahari"><img src="https://avatars.githubusercontent.com/u/71805019?v=4?s=100" width="100px;" alt="HARI PRASANTH S"/><br /><sub><b>HARI PRASANTH S</b></sub></a><br /><a href="https://github.com/gdgchennai/devfest2022-web/commits?author=nammahari" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://moaqz.tech"><img src="https://avatars.githubusercontent.com/u/88462463?v=4?s=100" width="100px;" alt="Mateo Gonzalez"/><br /><sub><b>Mateo Gonzalez</b></sub></a><br /><a href="https://github.com/gdgchennai/devfest2022-web/commits?author=moaqz" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
