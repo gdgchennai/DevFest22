@@ -78,8 +78,11 @@
           <span class="sr-only">GDG Chennai - Devfest 2023</span>
           <img
             class="h-24 w-auto"
-            src="/devfest-chennai.svg"
+            src="/devfest-chennai.webp"
             alt="GDG Chennai - Devfest 2023"
+            height={100}
+            width={200}
+            fetchpriority="high"
           />
         </a>
       </div>

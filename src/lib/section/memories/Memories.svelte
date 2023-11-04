@@ -1,34 +1,34 @@
 <script lang="ts">
   const gallery = [
     {
-      imageUrl: '/1.jpeg'
+      imageUrl: '1.webp'
     },
 
     {
-      imageUrl: '/2.jpeg'
+      imageUrl: '2.webp'
     },
 
     {
-      imageUrl: '/3.jpeg'
+      imageUrl: '3.webp'
     },
 
     {
-      imageUrl: '/4.jpeg'
+      imageUrl: '4.jpeg'
     },
     {
-      imageUrl: '/5.jpeg'
+      imageUrl: '5.webp'
     },
     {
-      imageUrl: '/6.jpeg'
+      imageUrl: '6.webp'
     },
     {
-      imageUrl: '/7.jpeg'
+      imageUrl: '7.webp'
     },
     {
-      imageUrl: '/8.jpeg'
+      imageUrl: '8.webp'
     },
     {
-      imageUrl: '/9.jpeg'
+      imageUrl: '9.webp'
     }
   ];
 </script>
@@ -59,8 +59,9 @@
             <div class="aspect-w-3 aspect-h-2 px-2 md:px-0">
               <img
                 class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
-                src={photo.imageUrl}
+                src="/memories/{photo.imageUrl}"
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>
