@@ -3,7 +3,9 @@
   "projectOwner": "gdgchennai",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "commit": false,
   "contributors": [
@@ -12,74 +14,113 @@
       "name": "Naveen S",
       "avatar_url": "https://avatars.githubusercontent.com/u/22239584?v=4",
       "profile": "https://navs.page",
-      "contributions": ["maintenance", "code", "doc", "review"]
+      "contributions": [
+        "maintenance",
+        "code",
+        "doc",
+        "review"
+      ]
     },
     {
       "login": "Spikeysanju",
       "name": "Sanju S",
       "avatar_url": "https://avatars.githubusercontent.com/u/23400022?v=4",
       "profile": "https://www.thisux.in",
-      "contributions": ["code", "design", "infra"]
+      "contributions": [
+        "code",
+        "design",
+        "infra"
+      ]
     },
     {
       "login": "abhishekmishragithub",
       "name": "Abhishek Mishra",
       "avatar_url": "https://avatars.githubusercontent.com/u/38150419?v=4",
       "profile": "http://abhishekmishra.dev",
-      "contributions": ["review", "ideas"]
+      "contributions": [
+        "review",
+        "ideas"
+      ]
     },
     {
       "login": "StarkDroid",
       "name": "Trishiraj",
       "avatar_url": "https://avatars.githubusercontent.com/u/10130963?v=4",
       "profile": "https://trishiraj.me/",
-      "contributions": ["projectManagement", "code", "review", "maintenance"]
+      "contributions": [
+        "projectManagement",
+        "code",
+        "review",
+        "maintenance"
+      ]
     },
     {
       "login": "namruthahari",
       "name": "Namrutha",
       "avatar_url": "https://avatars.githubusercontent.com/u/67582793?v=4",
       "profile": "https://github.com/namruthahari",
-      "contributions": ["content"]
+      "contributions": [
+        "content"
+      ]
     },
     {
       "login": "iamimmanuelraj",
       "name": "Immanuel Raj",
       "avatar_url": "https://avatars.githubusercontent.com/u/26855364?v=4",
       "profile": "https://iamimmanuelraj.github.io/",
-      "contributions": ["content", "review"]
+      "contributions": [
+        "content",
+        "review"
+      ]
     },
     {
       "login": "iamaravindsekar",
       "name": "Aravind Sekar",
       "avatar_url": "https://avatars.githubusercontent.com/u/20441340?v=4",
       "profile": "https://github.com/iamaravindsekar",
-      "contributions": ["design"]
+      "contributions": [
+        "design"
+      ]
     },
     {
       "login": "ahamedbasha-n",
       "name": "Ahamed Basha N ",
       "avatar_url": "https://avatars.githubusercontent.com/u/69695103?v=4",
       "profile": "https://ahamedbasha-n.github.io/portfolio/",
-      "contributions": ["maintenance"]
+      "contributions": [
+        "maintenance"
+      ]
     },
     {
       "login": "SikandarJODD",
       "name": "Sikandar Bhide",
       "avatar_url": "https://avatars.githubusercontent.com/u/93428946?v=4",
       "profile": "https://github.com/SikandarJODD",
-      "contributions": ["code"]
+      "contributions": [
+        "code"
+      ]
     },
     {
       "login": "nammahari",
       "name": "HARI PRASANTH S",
       "avatar_url": "https://avatars.githubusercontent.com/u/71805019?v=4",
       "profile": "https://github.com/nammahari",
-      "contributions": ["code"]
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "moaqz",
+      "name": "Mateo Gonzalez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88462463?v=4",
+      "profile": "http://moaqz.tech",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
-
