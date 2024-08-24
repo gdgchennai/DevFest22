@@ -56,7 +56,7 @@
               <h3
                 class="font-bold text-gray-900 sm:text-2xl sm:tracking-tight md:text-4xl"
               >
-                DevFest 2023
+                DevFest 2024
               </h3>
               <p class="mt-6 text-base text-gray-500">
                 Come. Learn, Network and Celebrate with Google Developer Groups
@@ -109,7 +109,7 @@
                 </p>
                 <ul class="font-light">
                   <li>
-                    December 1 & 2, 2023 @ IIT-M Research Park,Chennai
+                    October 5, 2024 @ IIT-M Research Park,Chennai
                   </li>
                 </ul>
               </div>

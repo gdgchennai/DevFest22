@@ -3,7 +3,7 @@
   
     // open the sponsor form in a new tab
     const opneCfp = () => {
-      window.open('https://docs.google.com/forms/d/e/1FAIpQLSfqUAAZew6k9TTkETItNM1HqqwhPc_q-J9p-pv_jlftaQpIYA/viewform', '_blank');
+      window.open('http://bit.ly/speakers-assemble', '_blank');
     };
   </script>
 <section id="CFP" class="flex w-full flex-col items-center space-y-6 px-24">
@@ -13,10 +13,12 @@
           <h2
             class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl"
           >
-            Submit a Talk
+          Call for Speakers
           </h2>
           <p class="mt-4  text-gray-600 sm:text-xl">
-            Your Voice, Your Stage: Let's Talk Innovation!</p>
+            Got a groundbreaking idea or tech innovation to share? We got just the platform for you to<br>
+		        join us as a speaker and make an impact!
+          </p>
         </div>
       </div>
     </div>
@@ -24,7 +26,7 @@
         <div class="mt-6 text-center">
           <Button
             id="CFP-Link"
-            title="Submit your talk today"
+            title="Submit your proposal"
             isSecondaryButton={false}
             onClick={() => opneCfp()}
           />

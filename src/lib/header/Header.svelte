@@ -75,11 +75,11 @@
     <div class="flex w-full items-center justify-around">
       <div class="flex items-center">
         <a href="/">
-          <span class="sr-only">GDG Chennai - Devfest 2023</span>
+          <span class="sr-only">GDG Chennai - Devfest 2024</span>
           <img
             class="h-24 w-auto"
             src="/devfest-chennai.webp"
-            alt="GDG Chennai - Devfest 2023"
+            alt="GDG Chennai - Devfest 2024"
             height={100}
             width={200}
             fetchpriority="high"
