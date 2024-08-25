@@ -29,6 +29,7 @@
   $particleSize: 40vmin;
   $animationDuration: 15s;
   $amount: 6;
+  $colors: (#4285f4, #db4437, #f4b400, #0f9d58);
   .background span {
     width: $particleSize;
     height: $particleSize;
@@ -36,21 +37,20 @@
     backface-visibility: hidden;
     position: absolute;
     animation-name: move;
-    animation-duration: $animationDuration;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    $colors: (#4285f4, #db4437, #f4b400, #0f9d58);
+
     @for $i from 1 through $amount {
       &:nth-child(#{$i}) {
         color: nth($colors, random(length($colors)));
-        top: random(100) * 1%;
-        left: random(100) * 1%;
-        animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
-        animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
-        transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
-        $blurRadius: (random() + 0.9) * $particleSize * 0.4;
+        top: calc(random(100) * 1%);
+        left: calc(random(100) * 1%);
+        animation-duration: calc(random($animationDuration * 10) / 10 * 1s + 10s);
+        animation-delay: calc(random(($animationDuration + 10s) * 10) / 10 * -1s);
+        transform-origin: calc(random(50) - 25) * 1vw calc(random(50) - 25) * 1vh;
+        $blurRadius: calc((random() + 0.9) * $particleSize * 0.4);
         $x: if(random() > 0.5, -1, 1);
-        box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
+        box-shadow: calc($particleSize * 2 * $x) 0 $blurRadius currentColor;
       }
     }
   }
