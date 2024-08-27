@@ -61,7 +61,7 @@
   };
 
   function handleClick() {
-    openModal(Modal, { title: 'Thanks for registering!' });
+    window.open('https://konfhub.com/devfest-2023-chennai')
   }
 </script>
 
@@ -102,7 +102,7 @@
       <div class="ml-10 hidden space-x-4 md:block">
         <Button
           id="button-header-get-tickets"
-          title="Registration closed"
+          title="Get Tickets"
           isSecondaryButton={false}
           onClick={() => handleClick()}
         >

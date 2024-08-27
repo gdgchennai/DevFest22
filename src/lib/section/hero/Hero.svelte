@@ -6,7 +6,7 @@
   import { openModal } from 'svelte-modals';
 
   function handleClick() {
-    // window.open('https://konfhub.com/devfest-2023-chennai')
+    window.open('https://konfhub.com/devfest-2023-chennai')
   }
 </script>
 
@@ -46,7 +46,7 @@
   >
     <Button
       id="button-hero-get-tickets"
-      title="Coming soon..."
+      title="Get Tickets"
       onClick={() => handleClick()}
     >
       <Icon width="20" height="20" name="ticket" />
