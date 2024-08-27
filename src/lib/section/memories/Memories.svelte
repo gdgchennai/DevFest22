@@ -1,36 +1,18 @@
 <script lang="ts">
-  const gallery = [
-    {
-      imageUrl: '1.webp'
-    },
+  import type { Memory } from "$lib/types";
+  import { onMount } from "svelte";
 
-    {
-      imageUrl: '2.webp'
-    },
+  let memories: Memory[] = [];
 
-    {
-      imageUrl: '3.webp'
-    },
-
-    {
-      imageUrl: '4.jpeg'
-    },
-    {
-      imageUrl: '5.webp'
-    },
-    {
-      imageUrl: '6.webp'
-    },
-    {
-      imageUrl: '7.webp'
-    },
-    {
-      imageUrl: '8.webp'
-    },
-    {
-      imageUrl: '9.webp'
+  onMount(async () => {
+    try {
+      const response = await fetch('https://raw.githubusercontent.com/gdgchennai/devfest24-api/main/web_api.json')
+      const data = await response.json()
+      memories = data.memories
+    } catch (error) {
+      console.error('Error fetching images for memories:', error)
     }
-  ];
+  });
 </script>
 
 <section
@@ -49,18 +31,13 @@
         role="list"
         class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8"
       >
-        <!-- Update the Image Class from : 
-        class="rounded-lg object-cover shadow-lg"
-        to :
-       class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
-       -->
-        {#each gallery as photo}
+        {#each memories as memory}
           <div class="space-y-4">
             <div class="aspect-w-3 aspect-h-2 px-2 md:px-0">
               <img
                 class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
-                src="/memories/{photo.imageUrl}"
-                alt=""
+                src="{memory.image}"
+                alt="{memory.title}"
                 loading="lazy"
               />
             </div>
