@@ -1,16 +1,10 @@
 <script lang="ts">
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
-  import Modal from '$lib/modal/Modal.svelte';
-  import { openModal } from 'svelte-modals';
+  import type { NavMenu } from '$lib/types';
+  import { registrationUrl } from "$lib/data/data";
 
-  type Nav = {
-    name: string;
-    href: string;
-    active: boolean;
-  };
-
-  let headerMenus: Nav[] = [
+  let headerMenus: NavMenu[] = [
     {
       name: 'Home',
       href: '/',
@@ -48,7 +42,7 @@
   let mobileInActiveStyle: string =
     'text-base font-medium text-white hover:text-white/80';
 
-  const activeTab = (nav: Nav) => {
+  const activeTab = (nav: NavMenu) => {
     headerMenus = headerMenus.map((s) => {
       if (s.name === nav.name) {
         s.active = false;
@@ -61,7 +55,7 @@
   };
 
   function handleClick() {
-    window.open('https://konfhub.com/devfest-2023-chennai')
+    window.open(registrationUrl)
   }
 </script>
 
