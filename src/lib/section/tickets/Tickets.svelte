@@ -68,7 +68,7 @@
                   <h4
                     class="flex-shrink-0 pr-4 text-base font-semibold text-gray-900"
                   >
-                    What's can you expect?
+                    What can you expect?
                   </h4>
                   <div class="flex-1 border-t border-gray-100" />
                 </div>

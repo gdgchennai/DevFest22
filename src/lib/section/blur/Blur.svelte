@@ -27,7 +27,7 @@
 
 <style lang="scss">
   $particleSize: 40vmin;
-  $animationDuration: 15s;
+  $animationDuration: 10s;
   $amount: 6;
   $colors: (#4285f4, #db4437, #f4b400, #0f9d58);
   .background span {
