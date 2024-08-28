@@ -1,11 +1,15 @@
+<script>
+  import mandelaBlue from '$lib/assets/mandela_blue.svg'
+  import mandelaRed from '$lib/assets/mandela_red.svg'
+</script>
 <div class="flex w-full flex-col items-center justify-start space-y-8 px-24 blur-sm">
   <img
-    src="/mandela_red.svg"
+    src="{mandelaBlue}"
     alt="Mandela Blue"
     class="absolute w-72 h-72 opacity-40 rotate-anticlockwise"
   />
   <img
-    src="/mandela_blue.svg"
+    src="{mandelaRed}"
     alt="Mandela Red"
     class="absolute w-56 h-56 opacity-60 rotate-clockwise"
   />
