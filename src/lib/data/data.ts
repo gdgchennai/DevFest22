@@ -1,4 +1,4 @@
-export const sponsorDocUrl: string = "https://raw.githubusercontent.com/gdgchennai/devfest24-api/main/assets/sponsorship.pdf"
+export const sponsorDocUrl: string = "https://static.gdgchennai.in/sponsorship.pdf"
 
 export const registrationUrl: string = "https://konfhub.com/devfest-2024-chennai"
 
