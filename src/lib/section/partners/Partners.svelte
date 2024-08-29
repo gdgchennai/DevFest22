@@ -1,10 +1,18 @@
 <script lang="ts">
-  import Button from '$lib/button/Button.svelte'
+  import type { CommunityPartners } from "$lib/types";
+  import { onMount } from "svelte";
 
-  // open the community partner forms in new page
-  const openCommunityPartners=() =>{
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSe2J4gDAJ8syrf1JKxGrLC_tsULc4ur6jDN4Gjo-GIWCZrmCA/viewform','_blank')
-  }
+  let communityPartners: CommunityPartners[] = [];
+
+  onMount(async () => {
+    try {
+      const response = await fetch('https://raw.githubusercontent.com/gdgchennai/devfest24-api/main/web_api.json')
+      const data = await response.json()
+      communityPartners = data.communityPartners
+    } catch (error) {
+      console.error('Error fetching images for community partners:', error)
+    }
+  });
 </script>
 <section
   id="partners"
@@ -21,70 +29,20 @@
   <div class="bg-white">
     <div class="w-full max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">
+        {#each communityPartners as communityPartner}
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://gdg.community.dev/gdg-cloud-chennai/">
+          <a href="{communityPartner.link}" target="_blank">
             <img
-              src="/gdg-cloud-chennai.svg"
+              src="{communityPartner.image}"
               class="img-border"
-              alt="GDG Cloud Chennai"
+              alt="{communityPartner.title}"
               height={50}
               width={200}
               loading="lazy"
             />
           </a>
         </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://twitter.com/wtmchennai">
-            <img
-              src="/wtm-chennai.svg"
-              class="img-border"
-              alt="WTM Chennai"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://www.meetup.com/TFUGChennai/">
-            <img
-              src="/tfug-chennai.svg"
-              class="img-border"
-              alt="TFUG Chennai"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a
-            href="https://gdsc.community.dev/srm-institute-of-science-and-technology-ramapuram-chennai/"
-          >
-            <img
-              src="/gdsc-srm-rpm.svg"
-              class="img-border"
-              alt="GDSC SRM Ramapuram"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a
-            href="https://gdsc.community.dev/hindustan-institute-of-technology-science-chennai/"
-          >
-            <img
-              src="/gdsc-hits.svg"
-              class="img-border"
-              alt="GDSC HITS"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
+        {/each}
       </div>
     </div>
   </div>
