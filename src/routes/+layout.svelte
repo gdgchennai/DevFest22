@@ -6,7 +6,6 @@
 </script>
 
 <svelte:head> 
-  <script src="https://kit.fontawesome.com/3e56677f9e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap');

@@ -18,16 +18,6 @@
   <p class="text-md  mt-4 text-center text-gray-600">
     Let's Make a Difference Together! Become Our Community Partner.
   </p>
-  <div class="max-w-7xl px-4 sm:px-6 md:w-1/2">
-    <div class="mt-6 text-center">
-      <Button
-        id="Community Partners"
-        title="Join us now"
-        isSecondaryButton={false}
-        onClick={() => openCommunityPartners()}
-      />
-    </div>
-  </div>
   <div class="bg-white">
     <div class="w-full max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">

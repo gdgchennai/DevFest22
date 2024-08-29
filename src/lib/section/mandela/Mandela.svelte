@@ -7,11 +7,15 @@
     src="{mandelaBlue}"
     alt="Mandela Blue"
     class="absolute w-72 h-72 opacity-40 rotate-anticlockwise"
+    fetchpriority="high"
+    loading="eager"
   />
   <img
     src="{mandelaRed}"
     alt="Mandela Red"
     class="absolute w-56 h-56 opacity-60 rotate-clockwise"
+    fetchpriority="high"
+    loading="eager"
   />
 </div>
 
