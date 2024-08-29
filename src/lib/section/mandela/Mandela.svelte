@@ -6,9 +6,11 @@
   <img
     src="{mandelaBlue}"
     alt="Mandela Blue"
-    class="absolute w-72 h-72 opacity-40 rotate-anticlockwise"
+    class="absolute opacity-40 rotate-anticlockwise"
     fetchpriority="high"
     loading="eager"
+    height={288}
+    weight={288}
   />
   <img
     src="{mandelaRed}"
