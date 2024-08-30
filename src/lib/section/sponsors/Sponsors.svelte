@@ -1,5 +1,6 @@
 <script lang="ts">
   import Button from '$lib/button/Button.svelte';
+  import gdevs from '$lib/assets/google-devs.svg';
 
   // open the sponsor form in a new tab
   const openSponsorBrochure = () => {
@@ -36,11 +37,11 @@
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
           <a href="https://developers.google.com/">
             <img
-              src="/google-devs.svg"
+              src="{gdevs}"
               class="img-border"
               height={50}
               width={200}
-              alt="GDG Cloud Chennai"
+              alt="Google Developers"
               loading="lazy"
             />
           </a>
