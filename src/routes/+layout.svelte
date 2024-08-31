@@ -14,7 +14,7 @@
 </svelte:head>
 
 <main>
-  <div id="container" class="mx-auto bg-[#FFFFF7]">
+  <div id="container" class="mx-auto">
     <Modals>
       <div
         slot="backdrop"
