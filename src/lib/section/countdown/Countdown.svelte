@@ -40,20 +40,26 @@
 </script>
 
 <div id="clockdiv" class="flex space-x-6 text-center">
-  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+  <div class="bg-white border-2 border-black p-3 rounded-lg text-black countdown-bg hover:bg-blue-100">
     <span class="text-3xl">{$days}</span>
-    <div>Days</div>
+    <div class="font-medium text-gray-600">Days</div>
   </div>
-  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+  <div class="bg-white border-2 border-black p-3 rounded-lg text-black countdown-bg hover:bg-green-100">
     <span class="text-3xl">{$hours}</span>
     <div>Hours</div>
   </div>
-  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+  <div class="bg-white border-2 border-black p-3 rounded-lg text-black countdown-bg hover:bg-yellow-100">
     <span class="text-3xl">{$minutes}</span>
-    <div>Minutes</div>
+    <div class="font-medium text-gray-600">Minutes</div>
   </div>
-  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+  <div class="bg-white border-2 border-black p-3 rounded-lg text-black countdown-bg hover:bg-red-100">
     <span class="text-3xl">{$seconds}</span>
-    <div>Seconds</div>
+    <div class="font-medium text-gray-600">Seconds</div>
   </div>
 </div>
+
+<style>
+ .countdown-bg {
+		box-shadow: 0.3em 0.3em;
+	}
+</style>
