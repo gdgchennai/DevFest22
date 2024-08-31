@@ -46,18 +46,6 @@
             />
           </a>
         </div>
-        <!-- <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <a href="https://www.evoltechgroup.com/"><img src="/evoltech.svg" class="img-border" alt="Evoltech Group" /></a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <a href="https://moreficent.com/"><img src="/moreficient.svg" class="img-border" alt="Moreficent" /></a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <a href="https://amzn.eu/d/bnIT1q5"><img src="/devs-road-ahead.svg" class="img-border" alt="Developers Road Ahead" /></a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <a href="https://www.yugabyte.com/"><img src="/yugabyte.svg" class="img-border" alt="Yugabyte DB" /></a>
-        </div> -->
       </div>
     </div>
   </div>

@@ -13,21 +13,21 @@
 
 <section
   id="hero"
-  class="flex w-full -skew-y-6 flex-col items-center justify-start space-y-8 px-24  transition-all duration-500 ease-in-out"
+  class="flex w-full flex-col items-center justify-start space-y-8 px-24  transition-all duration-500 ease-in-out"
 >
   <div
     id="hero-content-group"
     class="flex flex-col items-center justify-start space-y-8"
   >
     <h1
-      class="text-start text-4xl font-bold tracking-tight text-black md:text-center md:text-6xl lg:text-center lg:text-7xl"
+      class="text-center text-5xl font-bold tracking-tight text-black md:text-6xl lg:text-7xl"
     >
-      Chennai’s most awaited tech conference
+      Chennai’s most awaited <br> tech conference
     </h1>
-    <div class="skew-y-6 -z-50">
+    <div class="-z-50">
       <Mandela />
     </div>
-    <p class="max-w-2xl text-start text-gray-700 md:text-center lg:text-center">
+    <p class="text-center max-w-2xl text-gray-700 font-medium">
       Come learn, network and celebrate with the Google Developer Ecosystem
       while also learning to hack on Android, Chrome, and Web.
     </p>
