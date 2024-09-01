@@ -39,7 +39,7 @@
 <div
   class="flex min-h-screen flex-col items-center justify-start overflow-hidden p-8"
 >
-  <div class="space-y-16 md:space-y-44 bg-[#FFFFF7] -z-50">
+  <div class="space-y-16 md:space-y-44">
     <Blur />
     <Hero />
     <Cfp />
