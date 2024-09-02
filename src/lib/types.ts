@@ -14,3 +14,8 @@ export interface NavMenu {
   href: string;
   active: boolean;
 }
+
+export interface Data {
+  memories: Memory[];
+  communityPartners: CommunityPartners[];
+}

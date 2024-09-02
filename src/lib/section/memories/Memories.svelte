@@ -1,18 +1,12 @@
 <script lang="ts">
-  import type { Memory } from "$lib/types";
-  import { onMount } from "svelte";
+  import { dataStore, loadData } from '$lib/stores';
+  import { onMount } from 'svelte';
 
-  let memories: Memory[] = [];
-
-  onMount(async () => {
-    try {
-      const response = await fetch('https://raw.githubusercontent.com/gdgchennai/devfest24-api/main/web_api.json')
-      const data = await response.json()
-      memories = data.memories
-    } catch (error) {
-      console.error('Error fetching images for memories:', error)
-    }
+  onMount(() => {
+    loadData();
   });
+
+  let data = $dataStore;
 </script>
 
 <section
@@ -31,18 +25,20 @@
         role="list"
         class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8"
       >
-        {#each memories as memory}
-          <div class="space-y-4">
-            <div class="aspect-w-3 aspect-h-2 px-2 md:px-0">
-              <img
-                class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
-                src="{memory.image}"
-                alt="{memory.title}"
-                loading="lazy"
-              />
+        {#if data}
+          {#each data.memories as memory}
+            <div class="space-y-4">
+              <div class="aspect-w-3 aspect-h-2 px-2 md:px-0">
+                <img
+                  class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
+                  src={memory.image}
+                  alt={memory.title}
+                  loading="lazy"
+                />
+              </div>
             </div>
-          </div>
-        {/each}
+          {/each}
+        {/if}
       </uli>
     </div>
   </div>
