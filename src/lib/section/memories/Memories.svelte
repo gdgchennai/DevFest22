@@ -2,11 +2,13 @@
   import { dataStore, loadData } from '$lib/stores';
   import { onMount } from 'svelte';
 
+  let data;
+
   onMount(() => {
     loadData();
   });
 
-  let data = $dataStore;
+  $: data = $dataStore;
 </script>
 
 <section
