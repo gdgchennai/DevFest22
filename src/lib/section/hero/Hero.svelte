@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Button from '$lib/button/Button.svelte';
+  import Button from '$lib/components/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
-  import Countdown from '$lib/section/countdown/Countdown.svelte';
-  import { registrationUrl } from '$lib/data/data';
-  import { addToCalendarUrl } from '$lib/data/data';
-  import Mandela from '../mandela/Mandela.svelte';
+  import Countdown from '$lib/components/Countdown.svelte';
+  import { registrationUrl } from '$lib/data';
+  import { addToCalendarUrl } from '$lib/data';
+  import Mandela from '../../components/Mandela.svelte';
 
   function handleClick() {
     window.open(registrationUrl);

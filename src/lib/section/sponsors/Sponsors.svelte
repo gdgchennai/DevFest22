@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from '$lib/button/Button.svelte';
+  import Button from '$lib/components/Button.svelte';
   import gdevs from '$lib/assets/google-devs.svg';
 
   // open the sponsor form in a new tab

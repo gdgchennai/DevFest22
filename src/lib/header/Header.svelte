@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Button from '$lib/button/Button.svelte';
+  import Button from '$lib/components/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
   import type { NavMenu } from '$lib/types';
-  import { registrationUrl } from "$lib/data/data";
+  import { registrationUrl } from "$lib/data";
 
   let headerMenus: NavMenu[] = [
     {

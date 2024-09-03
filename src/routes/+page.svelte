@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Blur from '$lib/section/blur/Blur.svelte';
+  import Blur from '$lib/components/Blur.svelte';
   import Hero from '$lib/section/hero/Hero.svelte';
   import Memories from '$lib/section/memories/Memories.svelte';
   import Sponsors from '$lib/section/sponsors/Sponsors.svelte';

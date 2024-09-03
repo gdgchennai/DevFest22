@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { sponsorDocUrl } from "$lib/data/data";
+  import { sponsorDocUrl } from "$lib/data";
 </script>
 
 <svelte:head>
