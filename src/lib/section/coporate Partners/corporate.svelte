@@ -2,9 +2,9 @@
     import Button from '$lib/button/Button.svelte'
   
     // open the community partner forms in new page
-    const openCorporatePartners=() =>{
-      window.open('https://docs.google.com/forms/d/e/1FAIpQLSe2J4gDAJ8syrf1JKxGrLC_tsULc4ur6jDN4Gjo-GIWCZrmCA/viewform','_blank')
-    }
+    const openCorporatePartners = () =>{
+      window.location.href = 'mailto:hi@gdgchennai.in';
+    };
   </script>
   <section
     id="partners"
@@ -21,7 +21,7 @@
           id="Community Partners"
           title="Join us now"
           isSecondaryButton={false}
-          onClick={() => openCorporatePartners()}
+          onClick={openCorporatePartners}
         />
       </div>
     </div>
