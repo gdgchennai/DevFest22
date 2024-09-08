@@ -20,8 +20,8 @@
   >
     Community Partners
   </h2>
-  <p class="text-md  mt-4 text-center text-gray-600">
-    Let's Make a Difference Together! Become Our Community Partner.
+  <p class="text-md mt-4 text-center text-gray-600">
+    Some things are simply better when together!
   </p>
   <div class="bg-white">
     <div class="w-full max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
