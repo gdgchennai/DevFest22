@@ -84,7 +84,7 @@
   .countdown-box {
     background-color: white;
     border: 2px solid black;
-    border-radius: 0.75rem;
+    border-radius: 0.50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,6 +94,7 @@
     transition: background-color 0.3s;
     position: relative;
     overflow: hidden;
+    box-shadow: 5px 5px 0px black;
   }
 
   .countdown-box::after {
