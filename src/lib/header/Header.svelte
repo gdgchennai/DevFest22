@@ -70,7 +70,7 @@
         <a href="/">
           <span class="sr-only">GDG Chennai - Devfest 2024</span>
           <img
-            class="h-16 w-auto"
+            class="h-14 max-w-fit pt-1"
             src="/devfest24_logo.svg"
             alt="GDG Chennai - Devfest 2024"
           />
