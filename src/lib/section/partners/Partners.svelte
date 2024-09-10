@@ -51,10 +51,11 @@
 
 <style>
   .img-border {
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    border: 2px solid #000;
+    border-radius: 12px;
     padding: 20px;
     background-color: #fff;
+    box-shadow: 6px 6px 0px #000;
   }
 
   @media (min-width: 1024px) {
