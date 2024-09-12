@@ -13,35 +13,61 @@
 
 <section
   id="memories"
-  class="flex w-full flex-col items-center justify-start space-y-6 px-24"
+  class="w-full px-4 md:px-24 py-12"
 >
   <h2
-    class="flex text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl"
+    class="text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl mb-12"
   >
     DevFest 2023 was so much fun.
   </h2>
 
-  <div class="bg-white">
-    <div class="mx-auto py-12 lg:py-24">
-      <uli
-        role="list"
-        class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8"
-      >
-        {#if data}
-          {#each data.memories as memory}
-            <div class="space-y-4">
-              <div class="aspect-w-3 aspect-h-2 px-2 md:px-0">
-                <img
-                  class="rounded-lg object-cover shadow-lg lg:max-h-[370px] lg:min-h-[280px] lg:w-full"
-                  src={memory.image}
-                  alt={memory.title}
-                  loading="lazy"
-                />
-              </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+    {#if data}
+      {#each data.memories as memory}
+        <div class="relative box-container">
+          <div class="bg-white border-4 border-black rounded-lg p-4 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <div class="mb-4 relative image-container">
+              <img
+                class="object-cover w-full h-full rounded-md border-4 border-black"
+                src={memory.image}
+                alt={memory.title}
+                loading="lazy"
+                style="aspect-ratio: auto 1/1; object-fit: cover;"
+              />
             </div>
-          {/each}
-        {/if}
-      </uli>
-    </div>
+            <div class="flex items-center">
+              <img 
+                src="/dots.svg" 
+                alt="Icon" 
+                class="w-6 h-6 mr-2 object-contain" 
+              />
+              <p class="text-xl text-black" style="font-family: 'Architects Daughter', cursive;">DevFest' 23</p>
+              <img 
+                src="/dev btm.svg" 
+                alt="Event Logo" 
+                class="ml-auto w-10 h-10 object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      {/each}
+    {/if}
   </div>
 </section>
+
+<style>
+  @media (max-width: 640px) {
+    .box-container {
+      max-width: 65%;
+      margin: 0 auto;
+    }
+
+    .image-container img {
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 1.3rem; 
+    }
+  }
+</style>
