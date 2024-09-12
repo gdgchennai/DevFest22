@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Architects+Daughter:400,500&display=swap');
   </style>
 </svelte:head>
 
