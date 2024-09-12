@@ -37,13 +37,13 @@
             </div>
             <div class="flex items-center">
               <img 
-                src="/dots.svg" 
+                src="/icons/dots.svg" 
                 alt="Icon" 
                 class="w-6 h-6 mr-2 object-contain" 
               />
               <p class="text-xl text-black" style="font-family: 'Architects Daughter', cursive;">DevFest' 23</p>
               <img 
-                src="/dev btm.svg" 
+                src="/icons/dev btm.svg" 
                 alt="Event Logo" 
                 class="ml-auto w-10 h-10 object-contain"
               />
