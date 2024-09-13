@@ -17,7 +17,7 @@
     },
     {
       name: 'Schedule',
-      href: '/#tickets',
+      href: '/#CFP',
       active: false
     },
     {
