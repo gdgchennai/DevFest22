@@ -61,32 +61,6 @@
                 </ul>
               </div>
             </div>
-            <div class="bg-gray-50 py-8 px-6 text-center lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12">
-              <p class="text-4xl font-medium text-gray-900">
-                Know your Speakers & Schedule
-              </p>
-              <div class="mt-6 mx-10">
-                <p class="mt-6 text-base text-gray-500">
-                  Will be Announced Soon
-                </p>
-              </div>
-              <div class="mt-4 text-left text-xs">
-                <p class="font-light text-gray-900">
-                  <b class="font-semibold">Note:</b> Prior registration is required to attend the event.<br />
-                  Entry is allowed only with a valid ticket.
-                </p>
-              </div>
-              <div class="mt-4 text-left text-sm">
-                <p class="font-light text-gray-900">
-                  <b class="font-semibold">Event info:</b>
-                </p>
-                <ul class="font-light">
-                  <li>
-                    October 5, 2024 @ IIT-M Research Park, Chennai
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>
