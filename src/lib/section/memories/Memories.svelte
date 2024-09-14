@@ -16,7 +16,7 @@
   class="w-full px-4 md:px-24 py-12"
 >
   <h2
-    class="text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl mb-12"
+    class="text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl mb-12 px-24"
   >
     DevFest 2023 was so much fun.
   </h2>
@@ -41,7 +41,7 @@
                 alt="Icon" 
                 class="w-6 h-6 mr-2 object-contain" 
               />
-              <p class="text-xl text-black" style="font-family: 'Architects Daughter', cursive;">DevFest' 23</p>
+              <p class="text-xl text-black" style="font-family: 'Architects Daughter', cursive;">{memory.title}</p>
               <img 
                 src="/icons/dev btm.svg" 
                 alt="Event Logo" 
@@ -64,10 +64,6 @@
 
     .image-container img {
       max-width: 100%;
-    }
-
-    h2 {
-      font-size: 1.3rem; 
     }
   }
 </style>
