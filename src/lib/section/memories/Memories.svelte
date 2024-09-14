@@ -25,7 +25,7 @@
     {#if data}
       {#each data.memories as memory}
         <div class="relative box-container">
-          <div class="bg-white border-4 border-black rounded-lg p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+          <div class="bg-white border-4 border-black rounded-lg p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
             <div class="mb-2 relative image-container">
               <img
                 class="object-cover w-full h-full rounded-md border-2 border-black"
