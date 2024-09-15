@@ -50,7 +50,6 @@
       marqueeContainerWidth = container.offsetWidth;
       marqueeContentWidth = content.offsetWidth;
       
-      // If content is shorter than container, duplicate it
       while (marqueeContentWidth < marqueeContainerWidth * 2) {
         content.innerHTML += content.innerHTML;
         marqueeContentWidth = content.offsetWidth;
@@ -73,14 +72,14 @@
 
   <a href="/" class="hidden lg:flex justify-center items-center mt-4">
     <img
-      src="/icons/desktop-header.svg"
+      src="/desktop-header.svg"
       alt="Desktop Header"
       class="w-[100%] h-[400px] object-contain"
     />
   </a>
   <a href="/" class="lg:hidden flex justify-center items-center mt-2">
     <img
-      src="/icons/desktop-header.svg"
+      src="/desktop-header.svg"
       alt="Mobile Header"
       class="w-[96%] h-[190px] object-contain"
     />
