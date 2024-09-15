@@ -5,7 +5,6 @@
 	export let onClick: () => void;
 </script>
 
-	
 {#if isSecondaryButton}
 	<button
 		{id}
@@ -21,7 +20,7 @@
 		{id}
 		type="button"
 		on:click={onClick}
-		class="w-full inline-flex items-center justify-center rounded-md border-black border-2 bg-red-400 px-4 py-2 text-base font-medium"
+		class="w-full inline-flex items-center justify-center rounded-md border-black border-2 bg-[#F9AB00] px-4 py-2 text-base font-medium"
 	>
 		<slot id="icon" />
 		<span class="ml-2">{title}</span>
@@ -31,11 +30,6 @@
 <style>
 	button {
 		box-shadow: 0.5em 0.5em;
-	}
-
-	button:hover {
-		transform: translate(.5em, .5em);
-		box-shadow: 0.15em 0.15em;
 	}
 
 	button:hover {
