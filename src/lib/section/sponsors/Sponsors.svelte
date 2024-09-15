@@ -1,6 +1,6 @@
 <script lang="ts">
   import Button from '$lib/components/Button.svelte';
-  import { sponsors } from './sponsor-data';
+  import { sponsors } from './sponsors-data';
 
   const openSponsorBrochure = () => {
     window.open('/sponsorship', '_blank');
