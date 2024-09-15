@@ -60,10 +60,10 @@
                           } ${
                             i % 2 === 0 ? 'rounded-tl-[30px] rounded-tr-[30px] rounded-br-[30px]' :
                             'rounded-tl-[30px] rounded-tr-[30px] rounded-bl-[30px]'
-                          } border border-black flex items-center`}>
+                          } border-2 border-black flex items-center`}>
                           <div class="flex items-center space-x-3">
                             <div class="flex-shrink-0">
-                              <div class="w-[72px] h-[72px] bg-white rounded-full border-[1px] border-black flex justify-center items-center">
+                              <div class="w-[72px] h-[72px] bg-white rounded-full border-[2px] border-black flex justify-center items-center">
                                 <img src={icon} alt={feature} class="w-8 h-8" />
                               </div>
                             </div>
