@@ -12,7 +12,7 @@
 
   $: data = $dataStore;
 
-  let options = { loop: true, watchDrag: false };
+  let options = { loop: true };
   let plugins = [Autoplay({ delay: 1000 })];
 </script>
 
