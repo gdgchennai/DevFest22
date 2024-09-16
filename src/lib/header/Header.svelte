@@ -4,7 +4,7 @@
   import type { NavMenu } from '$lib/types';
   import { registrationUrl } from '$lib/data';
   import { onMount } from 'svelte';
-  import desktopHeader from '$lib/assets/header.webp';
+  import desktopHeader from '$lib/assets/header-dfchn.webp';
   import { dataStore, loadData } from '$lib/stores';
 
   let data;
