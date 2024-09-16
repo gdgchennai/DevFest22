@@ -36,7 +36,7 @@
         {#each sponsors as sponsor}
           <div class="col-span-1 flex justify-center">
             <a href="{sponsor.website}" class="inline-block relative transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:-translate-x-0.5 group">
-              <div class="bg-[#ffce46] border-2 border-black rounded-lg shadow-[3px_3px_0_0_#000000] p-0.5 transition-shadow duration-300 ease-in-out group-hover:shadow-[5px_5px_0_0_#000000]">
+              <div class="bg-[#FFCF46] border-2 border-black rounded-lg shadow-[3px_3px_0_0_#000000] p-0.5 transition-shadow duration-300 ease-in-out group-hover:shadow-[5px_5px_0_0_#000000]">
                 <div class="bg-white border-2 border-black rounded-md p-4">
                   <img
                     src="{sponsor.image}"
