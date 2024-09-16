@@ -15,7 +15,10 @@ export interface NavMenu {
   active: boolean;
 }
 
+export type Announcement = string;
+
 export interface Data {
   memories: Memory[];
   communityPartners: CommunityPartners[];
+  announcements: String[];
 }
