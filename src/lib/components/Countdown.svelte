@@ -145,8 +145,9 @@
       font-size: 1rem;
     }
   }
-
-
+  .countdown-item:hover .countdown-label {
+    color: black;
+  }
   .countdown-item::before {
     content: '';
     position: absolute;
