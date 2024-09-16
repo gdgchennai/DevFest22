@@ -24,15 +24,15 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
     {#if data}
       {#each data.memories as memory}
-        <div class="relative box-container">
+        <div class="relative box-container max-w-xl">
           <div class="bg-white border-4 border-black rounded-lg p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
             <div class="mb-2 relative image-container">
               <img
-                class="object-cover w-full h-full rounded-md border-2 border-black"
+                class="w-full h-full rounded-md border-2 border-black"
                 src={memory.image}
                 alt={memory.title}
                 loading="lazy"
-                style="aspect-ratio: auto 1/1; object-fit: cover;"
+                style="object-fit: cover;"
               />
             </div>
             <div class="flex items-center">
