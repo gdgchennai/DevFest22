@@ -197,27 +197,6 @@
   .event_area .double_line::before,
   .event_area .double_line::after {
     background: #ff9600;
-    background: -moz-linear-gradient(
-      left,
-      #EA4335 0%,
-      #4285F4 26%,
-      #34A853 57%,
-      #F9AB00 100%
-    );
-    background: -webkit-linear-gradient(
-      left,
-      #EA4335 0%,
-      #4285F4 26%,
-      #34A853 57%,
-      #F9AB00 100%
-    );
-    background: linear-gradient(
-      to right,
-      #EA4335 0%,
-      #4285F4 26%,
-      #34A853 57%,
-      #F9AB00 100%
-    );
   }
 
   .event_area .double_line {
@@ -259,21 +238,4 @@
     color: #ff0000;
   }
 
-  .event_area .date h2 {
-    font-size: 20px;
-    font-weight: 500;
-    color: #0022ff;
-  }
-
-  @media (max-width: 767px) {
-    .event_area .date h3 {
-      margin-bottom: 20px;
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    .event_area .date h3 {
-      margin-bottom: 30px;
-    }
-  }
 </style>
