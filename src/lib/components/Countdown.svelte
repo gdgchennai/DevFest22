@@ -105,8 +105,7 @@
     width: 30%;
     height: 30%;
     border-top-left-radius: 100%;
-    transition: opacity 0.3s;
-    opacity: 1;
+    transition: all 0.3s ease-out;
   }
 
   .days-item .countdown-box::after { background-color: #4285F4; }
@@ -115,13 +114,10 @@
   .seconds-item .countdown-box::after { background-color: #EA4335; }
 
   .countdown-item:hover .countdown-box::after {
-    opacity: 0;
+    width: 200%;
+    height: 200%;
+    border-radius: 0;
   }
-
-  .days-item:hover .countdown-box { background-color: #E3F2FD; }
-  .hours-item:hover .countdown-box { background-color: #E8F5E9; }
-  .minutes-item:hover .countdown-box { background-color: #FFFDE7; }
-  .seconds-item:hover .countdown-box { background-color: #FFEBEE; }
 
   .countdown-value {
     font-size: 1.5rem;
@@ -129,6 +125,7 @@
     color: black;
     line-height: 1;
     z-index: 1;
+    transition: color 0.3s;
   }
 
   .countdown-label {
@@ -136,6 +133,7 @@
     color: #4a5568;
     margin-top: 0.25rem;
     z-index: 1;
+    transition: color 0.3s;
   }
 
   @media (min-width: 640px) {
@@ -147,6 +145,7 @@
       font-size: 1rem;
     }
   }
+
 
   .countdown-item::before {
     content: '';
