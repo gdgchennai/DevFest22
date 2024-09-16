@@ -18,7 +18,7 @@
   let headerMenus: NavMenu[] = [
     { name: 'Home', href: '/', active: false },
     { name: 'Why', href: '/#why', active: false },
-    { name: 'Schedule', href: '/#tickets', active: false },
+    { name: 'Agenda', href: '/agenda', active: false },
     { name: 'Memories', href: '/#memories', active: false }
   ];
 

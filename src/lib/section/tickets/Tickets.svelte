@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Button from '$lib/components/Button.svelte';
+
   function handleClick() {
     location.href = '/agenda';
   }
@@ -76,6 +78,16 @@
                     </li>
                   {/each}
                 </ul>
+              </div>
+              <div class="w-full px-4 sm:px-72">
+                <div class="mt-6 text-center">
+                  <Button
+                    id="View Agenda"
+                    title="View Agenda"
+                    isSecondaryButton={false}
+                    onClick={() => handleClick()}
+                  />
+                </div>
               </div>
             </div>
           </div>
