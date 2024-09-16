@@ -28,7 +28,7 @@
           <div class="bg-white border-4 border-black rounded-lg p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
             <div class="mb-2 relative image-container">
               <img
-                class="w-full h-full rounded-md border-2 border-black"
+                class="w-full h-full rounded-md border-2 border-black aspect-[4/3]"
                 src={memory.image}
                 alt={memory.title}
                 loading="lazy"
