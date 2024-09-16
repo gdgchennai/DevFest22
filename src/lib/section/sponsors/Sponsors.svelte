@@ -35,15 +35,17 @@
       <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
         {#each sponsors as sponsor}
           <div class="col-span-1 flex justify-center">
-            <a href="{sponsor.website}">
-              <img
-                src="{sponsor.image}"
-                class="img-border"
-                height={50}
-                width={200}
-                alt={sponsor.name}
-                loading="lazy"
-              />
+            <a href="{sponsor.website}" class="inline-block relative transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:-translate-x-0.5 group">
+              <div class="bg-[#ffce46] border-2 border-black rounded-lg shadow-[3px_3px_0_0_#000000] p-0.5 transition-shadow duration-300 ease-in-out group-hover:shadow-[5px_5px_0_0_#000000]">
+                <div class="bg-white border-2 border-black rounded-md p-4">
+                  <img
+                    src="{sponsor.image}"
+                    alt={sponsor.name}
+                    loading="lazy"
+                    class="block max-w-full h-auto"
+                  />
+                </div>
+              </div>
             </a>
           </div>
         {/each}
@@ -51,12 +53,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  .img-border {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #fff;
-  }
-</style>
