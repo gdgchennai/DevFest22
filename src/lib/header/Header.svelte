@@ -45,41 +45,10 @@
   function handleClick() {
     window.open(registrationUrl);
   }
-
-  let marqueeContainerWidth: number;
-  let marqueeContentWidth: number;
-
-  function setMarqueeProperties() {
-    const container = document.querySelector('.marquee-container') as HTMLElement;
-    const content = document.querySelector('.marquee-content') as HTMLElement;
-
-    if (container && content) {
-      marqueeContainerWidth = container.offsetWidth;
-      marqueeContentWidth = content.offsetWidth;
-
-      while (marqueeContentWidth < marqueeContainerWidth * 2) {
-        content.innerHTML += content.innerHTML;
-        marqueeContentWidth = content.offsetWidth;
-      }
-      const duration = marqueeContentWidth / 50;
-      container.style.setProperty('--marquee-duration', `${duration}s`);
-    }
-  }
-
-  onMount(() => {
-    setTimeout(() => {
-    setMarqueeProperties();
-    window.addEventListener('resize', setMarqueeProperties);
-    },100);
-    
-    return () => {
-      window.removeEventListener('resize', setMarqueeProperties);
-    };
-  });
 </script>
 
 <header class="transition-all ease-in-out">
-  <div class="mt-4 flex items-center justify-center px-4 lg:px-24">
+  <div class="mt-4 items-center justify-center px-4 lg:px-24">
     <img
       src={desktopHeader}
       alt="Desktop Header"
@@ -129,9 +98,19 @@
   <div class="flex items-center bg-[#F9AB00] text-sm lg:text-base">
     <span class="pl-4 font-medium text-black">Announcements</span>
     <span class="px-2 pr-4 leading-none">📢</span>
-    <div class="marquee-container mt-0 w-full bg-[#F9AB00] py-2 lg:mt-0">
+    <div class="relative whitespace-nowrap overflow-hidden mt-0 w-full bg-[#F9AB00] py-2 lg:mt-0">
       <div class="marquee-content">
         {#if data}
+          {#each data.announcements as announcements, index}
+            <span class="mx-4 font-medium text-black">{announcements}</span>
+            {#if index < announcements.length - 1}
+              <img
+                src="/icons/band-seperator.svg"
+                alt="Separator Icon"
+                class="inline-block h-4 w-4"
+              />
+            {/if}
+          {/each}
           {#each data.announcements as announcements, index}
             <span class="mx-4 font-medium text-black">{announcements}</span>
             {#if index < announcements.length - 1}
@@ -149,15 +128,10 @@
 </header>
 
 <style>
-  .marquee-container {
-    width: 100%;
-    overflow: hidden;
-  }
-
   .marquee-content {
     display: inline-block;
     white-space: nowrap;
-    animation: marquee var(--marquee-duration) linear infinite;
+    animation: marquee 30s linear infinite;
   }
 
   @keyframes marquee {
@@ -165,7 +139,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100%);
     }
   }
 </style>
