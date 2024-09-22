@@ -48,11 +48,11 @@
 </script>
 
 <header class="transition-all ease-in-out">
-  <div class="mt-4 items-center justify-center px-4 lg:px-24">
+  <div class="mt-4 w-full items-center justify-center px-4 lg:px-24 lg:flex">
     <img
       src={desktopHeader}
       alt="Desktop Header"
-      class="h-[100%] w-[100%] object-contain"
+      class="md:h-[50%] md:w-[50%] object-contain"
     />
   </div>
 

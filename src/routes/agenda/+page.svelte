@@ -1,126 +1,25 @@
 <script lang="ts">
-  import ItemAgendaCard from "./ItemAgendaCard.svelte";
+  import ItemAgendaCard from './ItemAgendaCard.svelte';
+  import { dataStore, loadData } from '$lib/stores';
+  import { onMount } from 'svelte';
+  import type { Agenda, AgendaSession } from '$lib/types';
 
-  let toggle: boolean = true;
+  let data: { agendas?: Agenda };
+  let selectedHall: keyof Agenda = 'mainHall';
+  let agendas: AgendaSession[] = [];
 
-  const mainHallAgenda = [
-    {
-      name: 'Registration',
-      session: 'First come first serve basis',
-      time: '8:00 AM - 9:30 AM'
-    },
-    {
-      name: 'Intro and Keynote by GDG Chennai / Devrel',
-      session: 'Vanakkam to DevFest Chennai 2024!!',
-      time: '9:30 AM - 10:15 AM'
-    },
-    {
-      name: 'Navaneeth',
-      session: 'Gemma Models: Architecture, Application Development, and Fine-Tuning Techniques',
-      imageUrl: '',
-      showImage: false,
-      // time: '9:20 AM - 09:55 AM'
-    },
-    {
-      name: 'Ashish',
-      session: 'Shipping Gen AI Products with Web by Leveraging Project FUGU',
-      imageUrl: '',
-      showImage: false,
-      // time: '10:00 AM - 10:35 AM'
-    },
-    {
-      name: 'Anubhav',
-      session: 'Goroutines as Cognitive Threads: Replicating Human Behavior in Go',
-      imageUrl: '',
-      showImage: false,
-      // time: '10:40 AM - 11:15 AM'
-    },
-    {
-      name: 'Swathi',
-      session: 'Future with Technology- The not so seen perspective',
-      imageUrl: '',
-      showImage: false,
-      // time: '11:20 AM - 11:55 AM'
-    },
-    {
-      name: 'Joinal Ahmed',
-      session: 'Take Data to the next level with Graph Machine Learning',
-      imageUrl: '/profile_pics/Joinal_Ahmed.png',
-      showImage: false,
-      // time: '12:00 PM - 12:35 PM'
-    },
-    {
-      name: 'Raghav',
-      session: 'Multimodality across Indic Languages',
-      imageUrl: '',
-      showImage: false,
-      // time: '12:40 PM - 1:15 PM'
-    },
-    // {
-    //   name: 'Lunch',
-    //   session: 'Good time to go around, Eat and connect with people!',
-    //   time: '1:15 PM - 2:15 PM'
-    // },
-    {
-      name: 'Anush',
-      session: 'App Aware Infra, Infra Aware App',
-      imageUrl: '',
-      showImage: false,
-      // time: '2:15 PM - 2:40 PM'
-    },
-    {
-      name: 'Anam Saatvik Reddy',
-      session:
-        'Lightning talk - TensorFlow Recommenders - a simple library for building powerful recommendation systems',
-      imageUrl: '/profile_pics/Anam_Saatvik_Reddy.png',
-      showImage: false,
-      // time: '2:45 PM - 2:55 PM'
-    },
-    {
-      name: 'Heflin',
-      session: 'Lightning talk - The Missing Part in Language Models: Understanding the Encoder',
-      imageUrl: '',
-      showImage: false,
-      // time: '2:55 PM - 3:05 PM'
-    },
-    {
-      name: 'Veena',
-      session: 'Lightning talk - From Screen to Mind: How Business transforms User Experience into Portals of possibility',
-      imageUrl: '',
-      showImage: false,
-      // time: '3:05 PM - 3:20 PM'
-    },
-    {
-      name: 'Vishnupriya',
-      session: 'Lightning talk - How To Progress The Ladder As A Developer',
-      // time: '3:25 PM - 4:00 PM'
-    },
-    {
-      name: 'Chandnika',
-      session: 'Lightning talk - Learn How You Can Transform the Future of Education with Gemini and Responsible AI',
-      // time: '4:05 PM - 4:40 PM'
-    },
-    {
-      name: 'Aishwarya',
-      session: 'Lightning talk - Prompts to Pixels: Getting started with GenAI films',
-      // time: '4:40 PM - 4:50 PM'
-    },
-    {
-      name: 'Sanjeev',
-      session: 'Lightning talk -  MicroSaaS as a revenue making side project',
-      // time: '4:40 PM - 4:50 PM'
-    },
-    {
-      name: 'Bhavani',
-      session: 'Lightning talk -  Non tech skills you need to master',
-      // time: '4:40 PM - 4:50 PM'
-    },
-    {
-      name: 'Guru',
-      session: 'Lightning talk -  New age marketing ft linkedin, instagram and youtube',
-      // time: '4:40 PM - 4:50 PM'
-    },
-  ];
+  const hallNames: Record<keyof Agenda, string> = {
+    mainHall: 'Main Hall',
+    amphiHall: 'Amphi Hall'
+  }
+
+  onMount(() => {
+    loadData();
+  });
+
+  $: agendas = data?.agendas?.[selectedHall] || [];
+
+  $: data = $dataStore;
 </script>
 
 <svelte:head>
@@ -140,20 +39,27 @@
         <div class="row">
           <div class="date mb-2">
             <h3>05 Oct 2024</h3>
-            <span class="isolate inline-flex rounded-md sm:p-8">
-              <!-- <button
-                on:click={() => toggle = !toggle}
+            <span class="isolate inline-flex space-x-3 rounded-md sm:p-8">
+              <button
+                on:click={() => selectedHall = 'mainHall'}
                 type="button"
-                class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black shadow-md"
+                class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
               >
-                Switch track
-              </button> -->
+                Main Hall
+              </button>
+              <button
+                on:click={() => selectedHall = 'amphiHall'}
+                type="button"
+                class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+              >
+                Amphi Hall
+              </button>
             </span>
           </div>
-          {#if toggle}
-          <!-- <h2 class="text-xl text-blue-500 py-5 font-medium">Main Hall</h2> -->
-           {#each mainHallAgenda as agenda}
-           <ItemAgendaCard
+          <h2 class="py-5 text-xl font-medium text-blue-500">{hallNames[selectedHall]}</h2>
+          {#if data}
+          {#each agendas as agenda}
+            <ItemAgendaCard
               session={agenda.session}
               name={agenda.name}
               imageUrl={agenda.imageUrl}
@@ -161,20 +67,6 @@
               showImage={agenda.showImage}
             />
           {/each}
-          {:else}
-          <!-- <h2 class="text-xl text-green-500 py-5 font-medium">Amphi</h2> -->
-          <!-- {#each dayOneAgendaTrack as speaker}
-            <ItemAgendaCard
-              session={speaker.session}
-              name={speaker.name}
-              imageUrl={speaker.imageUrl}
-              imageUrl2={speaker.imageUrl2}
-              imageUrl3={speaker.imageUrl3}
-              time={speaker.time}
-              showImage={speaker.showImage}
-              showMultipleImage={speaker.showMultipleImage}
-            />
-          {/each} -->
           {/if}
         </div>
       </div>
@@ -237,5 +129,4 @@
     font-weight: 500;
     color: #ff0000;
   }
-
 </style>

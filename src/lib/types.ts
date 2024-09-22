@@ -1,3 +1,15 @@
+export interface AgendaSession {
+  name: string;
+  session: string;
+  time: string;
+  imageUrl?: string;
+  showImage?: boolean;
+}
+
+export interface Agenda {
+  mainHall: AgendaSession[];
+  amphiHall: AgendaSession[];
+}
 export interface Memory {
   title: string;
   image: string;
@@ -21,4 +33,5 @@ export interface Data {
   memories: Memory[];
   communityPartners: CommunityPartners[];
   announcements: String[];
+  agendas: Agenda[];
 }
