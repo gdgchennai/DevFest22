@@ -2,7 +2,7 @@
   import mandelaBlue from '$lib/assets/mandela_blue.svg'
   import mandelaRed from '$lib/assets/mandela_red.svg'
 </script>
-<div class="flex w-full flex-col items-center justify-center space-y-8 md:px-24 px-24 relative blur-sm">
+<div class="flex w-full flex-col items-center justify-center space-y-8 px-24 relative blur-sm">
   <img
     src="{mandelaBlue}"
     alt="Mandela Blue"
