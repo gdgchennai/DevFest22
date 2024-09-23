@@ -4,6 +4,7 @@
   import { Modals, closeModal } from 'svelte-modals';
   import '../app.css';
   import Size from '$lib/components/size.svelte';
+  import { dev } from '$app/environment';
 </script>
 
 <svelte:head>
@@ -20,7 +21,10 @@
   </style>
 </svelte:head>
 
-<Size />
+{#if dev}
+  <Size />
+{/if}
+
 <main>
   <div id="container" class="mx-auto">
     <Modals>
