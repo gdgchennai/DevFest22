@@ -8,59 +8,6 @@
 </script>
 
 <svelte:head>
-  <!-- Primary Meta Tags -->
-  <title>Youarenotalone | Anonymously vent out your bottled up emotions</title>
-  <meta
-    name="title"
-    content="Youarenotalone | Anonymously vent out your bottled up emotions"
-  />
-  <meta
-    name="description"
-    content="Express your emotions without fear of judgement and know youarenotalone in your everyday battles."
-  />
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://youarenotalone.in" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://youarenotalone.in" />
-  <meta
-    property="og:title"
-    content="Youarenotalone | Anonymously vent out your bottled up emotions"
-  />
-  <meta
-    property="og:description"
-    content="Express your emotions without fear of judgement and know youarenotalone in your everyday battles."
-  />
-  <meta property="og:image" content="https://youarenotalone.in/image.jpg" />
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://youarenotalone.in" />
-  <meta
-    property="twitter:title"
-    content="Youarenotalone | Anonymously vent out your bottled up emotions"
-  />
-  <meta
-    property="twitter:description"
-    content="Express your emotions without fear of judgement and know youarenotalone in your everyday battles."
-  />
-  <meta property="twitter:image" content="https://youarenotalone.in/image.jpg" />
-
-  <!-- Meta Tags for SEO -->
-  <meta name="robots" content="index, follow" />
-  <meta
-    name="keywords"
-    content="anonymously vent, emotions, express feelings, no judgement, youarenotalone"
-  />
-  <meta name="author" content="Your Name or Website" />
-  <meta name="language" content="English" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Favicons -->
-  <link rel="icon" href="/favicon.ico" />
-
   <script
     src="https://kit.fontawesome.com/3e56677f9e.js"
     crossorigin="anonymous"></script>
