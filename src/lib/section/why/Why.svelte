@@ -1,73 +1,68 @@
 <script lang="ts">
-  const perks = [
+  interface AttendanceReason {
+    title: string;
+    description: string;
+    image_src: string;
+  }
+  const reasons: AttendanceReason[] = [
     {
-      name: 'Tech Talks',
-      imageSrc: '/icons/ted 1.svg',
+      title: 'Tech Talks',
+      image_src: '/icons/ted 1.svg',
       description:
         'Several speakers are coming together to talk about their experiences in the industry. We will also have a few lightning talks with our members.'
     },
     {
-      name: 'Expert Speakers',
-      imageSrc: '/icons/talks 1.svg',
+      title: 'Expert Speakers',
+      image_src: '/icons/talks 1.svg',
       description:
         'Experts from the industry will be on hand to answer your questions and give you advice on how to get into the industry.'
     },
     {
-      name: 'Networking',
-      imageSrc: '/icons/Networking 2.svg',
+      title: 'Networking',
+      image_src: '/icons/Networking 2.svg',
       description:
         'You will have the opportunity to network with other students and professionals in the industry.'
     },
     {
-      name: 'Workshops',
-      imageSrc: '/icons/book 1.svg',
+      title: 'Workshops',
+      image_src: '/icons/book 1.svg',
       description:
         'We will be hosting a series of workshops to assist you in getting started with your tech career. Our members will also give a few lightning talks.'
     }
   ];
+
+  interface AttendanceReason {
+    title: string;
+    description: string;
+    image_src: string;
+  }
 </script>
 
-<section id="why" class="flex flex-col items-center space-y-6 px-4 sm:px-6 lg:px-8">
-  <div class="pt-12 sm:pt-16 lg:pt-20">
-    <div class="mx-auto max-w-7xl text-center">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-        Why attend?
-      </h2>
-      <p class="mt-4 text-gray-600 sm:text-xl">
-        We have a fantastic lineup of speakers and sessions for you to learn
-        and enhance your skills.
-      </p>
-    </div>
-  </div>
-  
-  <h2 class="sr-only">Our perks</h2>
-  <div class="mx-auto max-w-7xl py-12 sm:py-24 lg:px-4">
-    <div class="grid gap-y-8 gap-x-6 px-4 lg:grid-cols-2 lg:gap-x-12 lg:gap-y-16">
-      {#each perks as perk}
-        <div class="flex items-start space-x-4">
+<section
+  id="why"
+  class="flex w-full flex-col items-center justify-center py-16"
+>
+  <div class="mx-auto w-full max-w-4xl px-3 sm:px-5">
+    <h1 class="mb-4 text-center text-4xl font-bold">Why attend?</h1>
+    <p class="mb-8 text-center text-lg">
+      We have a fantastic lineup of speakers and sessions for you to learn and
+      enhance your skills.
+    </p>
+
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+      {#each reasons as reason}
+        <div class="flex flex-row gap-3  p-6">
           <img
-            class="w-20 h-20 object-cover"
-            src={perk.imageSrc}
-            alt={perk.name}
+            src={reason.image_src}
+            alt=""
+            class="aspect-square h-20 w-20 object-cover"
           />
-          <div>
-            <h3 class="text-xl font-medium text-gray-900 sm:text-2xl lg:text-3xl">
-              {perk.name}
-            </h3>
-            <p class="mt-2 text-sm text-gray-500 sm:text-base lg:text-lg">
-              {perk.description}
-            </p>            
+          <div class="mb-4 flex flex-col items-start gap-3 text-left">
+            <h2 class="text-xl font-semibold">{reason.title}</h2>
+            <p>{reason.description}</p>
           </div>
         </div>
       {/each}
     </div>
   </div>
 </section>
-<style>
-  @media (max-width: 640px) {
-    #why {
-      max-width: 75%;
-      margin: 0 auto;
-    }
-  }
-</style>

@@ -48,11 +48,11 @@
 </script>
 
 <header class="transition-all ease-in-out">
-  <div class="mt-4 w-full items-center justify-center px-4 lg:px-24 lg:flex">
+  <div class="mt-4 w-full items-center justify-center px-4 lg:flex lg:px-24">
     <img
       src={desktopHeader}
       alt="Desktop Header"
-      class="md:h-[50%] md:w-[50%] object-contain"
+      class="object-contain md:h-[50%] md:w-[50%]"
     />
   </div>
 
@@ -98,7 +98,9 @@
   <div class="flex items-center bg-[#F9AB00] text-sm lg:text-base">
     <span class="pl-4 font-medium text-black">Announcements</span>
     <span class="px-2 pr-4 leading-none">📢</span>
-    <div class="relative whitespace-nowrap overflow-hidden mt-0 w-full bg-[#F9AB00] py-2 lg:mt-0">
+    <div
+      class="relative mt-0 w-full overflow-hidden whitespace-nowrap bg-[#F9AB00] py-2 lg:mt-0"
+    >
       <div class="marquee-content">
         {#if data}
           {#each data.announcements as announcements, index}

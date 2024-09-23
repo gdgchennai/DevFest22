@@ -11,24 +11,23 @@
   $: data = $dataStore;
 </script>
 
-<section
-  id="memories"
-  class="w-full px-4 md:px-24 py-12"
->
+<section id="memories" class="w-full px-4 py-12 md:px-24">
   <h2
-    class="text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl mb-12 px-24"
+    class="mb-12 px-24 text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl"
   >
     DevFest 2023 was so much fun.
   </h2>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+  <div class="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
     {#if data}
       {#each data.memories as memory}
-        <div class="relative box-container max-w-xl">
-          <div class="bg-white border-4 border-black rounded-lg p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-            <div class="mb-2 relative image-container">
+        <div class="box-container relative max-w-xl">
+          <div
+            class="rounded-lg border-4 border-black bg-white p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
+          >
+            <div class="image-container relative mb-2">
               <img
-                class="w-full h-full rounded-md border-2 border-black aspect-[4/3]"
+                class="aspect-[4/3] h-full w-full rounded-md border-2 border-black"
                 src={memory.image}
                 alt={memory.title}
                 loading="lazy"
@@ -36,16 +35,21 @@
               />
             </div>
             <div class="flex items-center">
-              <img 
-                src="/icons/dots.svg" 
-                alt="Icon" 
-                class="w-6 h-6 mr-2 object-contain" 
+              <img
+                src="/icons/dots.svg"
+                alt="Icon"
+                class="mr-2 h-6 w-6 object-contain"
               />
-              <p class="text-xl text-black" style="font-family: 'Architects Daughter', cursive;">{memory.title}</p>
-              <img 
-                src="/icons/dev btm.svg" 
-                alt="Event Logo" 
-                class="ml-auto w-10 h-10 object-contain"
+              <p
+                class="text-xl text-black"
+                style="font-family: 'Architects Daughter', cursive;"
+              >
+                {memory.title}
+              </p>
+              <img
+                src="/icons/dev btm.svg"
+                alt="Event Logo"
+                class="ml-auto h-10 w-10 object-contain"
               />
             </div>
           </div>
