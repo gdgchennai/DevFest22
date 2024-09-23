@@ -49,7 +49,7 @@
       enhance your skills.
     </p>
 
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <div class="grid grid-cols-1 gap-3 md:grid-cols-2">
       {#each reasons as reason}
         <div class="flex flex-row gap-3  p-6">
           <img
@@ -58,8 +58,8 @@
             class="aspect-square h-20 w-20 object-cover"
           />
           <div class="mb-4 flex flex-col items-start gap-3 text-left">
-            <h2 class="text-xl font-semibold">{reason.title}</h2>
-            <p>{reason.description}</p>
+            <h2 class="text-2xl font-semibold">{reason.title}</h2>
+            <p class="text-xl text-gray-500">{reason.description}</p>
           </div>
         </div>
       {/each}
