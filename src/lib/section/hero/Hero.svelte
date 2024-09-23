@@ -46,12 +46,12 @@
     </Button>
 
     <Button
-      id="button-hero-add-to-calendar"
+      id="button-hero-show-agenda"
       isSecondaryButton={true}
-      title="Add to calendar"
-      onClick={() => window.open(addToCalendarUrl)}
+      title="View Agenda"
+      onClick={() => location.href = '/agenda'}
     >
-      <i class="fa fa-calendar" />
+      <i class="fa fa-book" />
     </Button>
   </div>
 
