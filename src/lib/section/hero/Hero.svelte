@@ -20,16 +20,12 @@
   <img
     src={mandelaBlue}
     alt="Mandela Blue"
-    width="100%"
-    height="100%"
-    class="rotate-clockwise absolute  top-40 w-full opacity-40"
+    class="rotate-clockwise absolute  top-40  aspect-square w-full opacity-40"
   />
   <img
     src={mandelaRed}
     alt="Mandela Red"
-    width="100%"
-    height="100%"
-    class="rotate-counterclockwise absolute top-40 w-full opacity-60"
+    class="rotate-counterclockwise absolute top-40 aspect-square w-full opacity-60 lg:w-1/2"
   />
   <div class="flex w-full flex-col items-center justify-center gap-8">
     <h1
