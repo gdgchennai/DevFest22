@@ -33,10 +33,10 @@
   </div>
   <div class="speaker-name">
     <div class="heading flex items-center justify-between">
-      <span>{name}</span>
+      <span>{session}</span>
       <div class="time">{time}</div>
     </div>
-    <p>{session}</p>
+    <p>{name}</p>
   </div>
 </div>
 
