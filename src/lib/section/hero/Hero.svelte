@@ -32,12 +32,12 @@
       <img
         src={mandelaBlue}
         alt="Mandela Blue"
-        class="rotate-clockwise absolute w-full opacity-40 sm:w-1/2"
+        class="rotate-clockwise absolute aspect-auto w-full opacity-40"
       />
       <img
         src={mandelaRed}
         alt="Mandela Red"
-        class="rotate-counterclockwise absolute w-full opacity-60"
+        class="rotate-counterclockwise absolute aspect-auto w-full opacity-60"
       />
     </div>
     <p class="max-w-2xl text-center font-medium text-gray-700">
