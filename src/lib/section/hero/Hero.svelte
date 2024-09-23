@@ -22,12 +22,12 @@
     <h1
       class="text-center text-5xl font-bold tracking-tight text-black md:text-6xl lg:text-7xl"
     >
-      Chennai’s most awaited <br> tech conference
+      Chennai’s most awaited <br /> tech conference
     </h1>
-    <div class="-z-50">
+    <div class="-z-50 flex w-full flex-col overflow-clip">
       <Mandela />
     </div>
-    <p class="text-center max-w-2xl text-gray-700 font-medium">
+    <p class="max-w-2xl text-center font-medium text-gray-700">
       Come learn, network and celebrate with the Google Developer Ecosystem
       while also learning to hack on Android, Chrome, and Web.
     </p>
