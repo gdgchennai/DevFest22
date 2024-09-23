@@ -14,11 +14,9 @@
   <title>GDG Chennai - Devfest 2024</title>
 </svelte:head>
 
-<div
-  class="flex min-h-screen flex-col items-center justify-start overflow-hidden"
->
-  <div class="space-y-16 md:space-y-44">
-    <Blur />
+<div class="flex min-h-screen flex-col items-center justify-start">
+  <div class="space-y-16 px-7 md:space-y-44">
+    <!-- <Blur /> -->
     <Hero />
     <Why />
     <Tickets />

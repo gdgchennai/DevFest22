@@ -25,16 +25,14 @@
   <Size />
 {/if}
 
-<main>
-  <div id="container" class="mx-auto">
-    <Modals>
-      <div slot="backdrop" class="backdrop" on:click={closeModal} />
-    </Modals>
-    <Header />
-    <slot />
-    <Footer />
-  </div>
-</main>
+<div id="container" class="mx-auto min-h-screen w-full">
+  <Modals>
+    <div slot="backdrop" class="backdrop" on:click={closeModal} />
+  </Modals>
+  <Header />
+  <slot />
+  <Footer />
+</div>
 
 <style>
   .backdrop {

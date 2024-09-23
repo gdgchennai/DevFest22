@@ -1,4 +1,6 @@
 <script lang="ts">
+  import mandelaBlue from '$lib/assets/mandela_blue.svg';
+  import mandelaRed from '$lib/assets/mandela_red.svg';
   import Button from '$lib/components/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
   import Countdown from '$lib/components/Countdown.svelte';
@@ -13,19 +15,28 @@
 
 <section
   id="hero"
-  class="flex w-full flex-col items-center justify-start space-y-8 px-24  transition-all duration-500 ease-in-out"
+  class="flex w-full flex-col items-center justify-start space-y-8  px-24 py-20 transition-all  duration-500 ease-in-out"
 >
   <div
     id="hero-content-group"
-    class="flex flex-col items-center justify-start space-y-8"
+    class="flex w-full flex-col items-center justify-start space-y-8"
   >
     <h1
       class="text-center text-5xl font-bold tracking-tight text-black md:text-6xl lg:text-7xl"
     >
       Chennai’s most awaited <br /> tech conference
     </h1>
-    <div class="-z-50 flex w-full flex-col overflow-clip">
-      <Mandela />
+    <div class="relative -z-50 flex w-full flex-col items-center">
+      <img
+        src={mandelaBlue}
+        alt="Mandela Blue"
+        class="rotate-clockwise absolute w-full opacity-40 sm:w-1/2"
+      />
+      <img
+        src={mandelaRed}
+        alt="Mandela Red"
+        class="rotate-counterclockwise absolute w-full opacity-60"
+      />
     </div>
     <p class="max-w-2xl text-center font-medium text-gray-700">
       Come learn, network and celebrate with the Google Developer Ecosystem
@@ -72,3 +83,33 @@
     <Countdown />
   </div>
 </section>
+
+<style>
+  .rotate-clockwise {
+    animation: rotate-clockwise 10s linear infinite;
+    filter: blur(5px); /* Added blur effect */
+  }
+
+  .rotate-counterclockwise {
+    animation: rotate-counterclockwise 10s linear infinite;
+    filter: blur(5px); /* Added blur effect */
+  }
+
+  @keyframes rotate-clockwise {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes rotate-counterclockwise {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+</style>
