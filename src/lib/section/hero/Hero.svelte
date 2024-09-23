@@ -26,7 +26,9 @@
     >
       Chennai’s most awaited <br /> tech conference
     </h1>
-    <div class="relative -z-50 flex w-full flex-col items-center">
+    <div
+      class="relative -z-50 flex w-full flex-col items-center justify-center"
+    >
       <img
         src={mandelaBlue}
         alt="Mandela Blue"
