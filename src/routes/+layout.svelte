@@ -8,6 +8,35 @@
 </script>
 
 <svelte:head>
+  <title>Youarenotalone | Anonymously vent out your bottled up emotions</title>
+  <meta
+    name="description"
+    content="Express your emotions without fear of judgement and know youarenotalone in your everyday battles."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta
+    property="og:title"
+    content="Youarenotalone | Anonymously vent out your bottled up emotions"
+  />
+  <meta
+    property="og:description"
+    content="Express your emotions without fear of judgement and know youarenotalone in your everyday battles."
+  />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="Youarenotalone | Anonymously vent out your bottled up emotions"
+  />
+  <meta
+    name="twitter:description"
+    content="Express your emotions without fear of judgement and know youarenotalone in your everyday battles."
+  />
+
   <script
     src="https://kit.fontawesome.com/3e56677f9e.js"
     crossorigin="anonymous"></script>
