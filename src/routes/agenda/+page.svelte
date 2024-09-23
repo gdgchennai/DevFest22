@@ -10,7 +10,9 @@
 
   const hallNames: Record<keyof Agenda, string> = {
     mainHall: 'Main Hall',
-    amphiHall: 'Amphi Hall'
+    amphiHall: 'Amphi Hall',
+    ramanHall: 'Raman Hall',
+    miniAudi: 'Mini Audi'
   }
 
   onMount(() => {
@@ -53,6 +55,20 @@
                 class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
               >
                 Amphi Hall
+              </button>
+              <button
+                on:click={() => selectedHall = 'ramanHall'}
+                type="button"
+                class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+              >
+                Raman Hall
+              </button>
+              <button
+                on:click={() => selectedHall = 'miniAudi'}
+                type="button"
+                class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
+              >
+                Mini Audi
               </button>
             </span>
           </div>

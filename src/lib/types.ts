@@ -9,7 +9,10 @@ export interface AgendaSession {
 export interface Agenda {
   mainHall: AgendaSession[];
   amphiHall: AgendaSession[];
+  ramanHall: AgendaSession[];
+  miniAudi: AgendaSession[];
 }
+
 export interface Memory {
   title: string;
   image: string;
