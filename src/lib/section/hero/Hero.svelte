@@ -15,32 +15,30 @@
 
 <section
   id="hero"
-  class="flex w-full flex-col items-center justify-start space-y-8  px-24 py-20 transition-all  duration-500 ease-in-out"
+  class="relative flex w-full flex-col items-center justify-start  px-12  py-8 transition-all duration-500 ease-in-out"
 >
-  <div
-    id="hero-content-group"
-    class="flex w-full flex-col items-center justify-start space-y-8"
-  >
+  <img
+    src={mandelaBlue}
+    alt="Mandela Blue"
+    width="100%"
+    height="100%"
+    class="rotate-clockwise absolute  top-40 w-full opacity-40"
+  />
+  <img
+    src={mandelaRed}
+    alt="Mandela Red"
+    width="100%"
+    height="100%"
+    class="rotate-counterclockwise absolute top-40 w-full opacity-60"
+  />
+  <div class="flex w-full flex-col items-center justify-center gap-8">
     <h1
       class="text-center text-5xl font-bold tracking-tight text-black md:text-6xl lg:text-7xl"
     >
       Chennai’s most awaited <br /> tech conference
     </h1>
-    <div
-      class="relative -z-50 flex w-full flex-col items-center justify-center"
-    >
-      <img
-        src={mandelaBlue}
-        alt="Mandela Blue"
-        class="rotate-clockwise absolute aspect-auto w-full opacity-40"
-      />
-      <img
-        src={mandelaRed}
-        alt="Mandela Red"
-        class="rotate-counterclockwise absolute aspect-auto w-full opacity-60"
-      />
-    </div>
-    <p class="max-w-2xl text-center font-medium text-gray-700">
+
+    <p class="w-full max-w-2xl text-center font-medium text-gray-700">
       Come learn, network and celebrate with the Google Developer Ecosystem
       while also learning to hack on Android, Chrome, and Web.
     </p>
@@ -48,7 +46,7 @@
 
   <div
     id="hero-cta-group"
-    class="flex w-full max-w-2xl flex-col items-center justify-start space-y-4 md:flex-row md:space-x-4 md:space-y-0 lg:flex-row"
+    class="mt-4 flex w-full max-w-2xl flex-col items-center justify-start space-y-4 md:flex-row md:space-x-4 md:space-y-0 lg:flex-row"
   >
     <Button
       id="button-hero-get-tickets"
@@ -69,9 +67,9 @@
   </div>
 
   <div
-    class="flex w-full flex-col items-center justify-center space-y-3 text-xl sm:flex-row sm:space-y-0 sm:space-x-6"
+    class="mt-4 flex w-full flex-col items-center justify-center gap-4 space-y-3 text-xl sm:flex-row sm:space-y-0 sm:space-x-6"
   >
-    <div class="flex items-center space-x-2">
+    <div class="flex items-center gap-4 space-x-2">
       <i class="fa fa-calendar" />
       <p>October 5, 2024</p>
       <i class="fa fa-location-arrow" />
@@ -81,7 +79,7 @@
     </div>
   </div>
 
-  <div class="items-center">
+  <div class="mt-4 items-center">
     <Countdown />
   </div>
 </section>

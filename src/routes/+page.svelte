@@ -16,7 +16,7 @@
 
 <div class="flex min-h-screen flex-col items-center justify-start">
   <div class="space-y-16 px-7 md:space-y-44">
-    <!-- <Blur /> -->
+    <Blur />
     <Hero />
     <Why />
     <Tickets />
