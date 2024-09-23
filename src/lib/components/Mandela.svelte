@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import mandelaBlue from '$lib/assets/mandela_blue.svg'
   import mandelaRed from '$lib/assets/mandela_red.svg'
 </script>
@@ -48,4 +48,4 @@
 
     }
   }
-</style>
+</style> -->
