@@ -2,11 +2,11 @@
   import mandelaBlue from '$lib/assets/mandela_blue.svg'
   import mandelaRed from '$lib/assets/mandela_red.svg'
 </script>
-<div class="flex w-full flex-col items-center justify-start space-y-8 px-24 blur-sm">
+<div class="flex w-full flex-col items-center justify-center space-y-8 md:px-24 px-24 relative blur-sm">
   <img
     src="{mandelaBlue}"
     alt="Mandela Blue"
-    class="absolute opacity-40 rotate-anticlockwise"
+    class="absolute w-2/3 opacity-60 rotate-anticlockwise"
     fetchpriority="high"
     loading="eager"
     height={288}
@@ -15,7 +15,7 @@
   <img
     src="{mandelaRed}"
     alt="Mandela Red"
-    class="absolute w-56 h-56 opacity-60 rotate-clockwise"
+    class="absolute w-2/3 opacity-70 rotate-clockwise"
     fetchpriority="high"
     loading="eager"
   />
