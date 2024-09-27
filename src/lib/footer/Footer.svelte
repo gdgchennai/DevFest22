@@ -2,7 +2,7 @@
   const footerMenus = [
     {
       href: 'https://twitter.com/GDGChennai',
-      icon: 'fa fa-x-twitter',
+      icon: 'fa fa-twitter',
       class: 'btn twitter'
     },
     {
