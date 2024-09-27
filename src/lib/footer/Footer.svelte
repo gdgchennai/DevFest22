@@ -6,7 +6,7 @@
       class: 'btn twitter'
     },
     {
-      href: 'https://discord.com/invite/UQmbKjjgeb',
+      href: 'https://katb.in/gdgchennai-discord',
       icon: 'fa fa-discord',
       class: 'btn discord'
     },
