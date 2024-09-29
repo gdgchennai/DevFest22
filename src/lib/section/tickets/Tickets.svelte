@@ -10,12 +10,14 @@
   }
 
   const includedFeatures = [
-    { feature: 'Scrumptious food', icon: '/icons/Fast food.svg' },
     { feature: 'Exciting sessions', icon: '/icons/Conference.svg' },
+    { feature: 'Meet expert speakers', icon: '/icons/User.svg' },
     { feature: 'Networking opportunities', icon: '/icons/People.svg' },
-    { feature: 'Take home cool swags', icon: '/icons/Birthday.svg' },
     { feature: 'Chance to take part in fun activities', icon: '/icons/Fun glasses.svg' },
-    { feature: 'Meet expert speakers', icon: '/icons/User.svg' }
+    { feature: 'Scrumptious food', icon: '/icons/Fast food.svg' },
+    { feature: 'Take home cool swags', icon: '/icons/Birthday.svg' }
+    
+    
   ];
 </script>
 <section id="tickets" class="flex w-full flex-col items-center space-y-6 px-4 sm:px-8 lg:px-24">
