@@ -6,7 +6,6 @@
   import Partners from '$lib/section/partners/Partners.svelte';
   import Tickets from '$lib/section/tickets/Tickets.svelte';
   import Why from '$lib/section/why/Why.svelte';
-  import Corporate from '$lib/section/coporate Partners/corporate.svelte';
 </script>
 
 <svelte:head>
@@ -23,7 +22,6 @@
     <Tickets />
     <Sponsors />
     <Partners />
-    <Corporate />
     <Memories />
   </div>
 </div>
