@@ -2,8 +2,9 @@ export interface AgendaSession {
   name: string;
   session: string;
   time: string;
-  imageUrl?: string;
+  imageUrls?: string[];
   showImage?: boolean;
+  showMultipleImage?: boolean;
 }
 
 export interface Agenda {

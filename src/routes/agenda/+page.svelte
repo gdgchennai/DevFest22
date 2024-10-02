@@ -13,7 +13,7 @@
     amphiHall: 'Amphi Hall',
     ramanHall: 'Raman Hall',
     miniAudi: 'Mini Audi'
-  }
+  };
 
   onMount(() => {
     loadData();
@@ -43,28 +43,28 @@
             <h3>05 Oct 2024</h3>
             <span class="isolate inline-flex space-x-3 rounded-md sm:p-8">
               <button
-                on:click={() => selectedHall = 'mainHall'}
+                on:click={() => (selectedHall = 'mainHall')}
                 type="button"
                 class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
               >
                 Main Hall
               </button>
               <button
-                on:click={() => selectedHall = 'amphiHall'}
+                on:click={() => (selectedHall = 'amphiHall')}
                 type="button"
                 class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
               >
                 Amphi Hall
               </button>
               <button
-                on:click={() => selectedHall = 'ramanHall'}
+                on:click={() => (selectedHall = 'ramanHall')}
                 type="button"
                 class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
               >
                 Raman Hall
               </button>
               <button
-                on:click={() => selectedHall = 'miniAudi'}
+                on:click={() => (selectedHall = 'miniAudi')}
                 type="button"
                 class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 focus:z-10 focus:border-black focus:outline-none focus:ring-1 focus:ring-black"
               >
@@ -72,17 +72,19 @@
               </button>
             </span>
           </div>
-          <h2 class="py-5 text-xl font-medium text-blue-500">{hallNames[selectedHall]}</h2>
+          <h2 class="py-5 text-xl font-medium text-blue-500">
+            {hallNames[selectedHall]}
+          </h2>
           {#if data}
-          {#each agendas as agenda}
-            <ItemAgendaCard
-              session={agenda.session}
-              name={agenda.name}
-              imageUrl={agenda.imageUrl}
-              time={agenda.time}
-              showImage={agenda.showImage}
-            />
-          {/each}
+            {#each agendas as agenda}
+              <ItemAgendaCard
+                session={agenda.session}
+                name={agenda.name}
+                imageUrls={agenda.imageUrls}
+                time={agenda.time}
+                showImage={agenda.showImage}
+              />
+            {/each}
           {/if}
         </div>
       </div>
