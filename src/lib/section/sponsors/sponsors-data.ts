@@ -6,14 +6,19 @@ export interface Sponsor {
   
   export const sponsors: Sponsor[] = [
     {
-      name: "Google Developers",
-      image: "/google-devs.svg",
+      name: "Google for Developers",
+      image: "https://static.gdgchennai.in/sponsors/sp1.webp",
       website: "https://developers.google.com/"
     },
     {
-        image: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700844794/devfest/rezoomex_v2iv8t.webp',
-		name: 'Rezoomex',
-		website: 'https://rezoomex.com/'
+        image: 'https://static.gdgchennai.in/sponsors/sp2.webp',
+	name: 'Rezoomex',
+	website: 'https://rezoomex.com/'
+    },
+    {
+        image: 'https://static.gdgchennai.in/sponsors/sp3.webp',
+	name: 'Stitchflow',
+	website: 'https://www.stitchflow.io/'
     }
     // Add more sponsors here
   ];
