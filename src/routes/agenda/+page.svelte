@@ -83,6 +83,7 @@
                 imageUrls={agenda.imageUrls}
                 time={agenda.time}
                 showImage={agenda.showImage}
+                showMultipleImage={agenda.showMultipleImage}
               />
             {/each}
           {/if}
