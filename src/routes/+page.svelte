@@ -47,7 +47,6 @@
     <Tickets />
     <Sponsors />
     <Partners />
-    <Corporate />
     <Memories />
   </div>
 </div>
