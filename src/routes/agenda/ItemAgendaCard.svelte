@@ -11,14 +11,14 @@
   <div class="flex lg:pl-8">
     {#if showImage}
       {#if showMultipleImage}
-        {#each imageUrls as imageUrl (imageUrl)}
+        {#each imageUrls ?? [] as imageUrl (imageUrl)}
           <img
             class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
             src={imageUrl}
             alt={name}
           />
         {/each}
-      {:else if imageUrls.length > 0}
+      {:else if imageUrls && imageUrls.length > 0}
         <img
           class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
           src={imageUrls[0]}
