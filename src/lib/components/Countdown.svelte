@@ -6,6 +6,7 @@
   const hours = writable('00');
   const minutes = writable('00');
   const seconds = writable('00');
+  let countdownFinished = writable(false);
 
   function getTimeRemaining(endtime: string) {
     const t = Date.parse(endtime) - Date.parse(new Date().toString());
@@ -20,10 +21,19 @@
 
   function updateClock(endtime: string) {
     const t = getTimeRemaining(endtime);
-    days.set(('0' + t.days).slice(-2));
+    if (t.total <= 0) {
+      countdownFinished.set(true);
+      days.set('00');
+      hours.set('00');
+      minutes.set('00');
+      seconds.set('00');
+    } else {
+      countdownFinished.set(false);;
+      days.set(('0' + t.days).slice(-2));
     hours.set(('0' + t.hours).slice(-2));
     minutes.set(('0' + t.minutes).slice(-2));
     seconds.set(('0' + t.seconds).slice(-2));
+    }
   }
 
   onMount(() => {
@@ -38,6 +48,13 @@
   });
 </script>
 
+{#if $countdownFinished}
+<div class="">
+  <h2 class="text-3xl font-bold tracking-tight text-gray-500 sm:text-4xl lg:text-5xl">
+    The Day is Here! 🎉
+  </h2>
+</div>
+{:else}
 <div class={`relative w-full p-2 sm:p-4`}>
   <div class="flex justify-center items-center space-x-2 sm:space-x-4">
     <div class="countdown-item days-item">
@@ -66,6 +83,7 @@
     </div>
   </div>
 </div>
+{/if}
 
 <style>
   .countdown-item {
