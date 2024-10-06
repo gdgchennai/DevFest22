@@ -1,5 +1,5 @@
 {
-	"name": "gdgchennai2022",
+	"name": "gdgchennai2024",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -42,6 +42,8 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"downloadjs": "^1.4.7",
+		"embla-carousel-autoplay": "^8.3.0",
+		"embla-carousel-svelte": "^8.3.0",
 		"html-to-image": "^1.10.8",
 		"i": "^0.3.7",
 		"siema": "^1.5.1",

@@ -2,11 +2,11 @@
   const footerMenus = [
     {
       href: 'https://twitter.com/GDGChennai',
-      icon: 'fa fa-x-twitter',
+      icon: 'fa fa-twitter',
       class: 'btn twitter'
     },
     {
-      href: 'https://discord.com/invite/UQmbKjjgeb',
+      href: 'https://katb.in/gdgchennai-discord',
       icon: 'fa fa-discord',
       class: 'btn discord'
     },
@@ -35,25 +35,32 @@
 
 <footer>
   <div
-    class="mx-auto max-w-7xl overflow-hidden py-12 px-4 sm:px-6 lg:px-8 mb-9"
+    class="mx-auto mb-9 max-w-7xl overflow-hidden py-12 px-4 sm:px-6 lg:px-8"
   >
-    <p class="text-center text-gray-400 mb-4 text-lg font-medium">
+    <p class="mb-4 text-center text-lg font-medium text-gray-400">
       Connect with us
     </p>
 
     <nav class="flex flex-wrap justify-center" aria-label="Footer">
       {#each footerMenus as item}
         <div class="social-btns">
-          <a href={item.href} class="{item.class}" target="_blank">
-            <i class="{item.icon}" />
+          <a href={item.href} class={item.class} target="_blank">
+            <i class={item.icon} />
           </a>
         </div>
       {/each}
     </nav>
 
-    <p class="mt-8 text-center text-base text-gray-400">
-      &copy; 2023 GDG Chennai. All rights reserved.
-    </p>
+    <div class="flex w-full items-center justify-center mt-8">
+      <div class="flex items-center">
+        <img
+          class="w-21 h-5"
+          src="/devfest24_footer_logo.svg"
+          alt="GDG Chennai - Devfest 2024"
+        />
+      </div>
+      <p class="text-base text-gray-600 ml-3">All rights reserved.</p>
+    </div>
   </div>
 </footer>
 
@@ -72,16 +79,16 @@
     transform: scale(0.8);
   }
   .social-btns .btn.discord:before {
-    background-color: #5865F2;
+    background-color: #5865f2;
   }
   .social-btns .btn.discord .fa {
-    color: #5865F2;
+    color: #5865f2;
   }
   .social-btns .btn.twitter:before {
     background-color: black;
   }
   .social-btns .btn.twitter .fa {
-    color:black;
+    color: black;
   }
   .social-btns .btn.youtube:before {
     background-color: #dc4a38;

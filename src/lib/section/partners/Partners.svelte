@@ -1,116 +1,87 @@
 <script lang="ts">
-  import Button from '$lib/button/Button.svelte'
+  import { dataStore, loadData } from '$lib/stores';
+  import { onMount } from 'svelte';
+  import emblaCarouselSvelte from 'embla-carousel-svelte';
+  import Autoplay from 'embla-carousel-autoplay';
 
-  // open the community partner forms in new page
-  const openCommunityPartners=() =>{
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSe2J4gDAJ8syrf1JKxGrLC_tsULc4ur6jDN4Gjo-GIWCZrmCA/viewform','_blank')
-  }
+  let data;
+
+  onMount(() => {
+    loadData();
+  });
+
+  $: data = $dataStore;
+
+  let options = { loop: true, align: 'center', skipSnaps: false };
+  let plugins = [Autoplay({ delay: 1000 })];
 </script>
+
 <section
   id="partners"
-  class="flex w-full flex-col items-center justify-start space-y-6 px-24"
+  class="flex w-full flex-col items-center justify-start space-y-8 bg-gray-100 py-16 lg:px-24"
 >
   <h2
     class="w-full text-center text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl"
   >
-  Community Partners
+    Community Partners
   </h2>
-  <p class="text-md  mt-4 text-center text-gray-600">
-    Let's Make a Difference Together! Become Our Community Partner.
+  <p class="text-md mt-2 max-w-2xl text-center text-gray-700">
+    Some things are simply better when together!
   </p>
-  <div class="max-w-7xl px-4 sm:px-6 md:w-1/2">
-    <div class="mt-6 text-center">
-      <Button
-        id="Community Partners"
-        title="Join us now"
-        isSecondaryButton={false}
-        onClick={() => openCommunityPartners()}
-      />
-    </div>
-  </div>
-  <div class="bg-white">
-    <div class="w-full max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://gdg.community.dev/gdg-cloud-chennai/">
-            <img
-              src="/gdg-cloud-chennai.svg"
-              class="img-border"
-              alt="GDG Cloud Chennai"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://twitter.com/wtmchennai">
-            <img
-              src="/wtm-chennai.svg"
-              class="img-border"
-              alt="WTM Chennai"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a href="https://www.meetup.com/TFUGChennai/">
-            <img
-              src="/tfug-chennai.svg"
-              class="img-border"
-              alt="TFUG Chennai"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a
-            href="https://gdsc.community.dev/srm-institute-of-science-and-technology-ramapuram-chennai/"
-          >
-            <img
-              src="/gdsc-srm-rpm.svg"
-              class="img-border"
-              alt="GDSC SRM Ramapuram"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <a
-            href="https://gdsc.community.dev/hindustan-institute-of-technology-science-chennai/"
-          >
-            <img
-              src="/gdsc-hits.svg"
-              class="img-border"
-              alt="GDSC HITS"
-              height={50}
-              width={200}
-              loading="lazy"
-            />
-          </a>
-        </div>
+  <div class="w-full max-w-7xl overflow-hidden">
+    <div
+      class="w-full overflow-hidden"
+      use:emblaCarouselSvelte={{ options, plugins }}
+    >
+      <div class="flex">
+        {#if data}
+          {#each data.communityPartners as communityPartner}
+            <div class="embla__slide">
+              <a
+                href={communityPartner.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block"
+              >
+                <div
+                  style="padding-top: 100%;"
+                  class="relative overflow-hidden rounded-lg border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
+                >
+                  <img
+                    src={communityPartner.image}
+                    class="w-full h-full absolute top-0 left-0 object-contain p-4 z-2"
+                    alt={communityPartner.title}
+                    loading="lazy"
+                  />
+                </div>
+              </a>
+            </div>
+          {/each}
+        {/if}
       </div>
     </div>
   </div>
 </section>
 
 <style>
-  .img-border {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #fff;
+  .embla__slide {
+    flex: 0 0 20%;
+    padding: 0 15px;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
-  @media (min-width: 1024px) {
-    .lg\:grid-cols-4 {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .embla__slide {
+      flex: 0 0 25%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .embla__slide {
+      flex: 0 0 50%;
+      padding: 0 5px;
     }
   }
 </style>

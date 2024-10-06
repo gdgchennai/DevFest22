@@ -1,5 +1,5 @@
 {
-  "projectName": "devfest2022-web",
+  "projectName": "devfest2024-web",
   "projectOwner": "gdgchennai",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -51,6 +51,16 @@
         "projectManagement",
         "code",
         "review",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "dhanushk-offl",
+      "name": "Dhanush",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128817931?v=4",
+      "profile": "https://itsdhanu.me/",
+      "contributions": [
+        "code",
         "maintenance"
       ]
     },

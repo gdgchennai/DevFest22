@@ -1,9 +1,7 @@
 <script lang="ts">
   export let session: string = '';
   export let name: string = '';
-  export let imageUrl: string = '';
-  export let imageUrl2: string = '';
-  export let imageUrl3: string = '';
+  export let imageUrls: string[] = [];
   export let showImage: boolean = false;
   export let showMultipleImage: boolean = false;
   export let time: string = '';
@@ -12,20 +10,18 @@
 <div class="single_speaker">
   <div class="flex lg:pl-8">
     {#if showImage}
-      <img
-        class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
-        src={imageUrl}
-        alt={name}
-      />
       {#if showMultipleImage}
+        {#each imageUrls ?? [] as imageUrl (imageUrl)}
+          <img
+            class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
+            src={imageUrl}
+            alt={name}
+          />
+        {/each}
+      {:else if imageUrls && imageUrls.length > 0}
         <img
           class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
-          src={imageUrl2}
-          alt={name}
-        />
-        <img
-          class="h-16 w-16 rounded-3xl sm:h-24 sm:w-24"
-          src={imageUrl3}
+          src={imageUrls[0]}
           alt={name}
         />
       {/if}
@@ -33,10 +29,10 @@
   </div>
   <div class="speaker-name">
     <div class="heading flex items-center justify-between">
-      <span>{name}</span>
+      <span>{session}</span>
       <div class="time">{time}</div>
     </div>
-    <p>{session}</p>
+    <p>{name}</p>
   </div>
 </div>
 
