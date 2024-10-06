@@ -1,14 +1,14 @@
 <script lang="ts">
-  import Button from '$lib/components/Button.svelte';
-  import Icon from '$lib/icon/Icon.svelte';
+  // import Button from '$lib/components/Button.svelte';
+  // import Icon from '$lib/icon/Icon.svelte';
   import Countdown from '$lib/components/Countdown.svelte';
-  import { registrationUrl } from '$lib/data';
-  import { addToCalendarUrl } from '$lib/data';
+  // import { registrationUrl } from '$lib/data';
+  // import { addToCalendarUrl } from '$lib/data';
   import Mandela from '../../components/Mandela.svelte';
 
-  function handleClick() {
-    window.open(registrationUrl);
-  }
+  // function handleClick() {
+  //   window.open(registrationUrl);
+  // }
 </script>
 
 <section
@@ -33,7 +33,7 @@
     </p>
   </div>
 
-  <div
+  <!-- <div
     id="hero-cta-group"
     class="flex w-full max-w-2xl flex-col items-center justify-start space-y-4 md:flex-row md:space-x-4 md:space-y-0 lg:flex-row"
   >
@@ -53,9 +53,9 @@
     >
       <i class="fa fa-book" />
     </Button>
-  </div>
+  </div> -->
 
-  <div
+  <!-- <div
     class="flex w-full flex-col items-center justify-center space-y-3 text-xl sm:flex-row sm:space-y-0 sm:space-x-6"
   >
     <div class="flex items-center space-x-2">
@@ -66,7 +66,7 @@
         ><p>IIT-M Research Park, Chennai</p></a
       >
     </div>
-  </div>
+  </div> -->
 
   <div class="items-center">
     <Countdown />

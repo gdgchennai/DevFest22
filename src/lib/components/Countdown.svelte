@@ -51,7 +51,7 @@
 {#if $countdownFinished}
 <div class="">
   <h2 class="text-3xl font-bold tracking-tight text-gray-500 sm:text-4xl lg:text-5xl">
-    The Day is Here! 🎉
+    See you all in 2025 👋
   </h2>
 </div>
 {:else}

@@ -1,8 +1,6 @@
 <script lang="ts">
-  import Button from '$lib/components/Button.svelte';
-  import Icon from '$lib/icon/Icon.svelte';
   import type { NavMenu } from '$lib/types';
-  import { registrationUrl } from '$lib/data';
+  // import { registrationUrl } from '$lib/data';
   import { onMount } from 'svelte';
   import desktopHeader from '$lib/assets/header-dfchn.webp';
   import { dataStore, loadData } from '$lib/stores';
@@ -42,9 +40,9 @@
     });
   };
 
-  function handleClick() {
-    window.open(registrationUrl);
-  }
+  // function handleClick() {
+  //   window.open(registrationUrl);
+  // }
 </script>
 
 <header class="transition-all ease-in-out">
@@ -65,7 +63,7 @@
           on:click={() => activeTab(item)}>{item.name}</a
         >
       {/each}
-      <div class="ml-10 space-x-4">
+      <!-- <div class="ml-10 space-x-4">
         <Button
           id="button-header-get-tickets"
           title="Get Tickets"
@@ -74,7 +72,7 @@
         >
           <Icon width="20" height="20" name="ticket" />
         </Button>
-      </div>
+      </div> -->
     </div>
     <div
       class="fixed bottom-0 left-0 z-10 flex w-full items-center justify-around bg-black py-4 px-2 lg:hidden"
